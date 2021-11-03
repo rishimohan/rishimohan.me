@@ -49,7 +49,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="w-full max-w-[250px] border-r border-gray-100 h-screen py-10 flex flex-col">
+    <aside className="w-full max-w-[250px] border-r border-gray-100 h-screen py-10 flex flex-col flex-none">
       {LINKS.map((link) => (
         <div className="px-4" key={link.title}>
           <Link href={link.url}>

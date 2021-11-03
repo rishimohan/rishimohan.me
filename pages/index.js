@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import {Sidebar} from "components"
-import { getAllPosts } from './api/api';
 
-export default function Home({ allPosts }) {
-  console.log("All", allPosts);
+export default function Home() {
   return (
     <>
       <Head>
@@ -11,25 +8,7 @@ export default function Home({ allPosts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex items-start min-h-screen">
-        <Sidebar />
-      </main>
+        Intro goes here
     </>
   );
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "image",
-    "excerpt",
-    "content"
-  ]);
-
-  return {
-    props: { allPosts },
-  };
 }
