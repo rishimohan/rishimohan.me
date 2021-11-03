@@ -32,7 +32,7 @@ export default function Sidebar() {
       title: "Work",
       url: "/work",
       icon: SideProjectsIcon,
-      active: pathname === "/work",
+      active: pathname.includes("/work"),
     },
     {
       title: "Travel Map",

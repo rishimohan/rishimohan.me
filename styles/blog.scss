@@ -233,8 +233,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     }
 
     li {
-      margin-bottom: 20px;
-      @apply text-lg text-gray-800;
+      @apply text-lg text-gray-800 list-disc list-inside mb-4;
 
       a {
         @apply text-black underline;

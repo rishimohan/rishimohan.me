@@ -1,4 +1,5 @@
 import Head from "next/head";
+import {WorkList} from "components";
 
 export default function Home() {
   return (
@@ -8,12 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <article className="w-full px-10 py-10 overflow-y-auto max-w-[620px] mx-auto">
-        <h2 className="mb-6 text-5xl font-bold">Work</h2>
-        <div className="post-content">
-          <p>Coming soon...</p>
-        </div>
-      </article>
+      <WorkList />
     </>
   );
 }
