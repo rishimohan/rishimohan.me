@@ -22,12 +22,6 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     max-width: 620px;
     margin-left: auto;
     margin-right: auto;
-
-    &:not(figure) {
-      @media #{$tablet} {
-        padding: 0 20px;
-      }
-    }
   }
 
   & > figure:not(.highlight) {
@@ -150,47 +144,10 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   & > blockquote {
-    @media #{$phone} {
-      float: none;
-      margin: 40px 20px !important;
-      max-width: 100%;
-    }
-
-    &.pull-right {
-      margin: 20px 10% 20px auto;
-
-      @media screen and (min-width: 1500px) {
-        margin: 20px 25% 20px auto;
-      }
-    }
-
-    &.pull-left {
-      margin: 20px 30px 20px 15%;
-
-      @media screen and (min-width: 1500px) {
-        margin: 20px 30px 20px 25%;
-      }
-    }
-
-    &.pull-left, &.pull-right {
-      max-width: 350px;
-
-      @media #{$phone} {
-        margin: 30px 0;
-        max-width: 100%;
-      }
-    }
+    @apply my-10 border-l-2 border-gray-300 pl-5 font-mono;
 
     p {
-      color: #5477bb;
-      margin: 0;
-      padding: 10px 0 10px 20px;
-      margin-left: 30px;
-      border-left: 5px solid #b0c0de;
-
-      @media #{$phone} {
-        margin-left: 0;
-      }
+      @apply text-black text-lg;
     }
   }
 
@@ -228,22 +185,11 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
 
     a {
       position: relative;
-      @apply relative text-[#e05f5f] underline;
-
-      &:hover {
-        color: #213867;
-      }
+      @apply relative text-black underline;
     }
 
     img {
       @apply rounded mb-10 overflow-hidden;
-    }
-  }
-
-  & > p {
-    @media #{$phone} {
-      font-size: 18px;
-      padding: 0 20px;
     }
   }
 

@@ -1,6 +1,15 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { HomeIcon, BlogIcon, TravelIcon, SideProjectsIcon, TwitterIcon, InstagramIcon, ExternalLinkIcon } from "lib/icons";
+import {
+  HomeIcon,
+  BlogIcon,
+  TravelIcon,
+  SideProjectsIcon,
+  TwitterIcon,
+  InstagramIcon,
+  ExternalLinkIcon,
+  EmailIcon,
+} from "lib/icons";
 import classnames from "classnames";
 
 export default function Sidebar() {
@@ -17,17 +26,17 @@ export default function Sidebar() {
       title: "Blog",
       url: "/blog",
       icon: BlogIcon,
-      active: pathname === "/blog",
+      active: pathname.includes("/blog"),
     },
     {
-      title: "Side Projects",
-      url: "/side",
+      title: "Work",
+      url: "/work",
       icon: SideProjectsIcon,
-      active: pathname === "/side",
+      active: pathname === "/work",
     },
     {
       title: "Travel Map",
-      url: "/travel",
+      url: "/map",
       icon: TravelIcon,
       active: pathname === "/map",
     },
@@ -45,6 +54,12 @@ export default function Sidebar() {
       url: `https://instagram.com/${process.env.instagram}`,
       icon: InstagramIcon,
       external: true,
+    },
+    {
+      title: "Email",
+      url: `mailto:iamrishi.ms@gmail.com`,
+      icon: EmailIcon,
+      external: false,
     },
   ];
 
