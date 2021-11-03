@@ -1,6 +1,7 @@
 ---
 date: 2018-04-23 21:11:00 +0530
 title: "Maazi"
+slug: maazi
 tech: ["React Native", "TailwindRN", "Firebase"]
 web: http://maazi.vercel.app/
 ios: https://apps.apple.com/us/app/maazi-personal-diary/id1535320472

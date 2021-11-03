@@ -228,10 +228,6 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   ol, ul {
-    @media #{$phone} {
-      padding: 0 50px;
-    }
-
     li {
       @apply text-lg text-gray-800 list-disc list-inside mb-4;
 

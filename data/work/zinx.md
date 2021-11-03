@@ -4,6 +4,7 @@ title: "Zinx"
 web: "http://thezinx.com"
 tech: ["PHP", "WordPress"]
 icon: /images/work/show/zinx-icon.png
+slug: zinx
 
 ---
 

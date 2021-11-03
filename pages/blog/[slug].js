@@ -2,7 +2,7 @@ import {useRouter} from 'next/router';
 import { getPostBySlug, getAllPosts } from "pages/api/blog";
 import md2Html from "lib/md2Html";
 import { BlogList, PostContent } from 'components';
-import Head from 'next/head'
+import {NextSeo} from 'next-seo'
 
 export default function Post({ allPosts, post, morePosts, preview }) {
   const router = useRouter();
@@ -12,9 +12,20 @@ export default function Post({ allPosts, post, morePosts, preview }) {
 
   return (
     <div className="flex w-full">
-      <Head>
-        <title>{post?.title}</title>
-      </Head>
+      <NextSeo
+        title={`${post.title} - Rishi Mohan`}
+        description={post.excerpt || post.content.slice(0, 200) || ""}
+        openGraph={{
+          site_name: `${post.title} - Rishi Mohan`,
+          title: `${post.title} - Rishi Mohan`,
+          description: post.excerpt || post.content.slice(0, 200) || "",
+        }}
+        twitter={{
+          handle: "@thelifeofrishi",
+          site: "@thelifeofrishi",
+          cardType: "summary_large_image",
+        }}
+      />
       <BlogList data={allPosts} activeSlug={post?.slug} />
       <PostContent post={post} />
     </div>

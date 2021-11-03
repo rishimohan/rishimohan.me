@@ -1,9 +1,15 @@
 import Link from "next/link";
 import classnames from "classnames";
+import {ExternalLinkIcon} from "lib/icons";
 
 export default function BlogList({ data, activeSlug }) {
   return (
-    <div className="max-w-[360px] w-full h-screen overflow-auto border-r border-gray-100 px-4 pt-10 flex-none">
+    <div
+      className={classnames(
+        "md:max-w-[360px] w-full h-screen overflow-auto border-r border-gray-100 px-4 py-10 flex-none",
+        { "hidden lg:flex flex-col": activeSlug != undefined }
+      )}
+    >
       {data?.map((post) => (
         <Link href={`/blog/${post.slug}`} key={post.slug}>
           <article
@@ -18,7 +24,14 @@ export default function BlogList({ data, activeSlug }) {
                 "text-white": activeSlug == post.slug,
               })}
             >
-              {post.title}
+              {post?.link ? (
+                <span className="relative top-[1px] inline-block w-4 h-4 ml-auto mr-2 text-gray-400">
+                  {ExternalLinkIcon}
+                </span>
+              ) : (
+                ""
+              )}
+              {post?.title}
             </h2>
             <p
               className={classnames(
@@ -28,7 +41,7 @@ export default function BlogList({ data, activeSlug }) {
                 }
               )}
             >
-              {post.excerpt.slice(0, 100)}
+              {post?.excerpt?.slice(0, 100)}
             </p>
           </article>
         </Link>

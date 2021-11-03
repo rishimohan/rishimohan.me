@@ -1,6 +1,7 @@
 ---
 date: 2018-04-23 21:11:00 +0530
 title: "Qurb"
+slug: qurb
 web: "http://qurb.rishimohan.me"
 tech: ["React.js", "SCSS"]
 

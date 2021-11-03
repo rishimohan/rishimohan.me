@@ -1,13 +1,25 @@
-import Head from 'next/head'
 import {BlogList} from 'components'
 import {getAllPosts} from "pages/api/blog"
+import {NextSeo} from "next-seo";
 
 export default function Blog({ allPosts }) {
   return (
     <>
-      <Head>
-        <title>Blog - Rishi Mohan</title>
-      </Head>
+      <NextSeo
+        title="Blog - Rishi Mohan"
+        description="I'm a designer and front-end engineer by profession. I like to travel, take photos and binge try Cafes and Restaurants."
+        openGraph={{
+          site_name: "Blog - Rishi Mohan",
+          title: "Blog - Rishi Mohan",
+          description:
+            "I'm a designer and front-end engineer by profession. I like to travel, take photos and binge try Cafes and Restaurants.",
+        }}
+        twitter={{
+          handle: "@thelifeofrishi",
+          site: "@thelifeofrishi",
+          cardType: "summary_large_image",
+        }}
+      />
 
       <BlogList data={allPosts} />
     </>
@@ -22,7 +34,7 @@ export async function getStaticProps() {
     "author",
     "image",
     "excerpt",
-    "content",
+    "external"
   ]);
 
   return {

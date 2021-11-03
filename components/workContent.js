@@ -2,7 +2,7 @@ import {ExternalLinkIcon, AppleIcon} from "lib/icons"
 
 export default function WorkContent({ post }) {
   return (
-    <div className="inline-flex flex-col items-center justify-start w-full h-screen px-10 py-10 overflow-y-auto">
+    <div className="inline-flex flex-col items-center justify-start w-full h-screen px-10 pt-10 pb-32 overflow-y-auto">
       {post?.icon ? (
         <div className="w-12 h-12 mx-auto mb-5">
           <img src={post?.icon} className="mb-4 border border-gray-100 rounded-full shadow-lg" />
@@ -10,7 +10,7 @@ export default function WorkContent({ post }) {
       ) : (
         ""
       )}
-      <h1 className="text-6xl mb-5 font-black md:text-4xl text-center max-w-[620px] mx-auto">
+      <h1 className="text-4xl mb-5 font-black md:text-4xl text-center max-w-[620px] mx-auto">
         {post.title}
       </h1>
       {post?.tech ? (

@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
 import { WorkList, WorkContent } from "components";
-import Head from "next/head";
+import {NextSeo} from "next-seo"
 import {getAllPosts, getPostBySlug} from "pages/api/work";
 import md2Html from "lib/md2Html";
 
-export default function Post({ post }) {
+export default function Post({ allPosts, post }) {
   const router = useRouter();
 
   if (!router.isFallback && !post?.slug) {
@@ -13,16 +13,38 @@ export default function Post({ post }) {
 
   return (
     <div className="flex w-full">
-      <Head>
-        <title>{post.title} – Rishi Mohan</title>
-      </Head>
-      <WorkList />
+      <NextSeo
+        title={`${post.title} - Rishi Mohan`}
+        description={post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || ""}
+        openGraph={{
+          site_name: `${post.title} - Rishi Mohan`,
+          title: `${post.title} - Rishi Mohan`,
+          description: post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || "",
+        }}
+        twitter={{
+          handle: "@thelifeofrishi",
+          site: "@thelifeofrishi",
+          cardType: "summary_large_image",
+        }}
+      />
+      <WorkList allPosts={allPosts} activeSlug={post?.slug} />
       <WorkContent post={post} />
     </div>
   );
 }
 
 export async function getStaticProps({ params }) {
+  const allPosts = getAllPosts([
+    "title",
+    "date",
+    "slug",
+    "author",
+    "image",
+    "excerpt",
+    "content",
+    "link",
+    "icon"
+  ]);
 
   const post = getPostBySlug(params.slug, [
     "title",
@@ -42,6 +64,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
+      allPosts,
       post: {
         ...post,
         content,

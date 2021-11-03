@@ -17,7 +17,7 @@ export default function Home() {
             title="A black and white photo of Rishi"
           />
         </div>
-        <h2 className="mt-12 mb-6 text-5xl font-bold"><span className="text-gray-400">Hi, I'm </span>Rishi Mohan!</h2>
+        <h2 className="mt-12 mb-6 text-3xl font-black md:text-5xl"><span className="text-gray-400">Hi, I'm </span>Rishi Mohan!</h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
             I'm a <span className="font-medium text-black">designer</span> and{" "}
