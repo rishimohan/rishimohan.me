@@ -13,10 +13,7 @@ We were roaming at Agrassen Ki Baoli in Delhi and were taking photos at the not-
 
 That was the last time I saw my iPhone 6 at its best. I thought to get it repaired but fast forward two weeks, I was deciding whether to get iPhone 8 Plus or Google Pixel 2. I went with 8 Plus because of iOS. I feel the iOS ecosystem is very well sorted, it works well with MacBooks and the overall experience is top notch which is what matters the most to me. I used an Android phone a few minutes back, tapped on a WhatsApp notification but it didn’t open the app, so it seems Android is just as it was when I used it last time, miserable. 
 
-<figure>
-  <img src="/assets/img/posts/8-plus-shots/iphone-8-plus-unboxing.jpg" alt="Rishi Mohan">
-  <figcaption>This was one of the last shots I took from my iPhone 6</figcaption>
-</figure>
+![This was one of the last shots I took from my iPhone 6](/images/posts/8-plus-shots/iphone-8-plus-unboxing.jpg)
 
 ## Thoughts on iPhone 8 Plus Camera
 
@@ -26,164 +23,29 @@ I’ve been using iPhone 8 Plus since last few weeks now and talking about the c
 
 ## Gallery
 
-I recently came back from a trip to Patna where I took tons of photos from iPhone 8 Plus's camera and being honest, I’m really impressed with the quality of photos it captures. Here are some selected shots from the trip. Most of these photos are shot with stock camera app, some with [Halide](https://itunes.apple.com/us/app/halide-raw-manual-camera/id885697368?mt=8&at=1l3v6DZ){:target="_blank"}. Also please note that these photos are edited and processed in VSCO Cam app. 
+I recently came back from a trip to Patna where I took tons of photos from iPhone 8 Plus's camera and being honest, I’m really impressed with the quality of photos it captures. Here are some selected shots from the trip. Most of these photos are shot with stock camera app, some with [Halide](https://itunes.apple.com/us/app/halide-raw-manual-camera/id885697368?mt=8&at=1l3v6DZ). Also please note that these photos are edited and processed in VSCO Cam app. 
 
-<figure class="photoset">
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-1.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-1.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-2.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-2.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-3.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-3.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-4.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-4.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-5.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-5.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-6.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-6.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-7.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-7.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-8.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-8.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-9.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-9.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-10.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-10.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-11.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-11.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-12.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-12.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-13.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-13.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-14.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-14.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-15.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-15.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-16.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-16.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-17.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-17.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-18.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-18.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-19.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-19.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-20.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-20.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-21.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-21.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-22.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-22.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-23.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-23.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-
-    <div class="photo-item">
-      <div class="photo-item-wrap">
-        <a href="/assets/img/posts/8-plus-shots/photo-24.jpg" data-lightbox="iphone-8-plus-shots"><img src="/assets/img/posts/8-plus-shots/photo-24.jpg" alt="Patna Trip Shot"></a>
-      </div>
-    </div>
-  </div>
-</figure>
+![Some place in Patna](/images/posts/8-plus-shots/photo-1.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-2.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-3.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-4.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-5.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-6.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-7.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-8.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-9.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-10.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-11.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-12.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-13.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-14.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-15.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-16.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-17.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-18.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-19.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-20.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-21.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-22.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-23.jpg)
+![Some place in Patna](/images/posts/8-plus-shots/photo-24.jpg)

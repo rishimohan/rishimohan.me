@@ -3,6 +3,13 @@ import {ExternalLinkIcon} from "lib/icons"
 export default function PostContent({ post }) {
   return (
     <div className="inline-flex flex-col items-center justify-start w-full h-screen px-10 py-10 overflow-y-auto">
+      {post?.link && post?.image ? (
+        <div className="max-w-[620px] mx-auto">
+          <img src={post.image} className="mb-4 rounded-lg" />
+        </div>
+      ) : (
+        ""
+      )}
       <div className="text-center text-gray-400">
         {new Date(post?.date.slice(0, 10)).toLocaleDateString("en-US", {
           year: "numeric",

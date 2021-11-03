@@ -9,9 +9,7 @@ image: /assets/img/posts/quarantine-days/rain-blur-shot-cover.jpg
 
 ---
 
-<figure class="original">
-  <img src="/assets/img/posts/quarantine-days/rain-blur-shot.jpg" alt="moody-weather-buildings">
-</figure>
+![moody-weather-buildings](/images/posts/quarantine-days/rain-blur-shot.jpg)
 
 Won't go much about the state of our planet right now, there's chaos all over, thousands of deaths all over the world, places are locked down and everyone is asked to not go out, the villain? **CORONA virus**. I never had imagined in my life that I would face something like this.
 
@@ -21,9 +19,7 @@ In January before the Corona virus scene got serious, I was in a lounge at Istan
 
 ## Without phone? What happened to your phone?
 
-<figure class="original">
-  <img src="/assets/img/posts/quarantine-days/iphone-battery-low.jpg" alt="moody-weather-buildings">
-</figure>
+![moody-weather-buildings](/images/posts/quarantine-days/iphone-battery-low.jpg)
 
 So a week back, on March 21st, while taking my phone out of tripod with lightning cable still attached to the phone I **broke the only lightning cable I had**. I thought I would just order one quickly which I did and the new lightning cable was supposed to come on 23rd. Luckily, my phone was almost full when the cable broke so I had some time with it. The next day, and since Covid-19 situation was getting out of hand in all over the world, India's Prime Minister Narendra Modi goes live and announces the whole of INDIA will be on lockdown and all the non-essential shops and services would be halted, **for 21 DAYS**. What this meant was, nobody will be let roam around the streets, no store would be allowed to open unless it's essential(talk groceries, medicine stores etc.). It also meant that Amazon won't be delivering anything that's not essential, and not just Amazon but other online stores as well. At this point of time, I had a trouser coming from Myntra, two lightning cables and couple more things from Amazon. I didn't really care of anything but the lightning cable.
 
@@ -32,17 +28,13 @@ So a week back, on March 21st, while taking my phone out of tripod with lightnin
 
 ## Present day
 
-<figure class="original">
-  <img src="/assets/img/posts/quarantine-days/moody-weather-buildings.jpg" alt="moody-weather-buildings">
-</figure>
+![moody-weather-buildings](/images/posts/quarantine-days/moody-weather-buildings.jpg)
 
 March 29, the good news is Amazon.in says they've resumed delivers in select cities but Pune is not in the list. I guess it might take 2-3 more days for the lightning cable to come to me. In all the free time I'm still watching movies, yesterday night I watched "Sanam Teri Kasam", it was a good one time watch. Also it rained in Pune yesterday and the weather was dark and little cold, so I took some photos and edited them in [Polarr photo editor](https://apps.apple.com/us/app/polarr-photo-editor/id1077124956?mt=12). I was trying Polarr for the first time I found it really good, there's almost every slider and nob for you to adjust your photos, including curves, toning, custom presets etc., there's basically tons of more features. 
 
 ## New content discovered which I liked
 
-<figure class="original">
-  <img src="/assets/img/posts/quarantine-days/covid-discovered-content.jpg" alt="New content discovered which I liked">
-</figure>
+![moody-weather-buildings](/images/posts/quarantine-days/covid-discovered-content.jpg)
 
 As I mentioned there's lot of time killing happening so I've been and have already watched tons of movies, music videos and some series. Here are some of the content I liked:
 

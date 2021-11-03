@@ -10,10 +10,8 @@ image: /assets/img/posts/rishi.jpg
 ---
 
 
-<figure class="full">
-  <img src="/assets/img/posts/rishi.jpg" alt="Rishi Mohan">
-  <figcaption>Thanks to <a href="https://twitter.com/shailesh_rk">Shailesh</a> for this awesome shot</figcaption>
-</figure>
+![Rishi Mohan](/images/posts/rishi.jpg)
+
 
 Hola! I am Rishi Mohan, I like designing beautiful interfaces for web and mobile. I work as UI Engineer at [BigBinary](http://bigbinary.com) in day, in night I create things like [these](/projects/), listen to music, or read Quora.  You can [read more about me here](/about/).
 
@@ -23,9 +21,7 @@ This blog is something I've always wanted to have and I was thinking about it si
 
 The other reason is I like writing, not as much as reading, but writing is something I definitely want to do more often. I feel it's hard to express your thoughts verbally and it's even harder to just write it down in a way that correctly represent your thoughts.
 
-<blockquote class="pull-right">
-  <p>To sum it up, if I find it interesting, it's most likely to end up on this blog.</p>
-</blockquote>
+> To sum it up, if I find it interesting, it's most likely to end up on this blog.
 
 So apart from sharing projects I work on and the crazy challenges I take, this blog is also about everything that interests me, from writing my travel stories to reviewing gear to the interesting links I find on web to the products I like. 
 

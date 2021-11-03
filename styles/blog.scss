@@ -236,7 +236,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     }
 
     img {
-      border-radius: 3px;
+      @apply rounded mb-10 overflow-hidden;
     }
   }
 

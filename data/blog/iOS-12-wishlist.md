@@ -9,9 +9,7 @@ image: /assets/img/posts/iOS-12-wishlist/rishis-iphone-8-plus.jpg
 
 ---
 
-<figure class="full">
-  <img src="/assets/img/posts/iOS-12-wishlist/rishis-iphone-8-plus.jpg" alt="Rishi Mohan's iPhone 8 Plus">
-</figure>
+![iOS 12 Wishlist](/images/posts/iOS-12-wishlist/rishis-iphone-8-plus.jpg)
 
 A few weeks back I read rumors that iOS 12 is not going to be a major upgrade over iOS 11 and that got me not-so-interested in the upcoming update which Apple is going to unveil in WWDC 2018 which will be held in June. Good thing, those are just rumors and no one knows what's going to be in iOS 12.
 
@@ -21,16 +19,13 @@ Here are some of the areas in iOS which I think can be improved.
 
 ## Improved Notifications
 
-Right now, the state of notifications in iOS is pretty much messed up. I totally agree with [Dieter](https://youtu.be/bHtkjHSB5Nw){:target="_blank"} that Android has better notification management and organization as compared to iOS. Here is how I want notifications in iOS 12.
+Right now, the state of notifications in iOS is pretty much messed up. I totally agree with [Dieter](https://youtu.be/bHtkjHSB5Nw) that Android has better notification management and organization as compared to iOS. Here is how I want notifications in iOS 12.
 
 - **Notifications Grouping** : Option to enable grouping of notifications from the same app
 - **Notifications Priority** : One should be able to see notifications from selected apps on the top
 - **Simple Navigation** : Right now, navigating through a notification is literally messed up, you can force-press to view options, swipe for other actions and tap to open the notification. Notifications shouldn't be this complicated. Being honest, even I don't know how it can be made simpler, but one thing is that there are two ways to view notification actions, one by force-press and other by swiping to left and tapping on "View". I think on swiping right, we can have just one option, **Customize**. Customization should include letting users set the priority of notifications from that app, muting or enable/disable grouping. In short, users should be able to directly set app's notification preference right from that particular notification.
 
-<figure class="original">
-  <img src="/assets/img/posts/iOS-12-wishlist/notifications-concept.gif" alt="Rishi Mohan">
-  <figcaption>Notifications concept by <a href="https://dribbble.com/shots/3389303-Notification-Center-Preview" target="_blank">Eike Drescher</a></figcaption>
-</figure>
+![iOS 12 Wishlist](/images/posts/iOS-12-wishlist/notifications-concept.gif)
 
 Above is a nice work by Eike showing how notifications grouping can be implemented. The UI, the animation, the spacing, the alignment, everything feels just right in the concept.
 
@@ -44,10 +39,8 @@ I like stock keyboard and how it helps me in typing quickly. The emoji suggestio
 
 ## Quick Switching between apps
 
-<figure class="original pull-right">
-  <img src="/assets/img/posts/iOS-12-wishlist/ios-11-app-switcher.png" alt="Rishi Mohan">
-  <figcaption><i>How do I close all open apps at once?</i></figcaption>
-</figure>
+![How do I close all open apps at once?](/images/posts/iOS-12-wishlist/ios-11-app-switcher.png)
+
 
 Right now, force swipe to right lets users switch to last app quickly. But I rarely use this feature because I find it hard to use. It doesn't work for me in the first time in most cases. Also because I find it little hard to take your right hand's thumb all the left of your phone's screen, press a little hard and swipe towards the right. Also if you have a case, then it gets harder to achieve this action. Most time I don't force press in the right position but I'm sure it's not just me. There should be a better and simple way of doing this. Maybe press and hold on edge would be better.
 
@@ -77,10 +70,7 @@ This is something I really want Apple to push in iOS 12. I didn't know the power
 
 ## Misc
 
-<figure class="original">
-  <img src="/assets/img/posts/iOS-12-wishlist/volume-hud-concept.gif" alt="Rishi Mohan">
-  <figcaption>Volume HUD Concept by <a href="https://dribbble.com/shots/3941248-Volume-HUD-iPhone-X-iOS-12" target="_blank">Jérémy Goulet</a></figcaption>
-</figure>
+![iOS Volume HUD Concept](/images/posts/iOS-12-wishlist/volume-hud-concept.gif)
 
 - **Customizable Vibrations** : I don't know why there's no option to disable vibrations for just 3d touch. If anyone wants to do that, they will have to disable vibrations from Accessibility. These are little things which need to customizable.
 - **Customizable Sounds** : It would be nice to be able to set different notification tones for different apps from the system sounds.
@@ -88,8 +78,6 @@ This is something I really want Apple to push in iOS 12. I didn't know the power
 - **Toggles in Main Settings Screen** : It would be great to have a toggle for Wi-Fi, Mobile Data and other options right on the main Settings screen, just like we have for Airplane Mode and VPN. Tapping on the rest area of the row can be used to go to advanced options for that setting.
 - **Close all apps** : Users should be able to close all open apps at once in multitasking view.
 
-<blockquote class="pull-right">
-  <p>I don't know what Apple is going to put in iOS 12, but one thing that I can say that Apple doesn't need to up the performance part much because I feel iOS is already snappy. It's just that it can be a lot stable and quicker to use.</p>
-</blockquote>
+> I don't know what Apple is going to put in iOS 12, but one thing that I can say that Apple doesn't need to up the performance part much because I feel iOS is already snappy. It's just that it can be a lot stable and quicker to use.
 
 I don't think the above features are too advanced to have, I see them as basics. One more thing I would want to see which is actually about the connectivity between Mac and iOS is to be able to initiate app installations on iPhone from App Store on the web, just like we can do in Android through Play Store on the web. Most of the apps I discover is while I'm browsing on my Mac, and what I do right now is save the app in my Raindrop list and then download it later in the night on my phone. Another cool feature would be to be able to unlock Mac from iPhone's Touch ID. But these would be complicated and that can be added later. I hope to see Apple adding some of the changes from my wish list in iOS 12.
