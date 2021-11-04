@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router';
 import { getPostBySlug, getAllPosts } from "pages/api/blog";
-import md2Html from "lib/md2Html";
+import md2html from "lib/md2html";
 import { BlogList, PostContent } from 'components';
 import {NextSeo} from 'next-seo'
 
@@ -54,7 +54,7 @@ export async function getStaticProps({ params }) {
     "link",
   ]);
 
-  const content = await md2Html(post.content || post.excerpt || "");
+  const content = await md2html(post.content || post.excerpt || "");
 
   return {
     props: {

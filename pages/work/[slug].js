@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { WorkList, WorkContent } from "components";
 import {NextSeo} from "next-seo"
 import {getAllPosts, getPostBySlug} from "pages/api/work";
-import md2Html from "lib/md2Html";
+import md2html from "lib/md2html";
 
 export default function Post({ allPosts, post }) {
   const router = useRouter();
@@ -60,7 +60,7 @@ export async function getStaticProps({ params }) {
     "icon"
   ]);
 
-  const content = await md2Html(post.content || post.excerpt || "");
+  const content = await md2html(post.content || post.excerpt || "");
 
   return {
     props: {
