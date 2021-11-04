@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
             "I'm a designer and front-end engineer by profession. I like to travel, take photos and binge try Cafes and Restaurants.",
           images: [
             {
-              url: `images/site/meta.jpg`,
+              url: `/images/site/meta.jpg`,
               width: 800,
               height: 600,
               alt: "Kizie for Twitter",
