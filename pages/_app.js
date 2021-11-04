@@ -2,7 +2,6 @@ import "styles/app.scss";
 import "styles/blog.scss";
 import MainLayout from "layouts/main";
 import {DefaultSeo} from "next-seo";
-import {useRouter} from "next/router";
 
 function MyApp({ Component, pageProps }) {
   return (
