@@ -5,6 +5,10 @@ $tablet: "screen and (max-width: 991px)"; /* Phone and tablet */
 $laptop: "screen and (min-width: 992px)"; /* Laptop and desktop */
 $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
 
+body {
+  @apply overflow-hidden;
+}
+
 .post-content {
   a {
     position: relative;
