@@ -98,6 +98,10 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     }
   }
 
+  pre {
+    @apply bg-gray-100 p-5 w-full break-words rounded-lg border border-gray-200 text-sm overflow-auto;
+  }
+
   & > figure.highlight {
     background: #f9f9f9;
     padding: 20px;
@@ -176,11 +180,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     @apply text-lg mb-8 text-gray-700;
 
     code {
-      background: #f1f1f1;
-      color: #555;
-      padding: 1px 8px;
-      border-radius: 5px;
-      font-weight: bold;
+      @apply font-mono bg-gray-200 text-base px-2 py-px rounded-lg text-black;
     }
 
     a {
