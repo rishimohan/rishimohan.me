@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <article className="w-full px-10 pt-10 pb-20 overflow-y-auto max-w-[620px] mx-auto">
+      <article className="w-full px-10 py-10 mb-20 overflow-y-auto max-w-[620px] mx-auto">
         <div className="flex items-start justify-center w-full mb-10 overflow-hidden rounded-lg max-h-[500px] shadow-xl">
           <img
             src="/images/pages/rishi-mohan.jpg"

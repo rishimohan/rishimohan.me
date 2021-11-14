@@ -104,6 +104,10 @@ body {
 
   pre {
     @apply bg-gray-100 p-5 w-full break-words rounded-lg border border-gray-200 text-sm overflow-auto mb-10;
+
+    & > code {
+      @apply whitespace-pre-wrap;
+    }
   }
 
   & > figure.highlight {
