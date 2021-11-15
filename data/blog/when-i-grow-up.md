@@ -84,7 +84,7 @@ but **there's no reason not to thank people**
 who are helping you or making your life easier.
 
 ![](/images/posts/thukpa-restaurant-view.jpg)
-***Photo***: View from the restaurant I tried Thupka
+***Photo***: View from the restaurant I tried Thupka at
 
 Yesterday I was going to Dal Lake which is 3km
 steep walk from my stay. I planned to do the walk
