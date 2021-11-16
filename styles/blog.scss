@@ -6,7 +6,7 @@ $laptop: "screen and (min-width: 992px)"; /* Laptop and desktop */
 $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
 
 body {
-  @apply overflow-hidden;
+  @apply overflow-hidden dark:text-white dark:bg-[#111];
 }
 
 .post-content {
@@ -103,7 +103,7 @@ body {
   }
 
   pre {
-    @apply bg-gray-100 p-5 w-full break-words rounded-lg border border-gray-200 text-sm overflow-auto mb-10;
+    @apply bg-gray-100 dark:bg-black dark:border-black p-5 w-full break-words rounded-lg border border-gray-200 overflow-auto mb-10 text-[0.95rem];
 
     & > code {
       @apply whitespace-pre-wrap;
@@ -159,7 +159,7 @@ body {
     @apply my-10 border-l-2 border-gray-300 pl-5 font-mono;
 
     p {
-      @apply text-black text-lg;
+      @apply text-black dark:text-white text-lg dark:text-white;
     }
   }
 
@@ -181,19 +181,19 @@ body {
   }
 
   strong {
-    @apply font-bold text-black;
+    @apply font-bold text-black dark:text-white;
   }
 
   p {
-    @apply text-lg mb-8 text-gray-700;
+    @apply text-lg mb-8 text-gray-700 dark:text-[#9f9f9f];
 
     code {
-      @apply font-mono bg-gray-200 text-base px-2 py-px rounded-lg text-black;
+      @apply font-mono bg-gray-200 dark:bg-black text-base px-2 py-px rounded-lg text-black dark:text-white;
     }
 
     a {
       position: relative;
-      @apply relative text-black underline;
+      @apply relative text-black dark:text-white underline;
     }
 
     img {
@@ -237,10 +237,10 @@ body {
 
   ol, ul {
     li {
-      @apply text-lg text-gray-800 list-disc list-inside mb-4;
+      @apply text-lg text-gray-800 list-disc list-inside mb-4 dark:text-[#9f9f9f];
 
       a {
-        @apply text-black underline;
+        @apply text-black dark:text-white underline;
       }
     }
   }

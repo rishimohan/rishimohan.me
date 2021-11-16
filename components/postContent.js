@@ -10,7 +10,7 @@ export default function PostContent({ post }) {
       ) : (
         ""
       )}
-      <div className="text-center text-gray-400">
+      <div className="text-center text-gray-400 dark:text-gray-600">
         {new Date(post?.date.slice(0, 10)).toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",
@@ -28,7 +28,7 @@ export default function PostContent({ post }) {
         <a
           href={post?.link}
           target="_blank"
-          className="w-full py-1 bg-black rounded-lg shadow-lg max-w-[620px] text-white text-lg text-center flex items-center justify-center"
+          className="w-full py-1 bg-black rounded-lg shadow-lg max-w-[620px] text-white text-lg text-center flex items-center justify-center dark:bg-white dark:text-black"
         >
           <span className="w-5 h-5 mr-2">{ExternalLinkIcon}</span>
           <span>Visit Link</span>

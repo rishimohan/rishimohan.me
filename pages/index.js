@@ -17,8 +17,8 @@ export default function Home() {
         </h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
-            I'm a <span className="font-medium text-black">designer</span> and{" "}
-            <span className="font-medium text-black">front-end engineer</span>{" "}
+            I'm a <span className="font-medium">designer</span> and{" "}
+            <span className="font-medium">front-end engineer</span>{" "}
             by profession, currently working at{" "}
             <a href="https://www.bigbinary.com">BigBinary</a>.
           </p>
@@ -40,7 +40,7 @@ export default function Home() {
             .
           </p>
         </div>
-        <div className="px-4 py-3 my-5 text-base text-gray-400 bg-gray-100 rounded-xl">
+        <div className="px-4 py-3 my-5 text-base text-gray-400 bg-gray-100 rounded-xl dark:bg-gray-900 dark:text-gray-500">
           The code for this blog is{" "}
           <a className="underline" target="_blank" href="https://github.com/rishimohan/rishimohan.me">
             available on Github
