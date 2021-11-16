@@ -6,7 +6,7 @@ export default function BlogList({ data, activeSlug }) {
   return (
     <div
       className={classnames(
-        "md:max-w-[360px] w-full h-screen overflow-auto border-r border-gray-100 px-4 py-10 flex-none dark:border-gray-800",
+        "md:max-w-[360px] w-full h-screen overflow-auto border-r border-gray-100 px-4 pt-10 flex-none dark:border-gray-800 pb-20",
         { "hidden lg:flex flex-col": activeSlug != undefined }
       )}
     >

@@ -157,9 +157,11 @@ export default function Sidebar() {
             {!mobileNav ? "Menu" : "Close"}
           </div>
           {mobileNav ? (
-            <div onClick={() => showMobileNav(false)} className="pb-8">
-              {renderLinks()}
-              {renderSocials()}
+            <div className="pb-8">
+              <div onClick={() => showMobileNav(false)}>
+                {renderLinks()}
+                {renderSocials()}
+              </div>
               {renderPrefs()}
             </div>
           ) : (
