@@ -128,7 +128,7 @@ export default function Sidebar() {
         <div className="px-2 py-1 mx-6 dark:bg-[#111] border border-gray-200 rounded-lg cursor-pointer dark:border-gray-800">
           <select
             onChange={(e) => setTheme(e.target.value)}
-            className="w-full dark:bg-[#111] outline-none appearance-none cursor-pointer"
+            className="w-full bg-transparent dark:bg-[#111] outline-none appearance-none cursor-pointer"
             defaultValue={theme}
             placeholder="Select theme"
           >
