@@ -17,7 +17,7 @@ export default function PostContent({ post }) {
           day: "numeric",
         })}
       </div>
-      <h1 className="text-4xl mb-10 font-black md:text-4xl text-center max-w-[620px] mx-auto">
+      <h1 className="text-3xl mb-10 font-black md:text-4xl text-center max-w-[620px] mx-auto">
         {post.title}
       </h1>
       <div
