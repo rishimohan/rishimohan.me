@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { WorkList, WorkContent } from "components";
 import {NextSeo} from "next-seo"
-import {getAllPosts, getPostBySlug} from "pages/api/work";
+import {getAllPosts, getPostBySlug} from "pages/api/projects";
 import md2html from "lib/md2html";
 
 export default function Post({ allPosts, post }) {

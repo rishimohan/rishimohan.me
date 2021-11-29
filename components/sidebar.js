@@ -34,10 +34,10 @@ export default function Sidebar() {
       active: pathname.includes("/blog"),
     },
     {
-      title: "Work",
-      url: "/work",
+      title: "Side Projects",
+      url: "/projects",
       icon: SideProjectsIcon,
-      active: pathname.includes("/work"),
+      active: pathname.includes("/projects"),
     },
     {
       title: "Travel Map",
@@ -143,7 +143,7 @@ export default function Sidebar() {
 
   return (
     <>
-      <aside className="w-full max-w-[250px] md:border-r border-gray-100 h-screen py-10 md:flex flex-col flex-none hidden dark:border-gray-800">
+      <aside className="w-full max-w-[250px] md:border-r border-gray-100 h-screen pt-6 pb-10 md:flex flex-col flex-none hidden dark:border-gray-800">
         {renderLinks()}
         {renderSocials()}
         {renderPrefs()}

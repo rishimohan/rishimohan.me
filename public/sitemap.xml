@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rishimohan.me/blog</loc>
-  </url>
-
-  <url>
     <loc>https://rishimohan.me</loc>
   </url>
 
@@ -13,23 +9,19 @@
   </url>
 
   <url>
-    <loc>https://rishimohan.me/work</loc>
+    <loc>https://rishimohan.me/projects/kizie</loc>
   </url>
 
   <url>
-    <loc>https://rishimohan.me/work/kizie</loc>
+    <loc>https://rishimohan.me/projects/maazi</loc>
   </url>
 
   <url>
-    <loc>https://rishimohan.me/work/maazi</loc>
+    <loc>https://rishimohan.me/projects/qurb</loc>
   </url>
 
   <url>
-    <loc>https://rishimohan.me/work/qurb</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/work/zinx</loc>
+    <loc>https://rishimohan.me/projects/zinx</loc>
   </url>
 
   <url>
@@ -61,7 +53,7 @@
   </url>
 
   <url>
-    <loc>https://rishimohan.me/blog/pika-macos-color-picker</loc>
+    <loc>https://rishimohan.me/blog/macos-color-pickers</loc>
   </url>
 
   <url>

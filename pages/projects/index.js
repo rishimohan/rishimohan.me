@@ -1,6 +1,6 @@
 import {NextSeo} from "next-seo";
 import {WorkList} from "components";
-import { getAllPosts } from "pages/api/work";
+import { getAllPosts } from "pages/api/projects";
 
 export default function Home({allPosts}) {
   return (

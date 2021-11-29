@@ -6,10 +6,13 @@ export default function BlogList({ data, activeSlug }) {
   return (
     <div
       className={classnames(
-        "md:max-w-[360px] w-full h-screen overflow-auto border-r border-gray-100 px-4 pt-10 flex-none dark:border-gray-800 pb-40 md:pb-20",
+        "md:max-w-[360px] w-full h-screen overflow-auto border-r border-gray-100 px-4 pt-6 pb-20 flex-none dark:border-gray-800 pb-40 md:pb-20",
         { "hidden lg:flex flex-col": activeSlug != undefined }
       )}
     >
+      <div className="px-4 py-2 mb-2 text-sm text-gray-500 border-b border-gray-100 dark:border-gray-800">
+        Blog
+      </div>
       {data?.map((post) => (
         <Link href={`/blog/${post.slug}`} key={post.slug}>
           <article
