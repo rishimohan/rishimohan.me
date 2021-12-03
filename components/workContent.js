@@ -27,10 +27,6 @@ export default function WorkContent({ post }) {
       ) : (
         ""
       )}
-      <div
-        dangerouslySetInnerHTML={{ __html: post?.content }}
-        className="inline-block mx-auto post-content"
-      />
       <div className="flex justify-center items-center space-x-5 max-w-[620px] w-full mt-5 mb-10">
         {post?.web ? (
           <a
@@ -57,6 +53,10 @@ export default function WorkContent({ post }) {
           ""
         )}
       </div>
+      <div
+        dangerouslySetInnerHTML={{ __html: post?.content }}
+        className="inline-block mx-auto post-content"
+      />
     </div>
   );
 }

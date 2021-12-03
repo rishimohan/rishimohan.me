@@ -31,11 +31,11 @@ export default function Home() {
             Cafes and Restaurants. Some weekends go into building some side
             projects like{" "}
             <Link href="https://kizie.co">
-              <a target="_blank">Kizie</a>
+              <a target="_blank">this Twitter app</a>
             </Link>{" "}
             and{" "}
-            <Link href="/work/maazi">
-              <a>Maazi</a>
+            <Link href="/projects/maazi">
+              <a>diary app</a>
             </Link>
             .
           </p>

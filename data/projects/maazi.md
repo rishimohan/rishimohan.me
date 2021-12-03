@@ -1,5 +1,5 @@
 ---
-date: 2018-04-23 21:11:00 +0530
+date: 2020-04-23 21:11:00 +0530
 title: "Maazi"
 slug: maazi
 tech: ["React Native", "TailwindRN", "Firebase"]
