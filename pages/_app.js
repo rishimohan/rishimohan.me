@@ -30,6 +30,28 @@ function MyApp({ Component, pageProps }) {
             site: "@thelifeofrishi",
             cardType: "summary_large_image",
           }}
+          additionalLinkTags={[
+            {
+              rel: "apple-touch-icon",
+              href: "/touch-icons/apple-touch-icon-ipad-76x76.png",
+              sizes: "76x76",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "/touch-icons/apple-touch-icon-ipad-retina-152x152.png",
+              sizes: "152x152",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "/touch-icons/apple-touch-icon-iphone-60x60.png",
+              sizes: "60x60",
+            },
+            {
+              rel: "apple-touch-icon",
+              href: "/touch-icons/apple-touch-icon-iphone-retina-120x120.png",
+              sizes: "120x120",
+            },
+          ]}
         />
         <script
           async
