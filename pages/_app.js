@@ -3,6 +3,7 @@ import "styles/app.scss";
 import "styles/blog.scss";
 import MainLayout from "layouts/main";
 import {DefaultSeo} from "next-seo";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -57,6 +58,17 @@ function MyApp({ Component, pageProps }) {
             },
           ]}
         />
+        {process.env.NODE_ENV == "production" ? (
+          // Analytics Script
+          <Script
+            src="https://api.pirsch.io/pirsch.js"
+            id="pirschjs"
+            data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
+            strategy="afterInteractive"
+          />
+        ) : (
+          ""
+        )}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-38898205-6"
