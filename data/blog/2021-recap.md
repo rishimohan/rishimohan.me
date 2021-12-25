@@ -107,7 +107,7 @@ and I would still miss a lot to sum up.
 This year was good even if Corona happened,
 even if goodbyes happened, even if I was anxious,
 even if some plans didn't make it, 
-even if I lost, the year was still great.
+even if I was lost, the year was still great.
 
 If you know me, or not anymore, or will know me,
 just know that I'm becoming one heck of a guy 😅
