@@ -3,7 +3,7 @@ date: 2021-12-29 21:11:00 +0530
 title: "Pika"
 slug: pika
 tech: ["Next.js", "TailwindCSS"]
-web: https://pikapika.vercel.app
+web: https://pika.rishimohan.me
 icon: /images/work/show/pika-icon.png
 
 ---
