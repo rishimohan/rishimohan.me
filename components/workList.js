@@ -31,10 +31,10 @@ export default function WorkList({ allPosts, activeSlug }) {
                 <img
                   src={post?.icon}
                   alt={post.title}
-                  className="w-10 h-10 bg-white border border-gray-100 rounded-full shadow-lg dark:border-gray-600"
+                  className="w-10 h-10 bg-white border border-gray-100 rounded-full shadow-lg dark:border-gray-800"
                 />
               ) : (
-                <div className="flex items-center justify-center w-10 h-10 text-lg font-bold text-white bg-black border border-gray-100 rounded-full">
+                <div className="flex items-center justify-center w-10 h-10 text-lg font-bold text-white bg-black border border-gray-100 rounded-full dark:border-gray-800">
                   {post?.title?.slice(0, 1)}
                 </div>
               )}

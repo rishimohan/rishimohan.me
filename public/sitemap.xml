@@ -9,31 +9,15 @@
   </url>
 
   <url>
-    <loc>https://rishimohan.me/projects/kizie</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/maazi</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/pika</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/qurb</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/zinx</loc>
-  </url>
-
-  <url>
     <loc>https://rishimohan.me/blog/2021-recap</loc>
   </url>
 
   <url>
     <loc>https://rishimohan.me/blog/covid-19-lockdown-days</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/blog/discovered-not-indexed-fix</loc>
   </url>
 
   <url>
@@ -102,5 +86,25 @@
 
   <url>
     <loc>https://rishimohan.me/blog/when-i-grow-up</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/kizie</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/maazi</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/pika</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/qurb</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/zinx</loc>
   </url>
 </urlset>

@@ -239,6 +239,10 @@ body {
     li {
       @apply text-lg text-gray-800 list-disc list-inside mb-4 dark:text-[#9f9f9f];
 
+      code {
+        @apply font-mono bg-gray-200 dark:bg-black text-base px-2 py-px rounded-lg text-black dark:text-white;
+      }
+
       a {
         @apply text-black dark:text-white underline;
       }
