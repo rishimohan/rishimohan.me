@@ -13,6 +13,7 @@ Twitter Web app for people who love tweeting, with undo tweet, tweet threads, qu
 
 In Kizie, I've also added some standalone apps:
 
+- [Twitter Thread Maker](https://kizie.co/compose) - App to write Twitter threads quickly and easily. It automatically handles text splitting and formatting.
 - [Tweet to Image](https://kizie.co/tools/twitter-image) - Convert tweets into customizable and elegant images.
 - [Twitter Downloader](https://kizie.co/tools/twitter-downloader) - Download Videos, GIFs and photos from a tweet in one-click.
 
