@@ -10,6 +10,7 @@ import {
   InstagramIcon,
   ExternalLinkIcon,
   EmailIcon,
+  ExperimentsIcon,
 } from "lib/icons";
 import classnames from "classnames";
 import { useTheme } from "next-themes";
@@ -42,7 +43,7 @@ export default function Sidebar() {
     {
       title: "Experiments",
       url: "/experiments",
-      icon: SideProjectsIcon,
+      icon: ExperimentsIcon,
       active: pathname.includes("/experiments"),
     },
     {
