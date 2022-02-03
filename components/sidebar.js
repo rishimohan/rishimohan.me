@@ -40,6 +40,12 @@ export default function Sidebar() {
       active: pathname.includes("/projects"),
     },
     {
+      title: "Experiments",
+      url: "/experiments",
+      icon: SideProjectsIcon,
+      active: pathname.includes("/experiments"),
+    },
+    {
       title: "Travel Map",
       url: "/map",
       icon: TravelIcon,

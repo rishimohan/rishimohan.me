@@ -76,20 +76,6 @@ function MyApp({ Component, pageProps }) {
         ) : (
           ""
         )}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-38898205-6"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-38898205-6');
-          `,
-          }}
-        />
         <Component {...pageProps} />
       </MainLayout>
     </ThemeProvider>
