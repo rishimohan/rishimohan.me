@@ -29,11 +29,11 @@ export default function Home() {
           <p className="text-lg text-gray-500">
             On weekends I like to travel and take photos. I like to binge try
             Cafes and Restaurants. Some weekends go into building some side
-            projects like{" "}
+            projects like this{" "}
             <Link href="https://kizie.co">
-              <a target="_blank">this Twitter app</a>
-            </Link>{" "}
-            and{" "}
+              <a target="_blank">Twitter client</a>
+            </Link>, <Link href="https://pika.rishimohan.me"><a target="_blank">screenshot mockup tool</a></Link>{" "}
+            and this{" "}
             <Link href="/projects/maazi">
               <a>diary app</a>
             </Link>
