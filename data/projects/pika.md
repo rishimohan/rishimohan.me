@@ -3,12 +3,12 @@ date: 2021-12-29 21:11:00 +0530
 title: "Pika"
 slug: pika
 tech: ["Next.js", "TailwindCSS"]
-web: https://pika.rishimohan.me
+web: https://pika.style
 icon: /images/work/show/pika-icon.png
 
 ---
 
-![Maazi Screenshot](/images/work/show/pika-preview.png)
+![Pika Screenshot](/images/work/show/pika-preview.png)
 
 Created Pika to quickly generate shareable screenshots
 from boring screenshots. Previous workflow included
