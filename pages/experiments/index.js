@@ -20,6 +20,11 @@ export default function Experiments() {
       description: "Splash Screen implementation on Web using Tailwind",
     },
     {
+      title: "Modal",
+      url: "/experiments/modal",
+      description: "A very basic modal component in React",
+    },
+    {
       title: "Coming Soon",
       url: "/experiments",
       description: "There's always something cooking in here, stay tuned!",

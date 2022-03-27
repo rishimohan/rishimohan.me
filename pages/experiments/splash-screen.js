@@ -54,7 +54,7 @@ export default function Splash() {
           <div className="mt-8">
             <button
               className={classnames(
-                "px-4 py-1 bg-white border border-gray-500 rounded-lg shadow-lg dark:bg-gray-900 dark:border-gray-700/70 dark:text-gray-200 shadow-gray-200/10 inline-flex"
+                "px-4 py-1 bg-white border border-gray-500 rounded-lg shadow-lg dark:bg-gray-900 dark:border-gray-700/70 dark:text-gray-200 shadow-gray-200/10 dark:shadow-gray-900 inline-flex"
               )}
               onClick={() => window.location.reload()}
             >
