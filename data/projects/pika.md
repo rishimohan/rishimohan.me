@@ -22,7 +22,12 @@ Here's how it works:
 - Copy the output image, or save it as PNG on your machine
 
 Pika saves your previous settings so when you load it again,
-it'll retain your last settings. 
+it'll retain your last settings.
 
 Pika is open-source and 
 the [code is available at Github](http://github.com/rishimohan/pika).
+
+**Update (April 18, 2022)**
+
+- Added a new tool in Pika to 
+[generate Open Graph and marketing images](https://pika.style/open-graph-generator)
