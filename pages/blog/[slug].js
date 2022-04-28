@@ -19,6 +19,14 @@ export default function Post({ allPosts, post, morePosts, preview }) {
           site_name: `${post.title} - Rishi Mohan`,
           title: `${post.title} - Rishi Mohan`,
           description: post.excerpt || post.content.slice(0, 200) || "",
+          images: [
+            {
+              url: post.ogImage ?? "https://rishimohan.vercel.app/images/site/meta.jpg",
+              width: 800,
+              height: 600,
+              alt: "Kizie for Twitter",
+            },
+          ],
         }}
         twitter={{
           handle: "@thelifeofrishi",
@@ -42,6 +50,7 @@ export async function getStaticProps({ params }) {
     "excerpt",
     "content",
     "link",
+    "ogImage"
   ]);
 
   const post = getPostBySlug(params.slug, [
@@ -52,6 +61,7 @@ export async function getStaticProps({ params }) {
     "content",
     "excerpt",
     "link",
+    "ogImage"
   ]);
 
   const content = await md2html(post.content || post.excerpt || "");
@@ -75,6 +85,7 @@ export async function getStaticPaths() {
     "image",
     "excerpt",
     "content",
+    "ogImage",
   ]);
   const posts = getAllPosts(["slug"]);
 
