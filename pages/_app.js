@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
             "I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.",
           images: [
             {
-              url: "https://rishimohan.vercel.app/images/site/meta.jpg",
+              url: "https://rishimohan.me/images/site/meta.jpg",
               width: 800,
               height: 600,
               alt: "Kizie for Twitter",

@@ -6,7 +6,7 @@ date: 2022-04-28 00:00:00 +0530
 categories: updates
 excerpt: Last couple days in BigBinary where I've worked for 6 long years. Learned, lived and laughed...
 # image: /assets/img/posts/shot-on-iphone.jpg
-ogImage: /assets/img/posts/bigbinary-adieu-og.png
+ogImage: https://rishimohan.me/images/posts/bigbinary-adieu-og.png
 
 ---
 
