@@ -106,6 +106,10 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     }
   }
 
+  hr {
+    @apply mb-10 dark:border-gray-700;
+  }
+
   & > figure.highlight {
     background: #f9f9f9;
     padding: 20px;
