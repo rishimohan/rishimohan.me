@@ -147,9 +147,10 @@ That day ended with colors on all over my face and hairs
 at a sunset on Baga beach, post that had Maggie and chai
 on the streets.
 
-![](/images/posts/holi-goa.jpg)
+![](/images/posts/holi-goa.jpeg)
 
-ALso in Goa, on a random night at 1 or 2 am,
+
+Also in Goa, on a random night at 1 or 2 am,
 I typed my [resignation mail from BigBinary](/blog/on-leaving-bigbinary) 
 where I had been working for 6 years.
 
