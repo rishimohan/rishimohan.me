@@ -9,26 +9,6 @@
   </url>
 
   <url>
-    <loc>https://rishimohan.me/projects/kizie</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/maazi</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/pika</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/qurb</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/zinx</loc>
-  </url>
-
-  <url>
     <loc>https://rishimohan.me/blog/2021-recap</loc>
   </url>
 
@@ -57,6 +37,10 @@
   </url>
 
   <url>
+    <loc>https://rishimohan.me/blog/in-between-airports</loc>
+  </url>
+
+  <url>
     <loc>https://rishimohan.me/blog/ios-12-review</loc>
   </url>
 
@@ -82,6 +66,10 @@
 
   <url>
     <loc>https://rishimohan.me/blog/nextjs-link-issue</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/blog/on-leaving-bigbinary</loc>
   </url>
 
   <url>
@@ -114,5 +102,25 @@
 
   <url>
     <loc>https://rishimohan.me/blog/when-i-grow-up</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/kizie</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/maazi</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/pika</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/qurb</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/zinx</loc>
   </url>
 </urlset>
