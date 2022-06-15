@@ -2,7 +2,7 @@ import {ExternalLinkIcon} from "lib/icons"
 
 export default function PostContent({ post }) {
   return (
-    <div className="inline-flex flex-col items-center justify-start w-full h-screen px-10 pt-10 pb-32 overflow-y-auto">
+    <div className="inline-flex flex-col items-center justify-start w-full h-screen px-5 md:px-10 pt-10 pb-32 overflow-y-auto">
       {post?.link && post?.image ? (
         <div className="max-w-[620px] mx-auto">
           <img src={post.image} className="mb-4 rounded-lg" />
