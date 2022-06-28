@@ -12,6 +12,7 @@ import {
   EmailIcon,
   ExperimentsIcon,
 } from "lib/icons";
+import { Newspaper } from "phosphor-react";
 import classnames from "classnames";
 import { useTheme } from "next-themes";
 
@@ -51,6 +52,16 @@ export default function Sidebar() {
       url: "/map",
       icon: TravelIcon,
       active: pathname === "/map",
+    },
+    {
+      title: "Newsletter",
+      url: "http://newsletter.rishimohan.me",
+      icon: (
+        <div className="relative right-[-10px]">
+          <Newspaper size={20} weight="bold" />
+        </div>
+      ),
+      active: false,
     },
   ];
 
