@@ -80,7 +80,7 @@ export default function Sidebar() {
     },
     {
       title: "Email",
-      url: `mailto:iamrishi.ms@gmail.com`,
+      url: `mailto:hi@rishimohan.me`,
       icon: EmailIcon,
       external: false,
     },

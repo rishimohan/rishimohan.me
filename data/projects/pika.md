@@ -27,6 +27,27 @@ it'll retain your last settings.
 Pika is open-source and 
 the [code is available at Github](http://github.com/rishimohan/pika).
 
+**Update (September 07, 2022)**
+
+- To increase the scope of what Pika can do, 
+I've added [screenshot templates](https://pika.style/templates)
+which will let users design mockups for various use cases,
+for e.g [App Store template](https://pika.style/templates/mobile-app/app-store-play-store-screenshot) 
+to design screenshots for App Store pages, 
+or [code to image template](https://pika.style/templates/web/code-image) 
+to create shareable images from code snippets
+- Templates will also help in getting diverse organic traffic
+since it'll target very specific keywords
+- To achieve Templates, I've rewritten major chunk of
+components that can be used commonly along
+all the templates
+
+**Update (April 18, 2022)**
+
+- Added a new tool in Pika to 
+[generate Open Graph and marketing images](https://pika.style/open-graph-generator)
+
+
 **Update (April 18, 2022)**
 
 - Added a new tool in Pika to 
