@@ -30,7 +30,7 @@ the [code is available at Github](http://github.com/rishimohan/pika).
 **Update (September 07, 2022)**
 
 - To increase the scope of what Pika can do, 
-I've added [screenshot templates](https://pika.style/templates)
+I've added [mockup templates](https://pika.style/templates)
 which will let users design mockups for various use cases,
 for e.g [App Store template](https://pika.style/templates/mobile-app/app-store-play-store-screenshot) 
 to design screenshots for App Store pages, 
