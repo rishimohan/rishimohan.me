@@ -32,7 +32,7 @@ export default function Home() {
             projects like this{" "}
             <Link href="https://kizie.co">
               <a target="_blank">Twitter client</a>
-            </Link>, <Link href="https://pika.style"><a target="_blank">screenshot mockup tool</a></Link>{" "}
+            </Link>, <Link href="https://pika.style"><a target="_blank">website mockup tool</a></Link>{" "}
             and this{" "}
             <Link href="/projects/maazi">
               <a>diary app</a>
