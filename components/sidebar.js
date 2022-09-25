@@ -12,7 +12,7 @@ import {
   EmailIcon,
   ExperimentsIcon,
 } from "lib/icons";
-import { Newspaper } from "phosphor-react";
+import { Newspaper, IdentificationCard } from "phosphor-react";
 import classnames from "classnames";
 import { useTheme } from "next-themes";
 
@@ -63,6 +63,17 @@ export default function Sidebar() {
       ),
       active: false,
     },
+    {
+      title: "Resume",
+      url: "https://peerlist.io/rishimohan",
+      icon: (
+        <div className="relative right-[-10px]">
+          <IdentificationCard size={20} weight="bold" />
+        </div>
+      ),
+      active: false,
+      external: true,
+    },
   ];
 
   const SOCIAL = [
@@ -87,24 +98,30 @@ export default function Sidebar() {
   ];
 
   const renderLinks = () => {
-    return (
-      LINKS.map((link) => (
-        <div className="px-4" key={link.title}>
-          <Link href={link.url}>
-            <a
-              className={classnames(
-                "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
-                { "bg-black text-white": link?.active },
-                { "hover:bg-gray-100": !link?.active }
-              )}
-            >
-              <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
-              <span>{link?.title}</span>
-            </a>
-          </Link>
-        </div>
-      ))    
-    )
+    return LINKS.map((link) => (
+      <div className="px-4" key={link.title}>
+        <Link href={link.url}>
+          <a
+            target={link.external ? "_blank" : ''}
+            className={classnames(
+              "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
+              { "bg-black text-white": link?.active },
+              { "hover:bg-gray-100": !link?.active }
+            )}
+          >
+            <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
+            <span>{link?.title}</span>
+            {link?.external ? (
+              <span className="w-4 h-4 ml-auto text-gray-400 dark:text-gray-600">
+                {ExternalLinkIcon}
+              </span>
+            ) : (
+              ""
+            )}
+          </a>
+        </Link>
+      </div>
+    ));
   }
 
   const renderSocials = () => {
