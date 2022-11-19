@@ -100,15 +100,44 @@ export default function Sidebar() {
   const renderLinks = () => {
     return LINKS.map((link) => (
       <div className="px-4" key={link.title}>
-        <Link href={link.url}>
-          <a
-            target={link.external ? "_blank" : ''}
+        <Link
+          href={link.url}
+          target={link.external ? "_blank" : ''}
+          className={classnames(
+            "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
+            { "bg-black text-white": link?.active },
+            { "hover:bg-gray-100": !link?.active }
+          )}>
+
+          <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
+          <span>{link?.title}</span>
+          {link?.external ? (
+            <span className="w-4 h-4 ml-auto text-gray-400 dark:text-gray-600">
+              {ExternalLinkIcon}
+            </span>
+          ) : (
+            ""
+          )}
+
+        </Link>
+      </div>
+    ));
+  }
+
+  const renderSocials = () => {
+    return <>
+      <h4 className="px-10 mt-4 mb-2 text-gray-400">Social</h4>
+      {SOCIAL.map((link) => (
+        <div className="px-4" key={link.title}>
+          <Link
+            href={link.url}
             className={classnames(
               "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
               { "bg-black text-white": link?.active },
               { "hover:bg-gray-100": !link?.active }
             )}
-          >
+            target={link?.external ? "_blank" : undefined}>
+
             <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
             <span>{link?.title}</span>
             {link?.external ? (
@@ -118,42 +147,11 @@ export default function Sidebar() {
             ) : (
               ""
             )}
-          </a>
-        </Link>
-      </div>
-    ));
-  }
 
-  const renderSocials = () => {
-    return (
-      <>
-        <h4 className="px-10 mt-4 mb-2 text-gray-400">Social</h4>
-        {SOCIAL.map((link) => (
-          <div className="px-4" key={link.title}>
-            <Link href={link.url}>
-              <a
-                className={classnames(
-                  "flex items-center w-full px-4 py-[5px] mb-2 transition-all duration-150 ease-in-out rounded-lg dark:hover:bg-black",
-                  { "bg-black text-white": link?.active },
-                  { "hover:bg-gray-100": !link?.active }
-                )}
-                target={link?.external ? "_blank" : undefined}
-              >
-                <span className="w-5 h-5 min-w-[40px]">{link?.icon}</span>
-                <span>{link?.title}</span>
-                {link?.external ? (
-                  <span className="w-4 h-4 ml-auto text-gray-400 dark:text-gray-600">
-                    {ExternalLinkIcon}
-                  </span>
-                ) : (
-                  ""
-                )}
-              </a>
-            </Link>
-          </div>
-        ))}
-      </>
-    );
+          </Link>
+        </div>
+      ))}
+    </>;
   }
 
   const renderPrefs = () => {

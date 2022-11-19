@@ -56,37 +56,33 @@ export default function Modal() {
     );
   };
 
-  return (
-    <>
-      <NextSeo
-        title="Modal Component - Rishi Mohan"
-        description="An open-source modal component implementation for web apps made in Tailwind CSS and React"
-        openGraph={{
-          site_name: "Hi, I'm Rishi Mohan!",
-          title: "Modal Component - Rishi Mohan",
-          description:
-            "An open-source modal component implementation for web apps made in Tailwind CSS and React",
-        }}
-      />
-      <div className="min-h-screen flex bg-gray-100/50 dark:bg-gray-900 p-10 items-center justify-center flex-col">
-        <button
-          onClick={() => setModal(true)}
-          className="border px-4 py-2 dark:border-gray-800 border-gray-300 hover:border-gray-400/80 bg-white text-gray-500 dark:bg-gray-800/50 dark:hover:border-gray-700 rounded-lg dark:text-gray-500 shadow-sm dark:shadow"
-        >
-          Open modal
-        </button>
-        <div className="mt-5 opacity-30 text-sm">
-          <Link href="/experiments">
-            <a className="flex items-center">
-              <span className="w-4 h-4 rotate-180 mr-1">{ArrowIcon}</span>
-              Back to experiments
-            </a>
-          </Link>
-        </div>
+  return <>
+    <NextSeo
+      title="Modal Component - Rishi Mohan"
+      description="An open-source modal component implementation for web apps made in Tailwind CSS and React"
+      openGraph={{
+        site_name: "Hi, I'm Rishi Mohan!",
+        title: "Modal Component - Rishi Mohan",
+        description:
+          "An open-source modal component implementation for web apps made in Tailwind CSS and React",
+      }}
+    />
+    <div className="min-h-screen flex bg-gray-100/50 dark:bg-gray-900 p-10 items-center justify-center flex-col">
+      <button
+        onClick={() => setModal(true)}
+        className="border px-4 py-2 dark:border-gray-800 border-gray-300 hover:border-gray-400/80 bg-white text-gray-500 dark:bg-gray-800/50 dark:hover:border-gray-700 rounded-lg dark:text-gray-500 shadow-sm dark:shadow"
+      >
+        Open modal
+      </button>
+      <div className="mt-5 opacity-30 text-sm">
+        <Link href="/experiments" className="flex items-center">
+
+          <span className="w-4 h-4 rotate-180 mr-1">{ArrowIcon}</span>Back to experiments
+        </Link>
       </div>
-      {modal ? <RenderModal /> : ""}
-    </>
-  );
+    </div>
+    {modal ? <RenderModal /> : ""}
+  </>;
 }
 
 const PreferencesIcon = (

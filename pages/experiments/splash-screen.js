@@ -29,15 +29,13 @@ export default function Splash() {
         )}
       >
         <div>
-          <Link href="/experiments">
-            <a
-              className={classnames(
-                "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center"
-              )}
-            >
-              <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>
-              View all experiments
-            </a>
+          <Link
+            href="/experiments"
+            className={classnames(
+              "py-1 rounded-lg text-gray-500 dark:text-gray-500 shadow-gray-200/10 flex items-center"
+            )}>
+
+            <span className="w-5 h-5 rotate-180">{ArrowIcon}</span>View all experiments
           </Link>
           <div>
             <h1 className="text-4xl font-black">Splash Screen</h1>
