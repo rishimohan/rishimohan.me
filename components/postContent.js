@@ -1,8 +1,18 @@
 import {ExternalLinkIcon} from "lib/icons"
+import { motion } from 'framer-motion'
 
 export default function PostContent({ post }) {
   return (
-    <div className="inline-flex flex-col items-center justify-start w-full h-screen px-5 md:px-10 pt-10 pb-32 overflow-y-auto">
+    <motion.div
+      key={post.title}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{
+        opacity: 1,
+        y: 0,
+        transition: { duration: 0.25 },
+      }}
+      className="inline-flex flex-col items-center justify-start w-full h-screen px-5 md:px-10 pt-10 pb-32 overflow-y-auto"
+    >
       {post?.link && post?.image ? (
         <div className="max-w-[620px] mx-auto">
           <img src={post.image} className="mb-4 rounded-lg" />
@@ -36,6 +46,6 @@ export default function PostContent({ post }) {
       ) : (
         ""
       )}
-    </div>
+    </motion.div>
   );
 }

@@ -2,7 +2,7 @@ import {useRouter} from 'next/router';
 import { getPostBySlug, getAllPosts } from "pages/api/blog";
 import md2html from "lib/md2html";
 import { BlogList, PostContent } from 'components';
-import {NextSeo} from 'next-seo'
+import { NextSeo } from "next-seo";
 
 export default function Post({ allPosts, post, morePosts, preview }) {
   const router = useRouter();

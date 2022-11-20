@@ -17,6 +17,7 @@ import {
 } from "phosphor-react";
 import clsx from 'clsx'
 import { useTheme } from "next-themes";
+import { motion } from "framer-motion";
 
 export default function Sidebar() {
   const { pathname } = useRouter();
@@ -158,11 +159,15 @@ export default function Sidebar() {
 
   return (
     <>
-      <aside className="h-screen sticky top-0 overflow-auto bg-gray-100 dark:bg-gray-900 pt-6 pb-10 md:flex flex-col flex-none hidden text-sm w-full max-w-[220px] px-1 border-r border-gray-200/50 dark:border-gray-800/50">
+      <motion.aside
+        initial={{ opacity: 0, x: -200 }}
+        animate={{ opacity: 1, x: 0, transition: { duration: .35 }}}
+        className="h-screen sticky top-0 overflow-auto bg-gray-100 dark:bg-gray-900 pt-6 pb-10 md:flex flex-col flex-none hidden text-sm w-full max-w-[220px] px-1 border-r border-gray-200/50 dark:border-gray-800/50"
+      >
         <RenderLinks sectionItems={LINKS} />
         <RenderLinks sectionItems={SOCIAL} sectionTitle="Elsewhere" />
         {renderPrefs()}
-      </aside>
+      </motion.aside>
       <div
         className="py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
         onClick={() => showMobileNav(!mobileNav)}
