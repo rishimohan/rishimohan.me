@@ -1,10 +1,12 @@
 import { Sidebar } from "components"
 
-export default function MainLayout(props) {
+export default function MainLayout({ children }) {
   return (
     <section className="flex items-start">
       <Sidebar />
-      <main className="relative w-full h-screen overflow-y-auto">{props.children}</main>
+      <main className="relative w-full bg-white dark:bg-[#111]">
+        {children}
+      </main>
     </section>
   );
 }

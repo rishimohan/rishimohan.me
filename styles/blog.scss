@@ -11,17 +11,15 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   h1 {
-    @apply text-3xl md:text-4xl;
-  }
-
-  h2 {
     @apply text-2xl md:text-3xl;
   }
 
+  h2 {
+    @apply text-xl md:text-2xl;
+  }
+
   & > * {
-    max-width: 620px;
-    margin-left: auto;
-    margin-right: auto;
+    @apply max-w-[580px] mx-auto;
   }
 
   & > figure:not(.highlight) {
@@ -99,7 +97,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   pre {
-    @apply bg-gray-100 dark:bg-black dark:border-black p-5 w-full break-words rounded-lg border border-gray-200 overflow-auto mb-10 text-[0.95rem];
+    @apply bg-gray-100 dark:bg-gray-900 dark:border-gray-800 p-5 w-full break-words rounded-lg border border-gray-200 overflow-auto mb-10 text-sm;
 
     & > code {
       @apply whitespace-pre-wrap;
@@ -159,7 +157,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     @apply my-10 border-l-2 border-gray-300 pl-5;
 
     p {
-      @apply text-black dark:text-white text-xl dark:text-white;
+      @apply text-black dark:text-white text-xl;
     }
   }
 
@@ -181,19 +179,18 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   strong {
-    @apply font-bold text-black dark:text-white;
+    @apply font-semibold text-black dark:text-gray-200;
   }
 
   p {
-    @apply text-lg mb-8 text-gray-700 dark:text-[#9f9f9f];
+    @apply text-[1rem] md:text-[1.05rem] mb-8 text-gray-700 dark:text-gray-300 leading-[1.5];
 
     code {
-      @apply font-mono bg-gray-200 dark:bg-black text-base px-2 py-px rounded-lg text-black dark:text-white;
+      @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];
     }
 
     a {
-      position: relative;
-      @apply relative text-black dark:text-white underline;
+      @apply text-black dark:text-gray-200 underline-offset-[4px] decoration-[1px] underline hover:text-blue-700 dark:hover:text-blue-700;
     }
 
     img {
@@ -236,15 +233,17 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   ol, ul {
+    @apply mb-10;
+
     li {
-      @apply text-lg text-gray-800 list-disc list-inside mb-4 dark:text-[#9f9f9f];
+      @apply text-[1rem] md:text-[1.05rem] text-gray-800 list-disc list-outside ml-5 mb-2 dark:text-gray-300;
 
       code {
-        @apply font-mono bg-gray-200 dark:bg-black text-base px-2 py-px rounded-lg text-black dark:text-white;
+        @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];
       }
 
       a {
-        @apply text-black dark:text-white underline;
+        @apply text-black dark:text-gray-200 underline-offset-[4px] decoration-[1px] underline hover:text-blue-700 dark:hover:text-blue-700;
       }
     }
   }

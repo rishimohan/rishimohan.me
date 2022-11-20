@@ -46,9 +46,3 @@ all the templates
 
 - Added a new tool in Pika to 
 [generate Open Graph and marketing images](https://pika.style/open-graph-generator)
-
-
-**Update (April 18, 2022)**
-
-- Added a new tool in Pika to 
-[generate Open Graph and marketing images](https://pika.style/open-graph-generator)

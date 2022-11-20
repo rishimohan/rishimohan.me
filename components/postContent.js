@@ -10,14 +10,14 @@ export default function PostContent({ post }) {
       ) : (
         ""
       )}
-      <div className="text-center text-gray-400 dark:text-gray-600">
+      <div className="text-center text-gray-400 dark:text-gray-600 text-sm">
         {new Date(post?.date.slice(0, 10)).toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",
           day: "numeric",
         })}
       </div>
-      <h1 className="text-3xl mb-10 font-black md:text-4xl text-center max-w-[620px] mx-auto">
+      <h1 className="text-3xl mb-10 font-black md:text-4xl text-center max-w-[620px] mx-auto dark:text-white">
         {post.title}
       </h1>
       <div

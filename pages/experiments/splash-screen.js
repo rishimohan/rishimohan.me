@@ -39,11 +39,11 @@ export default function Splash() {
           </Link>
           <div>
             <h1 className="text-4xl font-black">Splash Screen</h1>
-            <p className="mt-10 text-xl opacity-50">
+            <p className="mt-10 text-lg opacity-50">
               A simple splash screen implementation for Web apps. It uses
               Tailwind CSS and React's state for animations.
             </p>
-            <p className="mt-10 text-xl opacity-50">
+            <p className="mt-10 text-lg opacity-50">
               I plan to eventually release it as a separate NPM package which
               can just be imported and ready to use. Till then it'll go under
               interations until it's right.

@@ -20,7 +20,7 @@ export default function Home() {
         }}
       />
 
-      <div className="flex items-start justify-center w-full mb-10 overflow-hidden max-h-[80vh] md:max-h-[50vh]">
+      <div className="flex items-start justify-center w-full mb-10 overflow-hidden max-h-[60vh] md:max-h-[50vh]">
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1_yNkyfqV1g9kKRz0el2r46viCfw7RBXj"
           width="100%"
@@ -28,7 +28,7 @@ export default function Home() {
         ></iframe>
       </div>
 
-      <article className="w-full px-10 pb-10 overflow-y-auto max-w-[620px] mx-auto">
+      <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
         <h2 className="mb-6 text-4xl font-bold md:text-5xl">The Wanderland!</h2>
         <div className="post-content">
           <p className="text-lg text-gray-500">
