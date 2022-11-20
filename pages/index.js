@@ -17,7 +17,7 @@ const TIMELINE = [
 
 const IMAGES = [
   {
-    src: "/images/pages/rishi-goa-2.JPG",
+    src: "/images/pages/rishi-goa-yellow.jpg",
     place: "Goa",
     className: "rotate-[-2deg]",
   },
