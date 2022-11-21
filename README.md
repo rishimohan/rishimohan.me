@@ -7,7 +7,7 @@
 
 ## Built with
 
-- Next.js 12
-- TailwindCSS 2.2
-- SASS
+- Next.js 13
+- TailwindCSS 3.2
+- Framer Motion
 
