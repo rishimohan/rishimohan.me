@@ -7,12 +7,12 @@ const TIMELINE = [
   {
     date: 'Nov 12, 2022',
     title: 'Pika crossed $1K in monthly recurring revenue',
-    description: '9 months into the building Pika, it is my first side-project to cross such big milestone'
+    description: '9 months into building Pika, it is my first side-project to cross such big milestone'
   },
   {
     date: 'Jan 02, 2022',
     title: 'Launched Pika.style as an open-source project',
-    description: 'Build this small tool to save my time designing better screenshots'
+    description: 'Built this small tool to save my time designing better screenshots'
   },
 ]
 
