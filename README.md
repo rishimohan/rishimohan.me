@@ -11,3 +11,7 @@
 - TailwindCSS 3.2
 - Framer Motion
 
+## License
+
+- Free for learning and personal purposes
+- Link to [rishimohan.me](https://rishimohan.me) mandatory for commercial usage
