@@ -58,7 +58,9 @@ export default function BlogList({ data, activeSlug }) {
                       activeSlug == post.slug ? "opacity-60" : "opacity-30"
                     )}
                   >
-                    {new Date(post?.date).toLocaleDateString("en-US", {
+                    {new Date(
+                      post?.date.split(" ").slice(0, -1).join(" ")
+                    ).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "short",
                       day: "numeric",
