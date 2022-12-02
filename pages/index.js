@@ -1,9 +1,21 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { MapPin, ArrowCircleRight, Camera, Star } from "phosphor-react";
+import {
+  MapPin,
+  ArrowCircleRight,
+  Camera,
+  Star,
+  ArrowSquareOut,
+} from "phosphor-react";
 import { motion } from 'framer-motion'
 
 const TIMELINE = [
+  {
+    date: 'Dec 01, 2022',
+    title: 'Joined Hive.one',
+    description: 'Joined Hive team as frontend engineer to build a new way to explore Twitter',
+    link: 'https://twitter.com/thelifeofrishi/status/1598692245401501696'
+  },
   {
     date: 'Nov 12, 2022',
     title: 'Pika crossed $1K in monthly recurring revenue',
@@ -175,9 +187,20 @@ export default function Home() {
                   />
                 </div>
                 <p className="opacity-40 text-xs">{item.date}</p>
-                <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base">
-                  {item.title}
+
+                <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
+                  <span className="">{item.title}</span>
+                  {item?.link ? (
+                    <Link href={item.link} target="_blank">
+                      <span className="inline-block ml-1 opacity-80">
+                        <ArrowSquareOut size={12} />
+                      </span>
+                    </Link>
+                  ) : (
+                    ""
+                  )}
                 </h3>
+
                 <p className="opacity-60 text-sm">{item.description}</p>
               </div>
             ))}
