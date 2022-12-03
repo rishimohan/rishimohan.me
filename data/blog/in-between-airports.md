@@ -32,7 +32,9 @@ made me feel alive and uneasy.
 
 ## Ambarsar
 
-![](/images/posts/ambarsar-golden-temple.mp4)
+<video autoplay controls loop>
+  <source src="/images/posts/ambarsar-golden-temple.mp4" type="video/mp4">
+</video>
 
 While my time at Ambarsar, I haven't really travelled,
 or did any touristy things. I just really wanted to see

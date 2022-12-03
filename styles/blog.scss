@@ -10,6 +10,10 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     position: relative;
   }
 
+  video {
+    @apply my-10 rounded-md;
+  }
+
   h1 {
     @apply text-2xl md:text-3xl;
   }

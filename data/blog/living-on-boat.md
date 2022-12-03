@@ -36,4 +36,6 @@ And he can't see the sea ending yet.
 Sometimes he looks back from the boat, only to realise he'll
 never find what he's looking for!?
 
-![](/images/posts/living-on-boat.mp4)
+<video autoplay controls loop>
+  <source src="/images/posts/living-on-boat.mp4" type="video/mp4">
+</video>
