@@ -3,7 +3,7 @@ layout: post
 title: "2022 Recap"
 date: 2022-12-30 13:00:00 +0530
 categories: personal
-excerpt: The good, the bads and alrights of 2021
+excerpt: I can recall some good fun days in Goa and Gurgaon, wandering in Hauz Khas, napping at a train station, cancelling plans, not calling back, working at 4am, making new friends, meeting my nephew for the first time...
 ---
 
 ![2022 Recap - Rishi Mohan](/images/posts/2022-recap.png)
