@@ -7,26 +7,29 @@ import {
   Star,
   ArrowSquareOut,
 } from "phosphor-react";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
 const TIMELINE = [
   {
-    date: 'Dec 01, 2022',
-    title: 'Joined Hive.one',
-    description: 'Joined Hive team as frontend engineer to build a new way to explore Twitter',
-    link: 'https://twitter.com/thelifeofrishi/status/1598692245401501696'
+    date: "Dec 01, 2022",
+    title: "Joined Hive.one",
+    description:
+      "Joined Hive team as frontend engineer to build a new way to explore Twitter",
+    link: "https://twitter.com/thelifeofrishi/status/1598692245401501696",
   },
   {
-    date: 'Nov 12, 2022',
-    title: 'Pika crossed $1K in monthly recurring revenue',
-    description: '9 months into building Pika, it is my first side-project to cross such big milestone'
+    date: "Nov 12, 2022",
+    title: "Pika crossed $1K in monthly recurring revenue",
+    description:
+      "9 months into building Pika, it is my first side-project to cross such big milestone",
   },
   {
-    date: 'Jan 02, 2022',
-    title: 'Launched Pika.style as an open-source project',
-    description: 'Built this small tool to save my time designing better screenshots'
+    date: "Jan 02, 2022",
+    title: "Launched Pika.style as an open-source project",
+    description:
+      "Built this small tool to save my time designing better screenshots",
   },
-]
+];
 
 const IMAGES = [
   {
@@ -48,16 +51,13 @@ const IMAGES = [
     src: "/images/pages/rishi-goa.JPG",
     place: "Goa",
     className: "rotate-[2deg]",
-  }
+  },
 ];
 
 const ContentWrapper = ({ children, className, width }) => (
   <div
-    style={{ maxWidth: `${width || '100%'}`}}
-    className={clsx(
-      "w-full px-5 mx-auto relative",
-      className
-    )}
+    style={{ maxWidth: `${width || "100%"}` }}
+    className={clsx("w-full px-5 mx-auto relative", className)}
   >
     {children}
   </div>
@@ -89,7 +89,11 @@ export default function Home() {
               <ul className="!mb-0">
                 <li>Designer, front-end engineer, entrepreneur</li>
                 <li>
-                  Worked at{" "}
+                  Working with{" "}
+                  <Link href="https://hive.one" target="_blank">
+                    Hive
+                  </Link>
+                  , previously at{" "}
                   <Link href="https://bigbinary.com" target="_blank">
                     BigBinary
                   </Link>
@@ -109,8 +113,8 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  Currently building{" "}
-                  <Link href="https://pika.style">Pika.style</Link> in side
+                  Currently building <Link href="https://pika.style">Pika</Link>{" "}
+                  in side
                 </li>
               </ul>
             </div>
@@ -127,7 +131,7 @@ export default function Home() {
         }}
       >
         <ContentWrapper width="520px" className="mt-10 dark:border-gray-800">
-          <h2 className="font-bold text-lg flex items-center">
+          <h2 className="font-semibold text-lg flex items-center">
             <Camera size={20} className="mr-2 opacity-40" />
             Some photos from recent trips
           </h2>
@@ -166,7 +170,7 @@ export default function Home() {
         }}
       >
         <ContentWrapper width="520px" className="mt-16 mb-4">
-          <h2 className="font-bold text-lg flex items-center">
+          <h2 className="font-semibold text-lg flex items-center">
             <Star size={20} className="mr-2 opacity-40" />
             Connecting dots backwards
           </h2>
