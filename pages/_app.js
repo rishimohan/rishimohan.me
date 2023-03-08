@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
                 url: "https://rishimohan.me/images/site/meta.jpg",
                 width: 800,
                 height: 600,
-                alt: "Kizie for Twitter",
+                alt: "Rishi Mohan",
               },
             ],
           }}
@@ -59,27 +59,7 @@ function MyApp({ Component, pageProps }) {
           additionalLinkTags={[
             {
               rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-ipad-retina-152x152.png",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-ipad-76x76.png",
-              sizes: "60x60",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-ipad-retina-152x152.png",
-              sizes: "144x144",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-iphone-60x60.png",
-              sizes: "60x60",
-            },
-            {
-              rel: "apple-touch-icon",
-              href: "/touch-icons/apple-touch-icon-iphone-retina-120x120.png",
-              sizes: "114x114",
+              href: "/touch-icons/main-icon.png",
             },
           ]}
         />

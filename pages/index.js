@@ -137,7 +137,7 @@ export default function Home() {
           </h2>
         </ContentWrapper>
 
-        <ContentWrapper className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[960px]">
+        <ContentWrapper className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[860px]">
           {IMAGES?.map((item) => (
             <div
               key={item.src}
