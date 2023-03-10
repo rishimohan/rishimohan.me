@@ -10,6 +10,13 @@ import {
 import { motion } from "framer-motion";
 
 const TIMELINE = [
+    {
+    date: "Mar 10, 2023",
+    title: "Pika crossed $2,000 MRR",
+    description:
+      "9 months for the first $1K MRR, ~4 months for the next :D",
+    link: "https://twitter.com/thelifeofrishi/status/1633760970823827456?s=20",
+  },
   {
     date: "Dec 01, 2022",
     title: "Joined Hive.one",
