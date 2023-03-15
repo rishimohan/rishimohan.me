@@ -10,11 +10,16 @@ import {
 import { motion } from "framer-motion";
 
 const TIMELINE = [
-    {
+  {
+    date: "Mar 12, 2023",
+    title: "Moved to Berlin",
+    description: "Always wanted to travel in the west :)",
+    link: "https://twitter.com/thelifeofrishi/status/1635590849475096577?s=20",
+  },
+  {
     date: "Mar 10, 2023",
     title: "Pika crossed $2,000 MRR",
-    description:
-      "9 months for the first $1K MRR, ~4 months for the next :D",
+    description: "9 months for the first $1K MRR, ~4 months for the next :D",
     link: "https://twitter.com/thelifeofrishi/status/1633760970823827456?s=20",
   },
   {
@@ -199,7 +204,7 @@ export default function Home() {
                 </div>
                 <p className="opacity-40 text-xs">{item.date}</p>
 
-                <h3 className="leading-tight mb-1 font-semibold text-sm md:text-base inline-block">
+                <h3 className="leading-tight mb-1 font-medium text-sm md:text-base inline-block">
                   <span className="">{item.title}</span>
                   {item?.link ? (
                     <Link href={item.link} target="_blank">
