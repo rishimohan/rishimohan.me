@@ -45,24 +45,64 @@ const TIMELINE = [
 
 const IMAGES = [
   {
+    src: "/images/pages/rishi-rome-1.jpeg",
+    place: "Rome, Italy",
+    className: "md:rotate-[-2deg]",
+  },
+  {
+    src: "/images/pages/rishi-nice.jpg",
+    place: "Nice, France",
+    className: "md:rotate-[-2deg]",
+  },
+  {
+    src: "/images/pages/rishi-nice-1.JPG",
+    place: "Nice, France",
+    className: "md:rotate-[2deg]",
+  },
+  {
+    src: "/images/pages/rishi-rome.jpeg",
+    place: "Rome, Italy",
+    className: "md:rotate-[-2deg]",
+  },
+  {
+    src: "/images/pages/rishi-nice-2.JPG",
+    place: "Nice, France",
+    className: "md:rotate-[2deg]",
+  },
+  {
+    src: "/images/pages/rishi-luxembourg.jpg",
+    place: "Luxembourg",
+    className: "md:rotate-[2deg]",
+  },
+  {
+    src: "/images/pages/rishi-berlin.jpeg",
+    place: "Berlin, Germany",
+    className: "md:rotate-[-2deg]",
+  },
+  {
+    src: "/images/pages/rishi-berlin-1.jpeg",
+    place: "Berlin, Germany",
+    className: "md:rotate-[2deg]",
+  },
+  {
     src: "/images/pages/rishi-goa-yellow.jpg",
-    place: "Goa",
-    className: "rotate-[-2deg]",
+    place: "Goa, India",
+    className: "md:rotate-[-2deg]",
   },
   {
     src: "/images/pages/rishi-holi-rishikesh.JPG",
-    place: "Rishikesh",
-    className: "rotate-[2deg]",
+    place: "Rishikesh, India",
+    className: "md:rotate-[2deg]",
   },
   {
     src: "/images/pages/rishi-triund.JPG",
-    place: "Triund",
-    className: "rotate-[-2deg]",
+    place: "Triund, India",
+    className: "md:rotate-[-2deg]",
   },
   {
     src: "/images/pages/rishi-goa.JPG",
-    place: "Goa",
-    className: "rotate-[2deg]",
+    place: "Goa, India",
+    className: "md:rotate-[2deg]",
   },
 ];
 
@@ -161,7 +201,7 @@ export default function Home() {
               <img
                 src={item?.src}
                 alt={item?.place}
-                className="rounded-[9px]"
+                className="rounded-[9px] object-cover w-full h-full"
                 loading="lazy"
               />
               <div className="font-mono text-xs absolute bottom-[4%] left-[4%] inline-flex bg-white/90 backdrop-blur rounded-[10px] px-2 py-px items-center dark:text-black">

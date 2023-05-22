@@ -15,6 +15,7 @@ import {
   InstagramLogo,
   GithubLogo,
   Coffee,
+  List
 } from "phosphor-react";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
@@ -177,10 +178,10 @@ export default function Sidebar() {
         {renderPrefs()}
       </motion.aside>
       <div
-        className="py-3 cursor-pointer text-sm fixed bottom-0 left-0 w-full md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
+        className="py-3 px-4 cursor-pointer text-sm fixed bottom-[2%] left-[4%] rounded-lg md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
         onClick={() => showMobileNav(!mobileNav)}
       >
-        {!mobileNav ? "Menu" : "Close"}
+        {!mobileNav ? <div className="flex items-center"><List className="mr-2" />Menu</div> : "Close"}
       </div>
       {mobileNav ? (
         <nav className="fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
