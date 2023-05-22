@@ -11,6 +11,12 @@ import { motion } from "framer-motion";
 
 const TIMELINE = [
   {
+    date: "May 03 to May 22, 2023",
+    title: "Turned 29, did a 3 week long birthday trip!",
+    description: "Travelled 4 different cities in 4 different European countries. Made great memories :)",
+    // link: "https://twitter.com/thelifeofrishi/status/1635590849475096577?s=20",
+  },
+  {
     date: "Mar 12, 2023",
     title: "Moved to Berlin",
     description: "Always wanted to travel in the west :)",
