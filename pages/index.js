@@ -45,62 +45,62 @@ const TIMELINE = [
 
 const IMAGES = [
   {
-    src: "/images/pages/rishi-rome-1.jpeg",
+    src: "/images/pages/home/rishi-rome-1.jpeg",
     place: "Rome, Italy",
     className: "md:rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-nice.jpg",
+    src: "/images/pages/home/rishi-nice.jpg",
     place: "Nice, France",
     className: "md:rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-nice-1.JPG",
+    src: "/images/pages/home/rishi-nice-1.jpg",
     place: "Nice, France",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/rishi-rome.jpeg",
+    src: "/images/pages/home/rishi-rome.jpeg",
     place: "Rome, Italy",
     className: "md:rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-nice-2.JPG",
+    src: "/images/pages/home/rishi-nice-2.jpg",
     place: "Nice, France",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/rishi-luxembourg.jpg",
+    src: "/images/pages/home/rishi-luxembourg.jpg",
     place: "Luxembourg",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/rishi-berlin.jpeg",
+    src: "/images/pages/home/rishi-berlin.jpeg",
     place: "Berlin, Germany",
     className: "md:rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-berlin-1.jpeg",
+    src: "/images/pages/home/rishi-berlin-1.jpeg",
     place: "Berlin, Germany",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/rishi-goa-yellow.jpg",
+    src: "/images/pages/home/rishi-goa-yellow.jpg",
     place: "Goa, India",
     className: "md:rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-holi-rishikesh.JPG",
+    src: "/images/pages/home/rishi-holi-rishikesh.jpg",
     place: "Rishikesh, India",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/rishi-triund.JPG",
+    src: "/images/pages/home/rishi-triund.jpg",
     place: "Triund, India",
     className: "md:rotate-[-2deg]",
   },
   {
-    src: "/images/pages/rishi-goa.JPG",
+    src: "/images/pages/home/rishi-goa.jpg",
     place: "Goa, India",
     className: "md:rotate-[2deg]",
   },
