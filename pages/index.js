@@ -13,7 +13,8 @@ const TIMELINE = [
   {
     date: "May 03 to May 22, 2023",
     title: "Turned 29, did a 3 week long birthday trip!",
-    description: "Travelled 4 different cities in 4 different European countries. Made great memories :)",
+    description:
+      "Travelled 4 different cities in 4 different European countries. Made great memories :)",
     // link: "https://twitter.com/thelifeofrishi/status/1635590849475096577?s=20",
   },
   {
@@ -134,18 +135,23 @@ export default function Home() {
       >
         <ContentWrapper
           width="520px"
-          className="mx-auto relative grid grid-cols-1 gap-10 mt-10 md:mt-20"
+          className="mx-auto relative grid grid-cols-1 gap-10 mt-10 md:mt-8"
         >
           <div className="">
-            <h2 className="mb-6 text-3xl font-black md:text-4xl dark:text-white">
+            <h2 className="mb-6 text-3xl font-black md:text-5xl dark:text-white">
               <span className="text-gray-400 dark:text-gray-400">
                 Hi 👋, I'm{" "}
               </span>
+              <br />
               Rishi Mohan!
             </h2>
             <div className="post-content">
               <ul className="!mb-0">
-                <li>Designer, front-end engineer, entrepreneur</li>
+                <li>Design engineer, entrepreneur based in Berlin</li>
+                <li>
+                  Building <Link href="https://pika.style">Pika</Link>(design
+                  tool at $2,500 MRR and growing)
+                </li>
                 <li>
                   Working with{" "}
                   <Link href="https://hive.one" target="_blank">
@@ -160,7 +166,7 @@ export default function Home() {
                     Instahyre
                   </Link>
                 </li>
-                <li>Love to travel, explore and capture life</li>
+
                 <li>
                   Kinda active on Twitter{" "}
                   <Link
@@ -170,17 +176,15 @@ export default function Home() {
                     @thelifeofrishi
                   </Link>
                 </li>
-                <li>
-                  Currently building <Link href="https://pika.style">Pika</Link>{" "}
-                  in side
-                </li>
+
+                <li>Love to travel, explore and capture life</li>
               </ul>
             </div>
           </div>
         </ContentWrapper>
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{
           opacity: 1,
@@ -195,13 +199,13 @@ export default function Home() {
           </h2>
         </ContentWrapper>
 
-        <ContentWrapper className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[860px]">
+        <ContentWrapper className="flex flex-nowrap my-6 md:my-12 justify-center gap-5 md:gap-10 !max-w-[860px] overflow-x-scroll">
           {IMAGES?.map((item) => (
             <div
               key={item.src}
               className={clsx(
                 item?.className,
-                "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700"
+                "relative border p-[4px] shadow-[0_0_32px_rgba(0,0,0,0.1)] rounded-[12px] dark:border-gray-700 min-w-[200px]"
               )}
             >
               <img
@@ -217,7 +221,7 @@ export default function Home() {
             </div>
           ))}
         </ContentWrapper>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -227,7 +231,7 @@ export default function Home() {
           transition: { duration: 0.35, delay: 0.4 },
         }}
       >
-        <ContentWrapper width="520px" className="mt-16 mb-4">
+        <ContentWrapper width="520px" className="mt-12 mb-4">
           <h2 className="font-semibold text-lg flex items-center">
             <Star size={20} className="mr-2 opacity-40" />
             Connecting dots backwards

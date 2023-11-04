@@ -15,7 +15,7 @@ import {
   InstagramLogo,
   GithubLogo,
   Coffee,
-  List
+  List,
 } from "phosphor-react";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
@@ -121,10 +121,10 @@ export default function Sidebar() {
                 href={link.url}
                 target={link.external ? "_blank" : ""}
                 className={clsx(
-                  "flex items-center w-full py-[6px] px-3 mb-1 transition-all duration-150 ease-in-out rounded-lg",
+                  "flex items-center w-full py-[6px] px-3 mb-1 transition-all duration-150 ease-in-out rounded-lg border",
                   link?.active
-                    ? "bg-white text-black shadow-[0_1px_3px_rgba(0,0,0,0.12)] dark:shadow-[0_1px_3px_rgba(0,0,0,0.3)] font-semibold dark:bg-gray-800 dark:text-white"
-                    : "text-gray-800 dark:text-gray-400 hover:bg-white hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:hover:shadow-[0_1px_3px_rgba(0,0,0,0.3)] dark:hover:bg-gray-800"
+                    ? "bg-white text-black shadow-[0_0px_5px_rgba(0,0,0,0.07)] dark:shadow-[0_1px_3px_rgba(0,0,0,0.3)] font-semibold dark:bg-gray-800 dark:text-white border-gray-200 dark:border-gray-700/60"
+                    : "text-gray-800 dark:text-gray-400 hover:bg-white hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:hover:shadow-[0_1px_3px_rgba(0,0,0,0.3)] dark:hover:bg-gray-800 border-transparent"
                 )}
               >
                 <span className="min-w-[24px] mr-[2px] opacity-80">
@@ -181,7 +181,14 @@ export default function Sidebar() {
         className="py-3 px-4 cursor-pointer text-sm fixed bottom-[2%] left-[4%] rounded-lg md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
         onClick={() => showMobileNav(!mobileNav)}
       >
-        {!mobileNav ? <div className="flex items-center"><List className="mr-2" />Menu</div> : "Close"}
+        {!mobileNav ? (
+          <div className="flex items-center">
+            <List className="mr-2" />
+            Menu
+          </div>
+        ) : (
+          "Close"
+        )}
       </div>
       {mobileNav ? (
         <nav className="fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
