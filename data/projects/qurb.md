@@ -4,7 +4,7 @@ title: "Qurb"
 slug: qurb
 web: "http://qurb.rishimohan.me"
 tech: ["React.js", "SCSS"]
-
+tagline: Free tool to design device mockups
 ---
 
 ![Qurb Screenshot](/images/work/show/qurb-post.png)

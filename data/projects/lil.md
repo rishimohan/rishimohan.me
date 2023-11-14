@@ -5,12 +5,12 @@ title: "lil UI"
 web: "https://lil.rishimohan.me"
 tech: ["React.js", "Styled Component", "Components"]
 icon: "/images/work/show/lil-icon.png"
-
+tagline: UI Components library
 ---
 
 ![lil UI](/images/work/show/lil-post.png)
 
-Minimalistic SIY(style it yourself) UI components for your React project. 
+Minimalistic SIY(style it yourself) UI components for your React project.
 Current list of components:
 
 - Modal
@@ -20,5 +20,6 @@ Current list of components:
 ---
 
 Links:
+
 - [Code on Github](https://github.com/rishimohan/lil-ui)
 - [Docs and Preview](https://lil.rishimohan.me)

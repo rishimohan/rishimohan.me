@@ -22,6 +22,10 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     @apply text-xl md:text-2xl;
   }
 
+  h3 {
+    @apply text-xl md:text-xl;
+  }
+
   & > * {
     @apply max-w-[580px] mx-auto;
   }
@@ -101,7 +105,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   pre {
-    @apply bg-gray-100 dark:bg-gray-900 dark:border-gray-800 p-5 w-full break-words rounded-lg border border-gray-200 overflow-auto mb-10 text-sm;
+    @apply bg-gray-100 dark:bg-gray-800 dark:border-gray-700 p-5 w-full break-words rounded-lg border border-gray-200 overflow-auto mb-10 text-sm;
 
     & > code {
       @apply whitespace-pre-wrap;
@@ -161,7 +165,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     @apply my-10 border-l-2 border-gray-300 pl-5;
 
     p {
-      @apply text-black dark:text-white text-xl;
+      @apply text-xl;
     }
   }
 
@@ -187,10 +191,10 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
   }
 
   p {
-    @apply text-[1rem] md:text-[1.05rem] mb-8 text-gray-700 dark:text-gray-300 leading-[1.5];
+    @apply text-[1rem] md:text-[1.05rem] mb-8;
 
     code {
-      @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];
+      @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-300 dark:bg-gray-700  shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];
     }
 
     a {
@@ -240,7 +244,7 @@ $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
     @apply mb-10;
 
     li {
-      @apply text-[1rem] md:text-[1.05rem] text-gray-800 list-disc list-outside ml-5 mb-2 dark:text-gray-300;
+      @apply text-[1rem] md:text-[1.05rem] list-disc list-outside ml-5 mb-2 ;
 
       code {
         @apply font-mono text-sm border border-gray-200 dark:border-gray-800 px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)];

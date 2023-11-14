@@ -6,7 +6,8 @@ tech: ["React Native", "TailwindRN", "Firebase"]
 web: http://maazi.vercel.app/
 ios: https://apps.apple.com/us/app/maazi-personal-diary/id1535320472
 icon: /images/work/show/maazi-icon.png
-
+active: true
+tagline: Journaling app for iOS and Web
 ---
 
 ![Maazi Screenshot](/images/work/show/maazi-app.png)

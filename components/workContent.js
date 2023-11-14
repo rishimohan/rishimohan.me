@@ -1,5 +1,5 @@
-import {ExternalLinkIcon, AppleIcon} from "lib/icons"
-import { motion } from 'framer-motion'
+import { ExternalLinkIcon, AppleIcon } from "lib/icons";
+import { motion } from "framer-motion";
 
 export default function WorkContent({ post }) {
   return (
@@ -11,7 +11,7 @@ export default function WorkContent({ post }) {
         y: 0,
         transition: { duration: 0.25 },
       }}
-      className="inline-flex flex-col items-center justify-start w-full h-screen px-5 md:px-10 pt-10 pb-32 overflow-y-auto"
+      className="inline-flex flex-col items-center justify-start w-full pb-32"
     >
       {post?.icon ? (
         <div className="w-12 h-12 mx-auto mb-5">

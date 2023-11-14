@@ -1,17 +1,10 @@
-import {ExternalLinkIcon} from "lib/icons"
-import { motion } from 'framer-motion'
+import { ExternalLinkIcon } from "lib/icons";
 
 export default function PostContent({ post }) {
   return (
-    <motion.div
+    <div
       key={post.title}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.25 },
-      }}
-      className="inline-flex flex-col items-center justify-start w-full h-screen px-5 md:px-10 pt-10 pb-32 overflow-y-auto"
+      className="inline-flex flex-col items-center justify-start w-full"
     >
       {post?.link && post?.image ? (
         <div className="max-w-[620px] mx-auto">
@@ -20,7 +13,7 @@ export default function PostContent({ post }) {
       ) : (
         ""
       )}
-      <div className="text-center text-gray-400 dark:text-gray-600 text-sm">
+      <div className="text-center text-gray-400 dark:text-gray-400 text-sm">
         {new Date(post?.date.slice(0, 10)).toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",
@@ -46,6 +39,6 @@ export default function PostContent({ post }) {
       ) : (
         ""
       )}
-    </motion.div>
+    </div>
   );
 }

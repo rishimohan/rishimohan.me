@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 body {
-  @apply dark:text-white dark:bg-[#121212];
+  @apply text-gray-700 dark:text-gray-300 dark:bg-gray-900 antialiased leading-[1.7];
   font-family: 'IBM Plex Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+// a {
+//   @apply border-b border-gray-200 hover:border-gray-400 text-gray-900;
+// }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  @apply text-black dark:text-gray-200;
+}
+
+.twitter-tweet {
+  max-width: 500px !important;
+  margin: 32px 0 !important;
 }

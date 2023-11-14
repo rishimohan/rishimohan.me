@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Button } from "ui";
 import {
   Newspaper,
   IdentificationCard,
@@ -13,6 +14,7 @@ import {
   At,
   TwitterLogo,
   InstagramLogo,
+  LinkedinLogo,
   GithubLogo,
   Coffee,
   List,
@@ -25,6 +27,29 @@ export default function Sidebar() {
   const { pathname } = useRouter();
   const [mobileNav, showMobileNav] = useState(false);
   const { theme, setTheme } = useTheme();
+
+  const SOCIAL_LINKS = [
+    {
+      title: "Twitter",
+      url: "https://twitter.com/thelifeofrishi",
+      icon: <TwitterLogo />,
+    },
+    {
+      title: "Instagram",
+      url: "https://instagram.com/thelifeofrishi",
+      icon: <InstagramLogo />,
+    },
+    {
+      title: "LinkedIn",
+      url: "https://linkedin.com/in/qaplen",
+      icon: <LinkedinLogo />,
+    },
+    {
+      title: "Github",
+      url: "https://github.com/rishimohan",
+      icon: <GithubLogo />,
+    },
+  ];
 
   const LINKS = [
     {
@@ -39,31 +64,31 @@ export default function Sidebar() {
       icon: <Note size={16} />,
       active: pathname.includes("/blog"),
     },
-    {
-      title: "Side Projects",
-      url: "/projects",
-      icon: <BracketsCurly size={16} />,
-      active: pathname.includes("/projects"),
-    },
-    {
-      title: "Experiments",
-      url: "/experiments",
-      icon: <Flask size={16} />,
-      active: pathname.includes("/experiments"),
-    },
+    // {
+    //   title: "Side Projects",
+    //   url: "/projects",
+    //   icon: <BracketsCurly size={16} />,
+    //   active: pathname.includes("/projects"),
+    // },
+    // {
+    //   title: "Experiments",
+    //   url: "/experiments",
+    //   icon: <Flask size={16} />,
+    //   active: pathname.includes("/experiments"),
+    // },
     {
       title: "Travel Map",
       url: "/map",
       icon: <Compass size={16} />,
       active: pathname === "/map",
     },
-    {
-      title: "Newsletter",
-      url: "https://thelifeofrishi.substack.com",
-      icon: <Newspaper size={16} />,
-      active: false,
-      external: true,
-    },
+    // {
+    //   title: "Newsletter",
+    //   url: "https://thelifeofrishi.substack.com",
+    //   icon: <Newspaper size={16} />,
+    //   active: false,
+    //   external: true,
+    // },
     {
       title: "Resume",
       url: "https://peerlist.io/rishimohan",
@@ -108,31 +133,24 @@ export default function Sidebar() {
 
   const RenderLinks = ({ sectionTitle, sectionItems }) => {
     return (
-      <div className="mb-2">
-        {sectionTitle ? (
-          <h4 className="px-4 mt-4 mb-2 text-gray-500">{sectionTitle}</h4>
-        ) : (
-          ""
-        )}
-        <div>
+      <>
+        <div className="flex md:flex-row flex-col space-y-2 my-2 md:my-0 px-2 md:px-0 md:space-y-0">
           {sectionItems.map((link) => (
-            <div className="px-2" key={link.title}>
+            <div className="px-1" key={link.title}>
               <Link
                 href={link.url}
                 target={link.external ? "_blank" : ""}
                 className={clsx(
-                  "flex items-center w-full py-[6px] px-3 mb-1 transition-all duration-150 ease-in-out rounded-lg border",
+                  "flex items-center w-full py-[3px] px-[8px] transition-all duration-150 ease-in-out rounded-lg ",
                   link?.active
-                    ? "bg-white text-black shadow-[0_0px_5px_rgba(0,0,0,0.07)] dark:shadow-[0_1px_3px_rgba(0,0,0,0.3)] font-semibold dark:bg-gray-800 dark:text-white border-gray-200 dark:border-gray-700/60"
-                    : "text-gray-800 dark:text-gray-400 hover:bg-white hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)] dark:hover:shadow-[0_1px_3px_rgba(0,0,0,0.3)] dark:hover:bg-gray-800 border-transparent"
+                    ? "bg-gray-200 dark:bg-gray-700 backdrop-blur-md"
+                    : "text-gray-800 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-800"
                 )}
               >
-                <span className="min-w-[24px] mr-[2px] opacity-80">
-                  {link?.icon}
-                </span>
+                {/* <span className="mr-[3px] opacity-80">{link?.icon}</span> */}
                 <span>{link?.title}</span>
                 {link?.external ? (
-                  <span className="ml-auto text-gray-400 dark:text-gray-600">
+                  <span className="ml-1 text-gray-400 dark:text-gray-600">
                     <ArrowSquareOut size={14} />
                   </span>
                 ) : (
@@ -142,7 +160,7 @@ export default function Sidebar() {
             </div>
           ))}
         </div>
-      </div>
+      </>
     );
   };
 
@@ -167,28 +185,40 @@ export default function Sidebar() {
   };
 
   return (
-    <>
-      <motion.aside
-        initial={{ opacity: 0, x: -200 }}
-        animate={{ opacity: 1, x: 0, transition: { duration: 0.35 } }}
-        className="h-screen sticky top-0 overflow-auto bg-gray-100 dark:bg-gray-900 pt-6 pb-10 md:flex flex-col flex-none hidden text-sm w-full max-w-[220px] px-1 border-r border-gray-200/50 dark:border-gray-800/50"
-      >
-        <RenderLinks sectionItems={LINKS} />
-        <RenderLinks sectionItems={SOCIAL} sectionTitle="Elsewhere" />
-        {renderPrefs()}
-      </motion.aside>
-      <div
-        className="py-3 px-4 cursor-pointer text-sm fixed bottom-[2%] left-[4%] rounded-lg md:hidden z-10 bg-white/60 dark:bg-black/50 dark:border-gray-800 backdrop-blur text-center border-t border-gray-200 flex items-center justify-center shadow-lg"
-        onClick={() => showMobileNav(!mobileNav)}
-      >
-        {!mobileNav ? (
-          <div className="flex items-center">
-            <List className="mr-2" />
-            Menu
+    <div className="fixed w-full top-0 left-0 z-20 flex items-center justify-center bg-gradient-to-b from-white via-white dark:from-gray-900 dark:via-gray-900">
+      <div className="max-w-[620px] w-full hidden md:flex">
+        <aside className="sticky top-[30px] overflow-auto flex text-sm px-4 py-2 rounded-[12px] mt-2 w-full">
+          <RenderLinks sectionItems={LINKS} />
+          {/* <RenderLinks sectionItems={SOCIAL} sectionTitle="Elsewhere" /> */}
+          {/* {renderPrefs()} */}
+          <div className="flex gap-3 items-center ml-auto">
+            {SOCIAL_LINKS?.map((item) => (
+              <Link
+                className="text-lg opacity-50 hover:opacity-80"
+                href={item?.url}
+                target="_blank"
+              >
+                {item?.icon}
+              </Link>
+            ))}
           </div>
-        ) : (
-          "Close"
-        )}
+        </aside>
+      </div>
+      <div className="text-sm fixed left-0 bottom-0 p-2 rounded-full w-full md:hidden z-10 text-center flex items-center justify-center">
+        <Button
+          variant="secondary"
+          className="w-full !py-2"
+          onClick={() => showMobileNav(!mobileNav)}
+        >
+          {!mobileNav ? (
+            <div className="flex items-center">
+              <List className="mr-2" />
+              Menu
+            </div>
+          ) : (
+            "Close"
+          )}
+        </Button>
       </div>
       {mobileNav ? (
         <nav className="fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
@@ -203,7 +233,7 @@ export default function Sidebar() {
           <div className="border border-b-0 border-gray-200 bg-white/70 backdrop-filter backdrop-blur dark:bg-gray-900/90 dark:border-gray-700 bottom-0 absolute left-0 w-full py-6 rounded-t-lg text-sm">
             {mobileNav ? (
               <div>
-                <div onClick={() => showMobileNav(false)}>
+                <div onClick={() => showMobileNav(false)} className="">
                   <RenderLinks sectionItems={LINKS} />
                   <RenderLinks sectionItems={SOCIAL} sectionTitle="Social" />
                 </div>
@@ -217,6 +247,6 @@ export default function Sidebar() {
       ) : (
         ""
       )}
-    </>
+    </div>
   );
 }

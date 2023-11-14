@@ -32,7 +32,7 @@ export function getPostBySlug(slug, fields = []) {
   return items;
 }
 
-export function getAllPosts(fields = []) {
+export function getAllProjects(fields = []) {
   const slugs = getPostSlugs();
   const posts = slugs
     .map((slug) => getPostBySlug(slug, fields))

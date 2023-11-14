@@ -1,6 +1,7 @@
-import {BlogList} from 'components'
-import {getAllPosts} from "pages/api/blog"
-import {NextSeo} from "next-seo";
+import { BlogList } from "components";
+import { getAllPosts } from "pages/api/blog";
+import { NextSeo } from "next-seo";
+import { ContentWrapper } from "ui";
 
 export default function Blog({ allPosts }) {
   return (
@@ -21,7 +22,10 @@ export default function Blog({ allPosts }) {
         }}
       />
 
-      <BlogList data={allPosts} />
+      <ContentWrapper width="620px">
+        <h2 className="font-medium text-black text-2xl mb-4 mt-10">Blog</h2>
+        <BlogList data={allPosts} />
+      </ContentWrapper>
     </>
   );
 }
@@ -34,7 +38,7 @@ export async function getStaticProps() {
     "author",
     "image",
     "excerpt",
-    "external"
+    "external",
   ]);
 
   return {

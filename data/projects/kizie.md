@@ -5,9 +5,8 @@ title: "Kizie"
 web: "https://kizie.co"
 tech: ["Next.js", "TailwindCSS", "Supabase"]
 icon: "/images/work/show/kizie-icon.png"
-
+tagline: Twitter client for Web
 ---
-
 
 Twitter Web app for people who love tweeting, with undo tweet, tweet threads, quick media preview and more powerful features.
 

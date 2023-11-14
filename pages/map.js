@@ -1,5 +1,5 @@
 import Head from "next/head";
-import {NextSeo} from "next-seo";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
@@ -29,9 +29,9 @@ export default function Home() {
       </div>
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
-        <h2 className="mb-6 text-4xl font-bold md:text-5xl">The Wanderland!</h2>
-        <div className="post-content">
-          <p className="text-lg text-gray-500">
+        <h2 className="mb-6 text-2xl md:text-3xl font-bold">The Wanderland!</h2>
+        <div className="post-content leading-[1.7]">
+          <p className="">
             I didn't know I would love travelling so much until back in 2017
             December when I first decided to do a solo to Udaipur. It was my
             first time out alone and god I felt scared but excited at the same

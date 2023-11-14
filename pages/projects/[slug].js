@@ -1,8 +1,9 @@
 import { useRouter } from "next/router";
 import { WorkList, WorkContent } from "components";
-import {NextSeo} from "next-seo"
-import {getAllPosts, getPostBySlug} from "pages/api/projects";
+import { NextSeo } from "next-seo";
+import { getAllProjects, getPostBySlug } from "pages/api/projects";
 import md2html from "lib/md2html";
+import { ContentWrapper } from "ui";
 
 export default function Post({ allPosts, post }) {
   const router = useRouter();
@@ -12,14 +13,17 @@ export default function Post({ allPosts, post }) {
   }
 
   return (
-    <div className="flex w-full">
+    <div className="flex w-full pt-12">
       <NextSeo
         title={`${post.title} - Rishi Mohan`}
-        description={post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || ""}
+        description={
+          post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, "") || ""
+        }
         openGraph={{
           site_name: `${post.title} - Rishi Mohan`,
           title: `${post.title} - Rishi Mohan`,
-          description: post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, '') || "",
+          description:
+            post.content.slice(0, 200)?.replace(/<[^>]*>?/gm, "") || "",
         }}
         twitter={{
           handle: "@thelifeofrishi",
@@ -27,14 +31,15 @@ export default function Post({ allPosts, post }) {
           cardType: "summary_large_image",
         }}
       />
-      <WorkList allPosts={allPosts} activeSlug={post?.slug} />
-      <WorkContent post={post} />
+      <ContentWrapper width="620px">
+        <WorkContent post={post} />
+      </ContentWrapper>
     </div>
   );
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = getAllPosts([
+  const allPosts = getAllProjects([
     "title",
     "date",
     "slug",
@@ -43,7 +48,7 @@ export async function getStaticProps({ params }) {
     "excerpt",
     "content",
     "link",
-    "icon"
+    "icon",
   ]);
 
   const post = getPostBySlug(params.slug, [
@@ -57,7 +62,7 @@ export async function getStaticProps({ params }) {
     "tech",
     "web",
     "ios",
-    "icon"
+    "icon",
   ]);
 
   const content = await md2html(post.content || post.excerpt || "");
@@ -74,7 +79,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
+  const posts = getAllProjects(["slug"]);
 
   return {
     paths: posts.map((post) => {
