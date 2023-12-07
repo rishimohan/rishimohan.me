@@ -64,12 +64,12 @@ export default function Sidebar() {
       icon: <Note size={16} />,
       active: pathname.includes("/blog"),
     },
-    // {
-    //   title: "Side Projects",
-    //   url: "/projects",
-    //   icon: <BracketsCurly size={16} />,
-    //   active: pathname.includes("/projects"),
-    // },
+    {
+      title: "Projects",
+      url: "/projects",
+      icon: <BracketsCurly size={16} />,
+      active: pathname.includes("/projects"),
+    },
     // {
     //   title: "Experiments",
     //   url: "/experiments",
@@ -185,7 +185,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="fixed w-full top-0 left-0 z-20 flex items-center justify-center bg-gradient-to-b from-white via-white dark:from-gray-900 dark:via-gray-900">
+    <div className="fixed w-full top-0 left-0 z-20 flex items-center justify-center bg-gradient-to-b from-white via-white dark:from-gray-900 dark:via-gray-900 -mx-2">
       <div className="max-w-[620px] w-full hidden md:flex">
         <aside className="sticky top-[30px] overflow-auto flex text-sm px-4 py-2 rounded-[12px] mt-2 w-full">
           <RenderLinks sectionItems={LINKS} />

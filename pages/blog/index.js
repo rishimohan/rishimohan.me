@@ -23,7 +23,7 @@ export default function Blog({ allPosts }) {
       />
 
       <ContentWrapper width="620px">
-        <h2 className="font-medium text-black text-2xl mb-4 mt-10">Blog</h2>
+        <h2 className="font-medium text-black text-2xl mb-4 mt-4">Blog</h2>
         <BlogList data={allPosts} />
       </ContentWrapper>
     </>

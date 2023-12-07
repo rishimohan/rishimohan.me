@@ -1,16 +1,9 @@
 import { ExternalLinkIcon, AppleIcon } from "lib/icons";
-import { motion } from "framer-motion";
 
 export default function WorkContent({ post }) {
   return (
-    <motion.div
+    <div
       key={post.title}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.25 },
-      }}
       className="inline-flex flex-col items-center justify-start w-full pb-32"
     >
       {post?.icon ? (
@@ -70,6 +63,6 @@ export default function WorkContent({ post }) {
         dangerouslySetInnerHTML={{ __html: post?.content }}
         className="inline-block mx-auto post-content"
       />
-    </motion.div>
+    </div>
   );
 }

@@ -13,7 +13,7 @@ export default function Post({ allPosts, post }) {
   }
 
   return (
-    <div className="flex w-full pt-12">
+    <div className="flex w-full md:pt-5">
       <NextSeo
         title={`${post.title} - Rishi Mohan`}
         description={

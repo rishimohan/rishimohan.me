@@ -27,7 +27,7 @@ export default function Post({ allPosts, post, morePosts, preview }) {
   }
 
   return (
-    <div className="flex w-full pt-12">
+    <div className="flex w-full md:pt-5">
       <NextSeo
         title={`${post.title} - Rishi Mohan`}
         description={post.excerpt || post.content.slice(0, 200) || ""}
