@@ -3,12 +3,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Button } from "ui";
 import {
-  Newspaper,
   IdentificationCard,
   House,
   Note,
   BracketsCurly,
-  Flask,
   Compass,
   ArrowSquareOut,
   At,
@@ -17,9 +15,9 @@ import {
   LinkedinLogo,
   GithubLogo,
   Coffee,
-  List,
   X,
   CaretUp,
+  Envelope,
 } from "phosphor-react";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
@@ -31,6 +29,11 @@ export default function Sidebar() {
   const { theme, setTheme } = useTheme();
 
   const SOCIAL_LINKS = [
+    {
+      title: "Email",
+      url: "mailto:hi@rishimohan.me",
+      icon: <Envelope />,
+    },
     {
       title: "Twitter",
       url: "https://twitter.com/thelifeofrishi",
@@ -55,7 +58,12 @@ export default function Sidebar() {
 
   const LINKS = [
     {
-      title: "Home",
+      title: (
+        <div className="md:w-5 md:h-5 flex items-center justify-center">
+          <House size={16} className="hidden md:flex" />
+          <span className="flex md:hidden">Home</span>
+        </div>
+      ),
       url: "/",
       icon: <House size={16} />,
       active: pathname === "/",
@@ -119,12 +127,12 @@ export default function Sidebar() {
       icon: <InstagramLogo size={16} />,
       external: true,
     },
-    {
-      title: "Buy me a Coffee",
-      url: `https://www.buymeacoffee.com/thelifeofrishi`,
-      icon: <Coffee size={16} />,
-      external: true,
-    },
+    // {
+    //   title: "Buy me a Coffee",
+    //   url: `https://www.buymeacoffee.com/thelifeofrishi`,
+    //   icon: <Coffee size={16} />,
+    //   external: true,
+    // },
     {
       title: "hi@rishimohan.me",
       url: `mailto:hi@rishimohan.me`,
