@@ -18,10 +18,12 @@ import {
   GithubLogo,
   Coffee,
   List,
+  X,
+  CaretUp,
 } from "phosphor-react";
 import clsx from "clsx";
 import { useTheme } from "next-themes";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function Sidebar() {
   const { pathname } = useRouter();
@@ -134,14 +136,14 @@ export default function Sidebar() {
   const RenderLinks = ({ sectionTitle, sectionItems }) => {
     return (
       <>
-        <div className="flex md:flex-row flex-col space-y-2 my-2 md:my-0 px-2 md:px-0 md:space-y-0">
+        <div className="flex md:flex-row flex-col space-y-2 my-2 md:my-0 px-2 md:px-0 md:space-y-0 text-base md:text-sm">
           {sectionItems.map((link) => (
             <div className="px-1" key={link.title}>
               <Link
                 href={link.url}
                 target={link.external ? "_blank" : ""}
                 className={clsx(
-                  "flex items-center w-full py-[3px] px-[8px] transition-all duration-150 ease-in-out rounded-lg ",
+                  "flex items-center w-full py-[6px] md:py-[3px] px-[8px] transition-all duration-150 ease-in-out rounded-lg ",
                   link?.active
                     ? "bg-gray-200 dark:bg-gray-700 backdrop-blur-md"
                     : "text-gray-800 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-800"
@@ -207,12 +209,12 @@ export default function Sidebar() {
       <div className="text-sm fixed left-0 bottom-0 p-2 rounded-full w-full md:hidden z-10 text-center flex items-center justify-center">
         <Button
           variant="secondary"
-          className="w-full !py-2"
+          className="w-full !py-[12px] dark:!shadow-[0_0_20px_rgba(0,0,0,0.7)] shadow-[0_0_20px_rgba(0,0,0,0.1)] bg-white/70 backdrop-blur-md dark:bg-black/70"
           onClick={() => showMobileNav(!mobileNav)}
         >
           {!mobileNav ? (
             <div className="flex items-center">
-              <List className="mr-2" />
+              <CaretUp className="mr-2" />
               Menu
             </div>
           ) : (
@@ -220,33 +222,50 @@ export default function Sidebar() {
           )}
         </Button>
       </div>
-      {mobileNav ? (
-        <nav className="fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
-          {mobileNav ? (
-            <div
-              className="absolute inset-0 bg-black/20 dark:bg-black/50 w-full h-full"
-              onClick={() => showMobileNav(false)}
-            />
-          ) : (
-            ""
-          )}
-          <div className="border border-b-0 border-gray-200 bg-white/70 backdrop-filter backdrop-blur dark:bg-gray-900/90 dark:border-gray-700 bottom-0 absolute left-0 w-full py-6 rounded-t-lg text-sm">
+      <AnimatePresence>
+        {mobileNav ? (
+          <nav className="fixed bottom-0 left-0 z-10 block w-full p-2 md:hidden h-full">
             {mobileNav ? (
-              <div>
-                <div onClick={() => showMobileNav(false)} className="">
-                  <RenderLinks sectionItems={LINKS} />
-                  <RenderLinks sectionItems={SOCIAL} sectionTitle="Social" />
-                </div>
-                {renderPrefs()}
-              </div>
+              <div
+                className="absolute inset-0 bg-black/20 dark:bg-black/50 w-full h-full "
+                onClick={() => showMobileNav(false)}
+              />
             ) : (
               ""
             )}
-          </div>
-        </nav>
-      ) : (
-        ""
-      )}
+
+            <motion.div
+              initial={{ y: 50 }}
+              animate={{ y: 0 }}
+              exit={{ y: 200, transition: { duration: 0.1 } }}
+              className="border border-b-0 border-gray-200 bg-white/90 backdrop-filter backdrop-blur dark:bg-gray-900/90 dark:border-gray-700 bottom-0 absolute left-0 w-full py-4 rounded-t-lg text-sm"
+            >
+              {mobileNav ? (
+                <div>
+                  <div onClick={() => showMobileNav(false)} className="">
+                    <div className="absolute top-[-50px] right-[10px] z-20">
+                      <Button
+                        variant="secondary"
+                        className="w-full !py-2"
+                        onClick={() => showMobileNav(false)}
+                      >
+                        <X size={16} />
+                      </Button>
+                    </div>
+                    <RenderLinks sectionItems={LINKS} />
+                    <RenderLinks sectionItems={SOCIAL} sectionTitle="Social" />
+                  </div>
+                  {renderPrefs()}
+                </div>
+              ) : (
+                ""
+              )}
+            </motion.div>
+          </nav>
+        ) : (
+          ""
+        )}
+      </AnimatePresence>
     </div>
   );
 }

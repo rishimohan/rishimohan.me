@@ -1,18 +1,10 @@
 import clsx from "clsx";
 import Link from "next/link";
-import {
-  MapPin,
-  ArrowCircleRight,
-  Camera,
-  Star,
-  ArrowSquareOut,
-  InstagramLogo,
-} from "phosphor-react";
+import { ArrowSquareOut, InstagramLogo } from "phosphor-react";
 import { BlogList } from "components";
 import { getAllPosts } from "pages/api/blog";
 import { getAllProjects } from "pages/api/projects";
 import { ContentWrapper, Button } from "ui";
-import { ExternalLinkIcon } from "lib/icons";
 
 const TIMELINE = [
   {
@@ -126,7 +118,7 @@ export default function Home({ allPosts, allProjects, post }) {
         className="divide-y divide-gray-200 dark:divide-gray-800 space-y-6"
       >
         <div className="">
-          <h2 className="mb-3 md:mb-4 text-2xl md:text-3xl">
+          <h2 className="mb-3 md:mb-4 text-3xl">
             <span className="opacity-70">Hi 👋, I'm </span>
             <span className="font-bold text-black dark:text-white">
               Rishi Mohan!
@@ -187,11 +179,11 @@ export default function Home({ allPosts, allProjects, post }) {
             </ul>
           </div>
         </div>
-        <div className="py-6">
+        <div className="pt-6 pb-2">
           <h2 className="text-xl font-medium text-black dark:text-white mb-4">
             Side-projects
           </h2>
-          <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4 overflow-scroll">
+          <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
             {allProjects?.map((project) => (
               <div className="min-w-[120px] flex-col px-4 py-2 border border-gray-200 dark:border-gray-700/70 rounded-lg hover:bg-gray-100 dark:bg-gray-800/70 dark:hover:bg-gray-800 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative ">
                 {project?.ios ? (
@@ -261,7 +253,7 @@ export default function Home({ allPosts, allProjects, post }) {
             ))}
           </div>
         </div>
-        <div className="py-8">
+        <div className="pt-8 pb-2">
           <div className="flex items-center gap-3 pb-3">
             <h2 className=" text-xl font-medium text-black dark:text-white">
               Blog

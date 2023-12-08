@@ -6,14 +6,8 @@ import { BlogList, PostContent } from "components";
 import { NextSeo } from "next-seo";
 import { ContentWrapper } from "ui";
 
-export default function Post({ allPosts, post, morePosts, preview }) {
+export default function Post({ allPosts, post }) {
   const router = useRouter();
-
-  console.log(
-    "r",
-    router.asPath,
-    allPosts.filter((p) => !router.asPath.includes(p.slug))
-  );
 
   useEffect(() => {
     const s = document.createElement("script");
