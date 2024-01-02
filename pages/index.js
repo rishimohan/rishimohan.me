@@ -135,7 +135,7 @@ export default function Home({ allPosts, allProjects, post }) {
                 >
                   Pika
                 </Link>{" "}
-                (design tool at $2,500 MRR and growing)
+                (design tool at $2,700 MRR and growing)
               </li>
               <li>
                 Working with{" "}
