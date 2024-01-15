@@ -22,6 +22,7 @@
     "next-seo": "^5.14.1",
     "next-themes": "^0.2.1",
     "phosphor-react": "^1.4.1",
+    "pika-sdk": "^0.3.0",
     "postcss": "^8.4.31",
     "prettier": "^2.4.1",
     "react": "^18.2.0",

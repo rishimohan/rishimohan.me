@@ -1,32 +1,25 @@
+import { PikaSdk } from "pika-sdk";
+const pikaSdk = new PikaSdk(process.env.PIKA_API_KEY);
+
 export default async function handler(req, res) {
   const { title, description } = req.query;
 
-  const response = await fetch(
-    `https://api.pika.style/v1/templates/open-graph-image-1/images`,
+  const response = await pikaSdk.generateImageFromTemplate(
+    "open-graph-image-1",
     {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.PIKA_API_KEY}`,
-      },
-      body: JSON.stringify({
-        response_format: "binary",
-        modifications: {
-          title: title,
-          description: description,
-          textColor: "#fff",
-          backgroundImageUrl: "https://rishimohan.me/images/site/meta-bg.png",
-        },
-      }),
-    }
-  ).then(async (res) => {
-    const arrayBuffer = await res.arrayBuffer();
-    return Buffer.from(arrayBuffer);
-  });
+      title: title,
+      description: description,
+      textColor: "#fff",
+      backgroundImageUrl: "https://rishimohan.me/images/site/meta-bg.png",
+    },
+    "binary"
+  );
 
-  // console.log("response", response);
+  const arrayBuffer = await response.arrayBuffer();
+  const image = Buffer.from(arrayBuffer);
+
   res.writeHead(200, {
     "Content-Type": "image/png",
   });
-  res.end(response);
+  res.end(image);
 }

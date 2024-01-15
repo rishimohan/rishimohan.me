@@ -1773,6 +1773,11 @@ pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==
 
+pika-sdk@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/pika-sdk/-/pika-sdk-0.3.0.tgz#feffb3e6cff74336ddd253a3e78d1a58b7c349eb"
+  integrity sha512-agH/IaNTrD2SzRAcskNLB1P6MQ9bZiz24nC8AWheuwjOwOcS5kWWCTyAU4EGNWbIr+ENJ7oi8M0GZv7GIZO3cQ==
+
 pirates@^4.0.1:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.6.tgz#3018ae32ecfcff6c29ba2267cbf21166ac1f36b9"

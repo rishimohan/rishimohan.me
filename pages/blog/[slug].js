@@ -24,12 +24,11 @@ export default function Post({ allPosts, post }) {
     <div className="flex w-full md:pt-5">
       <NextSeo
         title={`${post.title} - Rishi Mohan`}
-        description={post.excerpt || post.content.slice(0, 200) || ""}
+        description={
+          post.excerpt.slice(0, 120) || post.content.slice(0, 120) || ""
+        }
         openGraph={{
           site_name: `${post.title} - Rishi Mohan`,
-          title: `${post.title} - Rishi Mohan`,
-          description:
-            post.excerpt.slice(0, 200) || post.content.slice(0, 200) || "",
           images: [
             {
               url:
@@ -37,8 +36,8 @@ export default function Post({ allPosts, post }) {
                 `${process.env.NEXT_PUBLIC_APP_URL}/api/og?title=${
                   post.title
                 }&description=${
-                  post.excerpt || post.content.slice(0, 200) || ""
-                }`,
+                  post.excerpt.slice(0, 100) || post.content.slice(0, 100) || ""
+                }...`,
               width: 800,
               height: 600,
             },
