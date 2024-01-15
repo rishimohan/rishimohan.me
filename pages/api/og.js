@@ -15,7 +15,6 @@ export default async function handler(req, res) {
           title: title,
           description: description,
           textColor: "#fff",
-          backgroundColor: "#111",
           backgroundImageUrl: "https://rishimohan.me/images/site/meta-bg.png",
         },
       }),
