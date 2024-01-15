@@ -28,15 +28,19 @@ export default function Post({ allPosts, post }) {
         openGraph={{
           site_name: `${post.title} - Rishi Mohan`,
           title: `${post.title} - Rishi Mohan`,
-          description: post.excerpt || post.content.slice(0, 200) || "",
+          description:
+            post.excerpt.slice(0, 200) || post.content.slice(0, 200) || "",
           images: [
             {
               url:
                 post.ogImage ??
-                "https://rishimohan.vercel.app/images/site/meta.jpg",
+                `${process.env.NEXT_PUBLIC_APP_URL}/api/og?title=${
+                  post.title
+                }&description=${
+                  post.excerpt || post.content.slice(0, 200) || ""
+                }`,
               width: 800,
               height: 600,
-              alt: "Kizie for Twitter",
             },
           ],
         }}
