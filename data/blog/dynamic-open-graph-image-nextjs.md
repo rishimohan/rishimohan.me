@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Generate Open Graph Images in Next.js"
+title: "Generate Dynamic Open Graph Images in Next.js"
 date: 2024-01-16 13:00:00 +0530
 categories: next.js
 excerpt: "Automate dynamic generation of Open Graph(OG) images in Next.js 12, 13 above projects. We'll also preview the Open Graph image on different social sites and see some examples"
