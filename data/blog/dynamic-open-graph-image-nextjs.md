@@ -70,7 +70,7 @@ for your use case
 **How it works**:
 
 - <a href="https://pika.style/image-generation-api/templates" target="_blank">Signup for Pika</a> and get your API key
-- Select an Open Graph Image template <a href="https://pika.style/image-generation-api/templates" target="_blank">here</a>
+- Select an <a href="https://pika.style/image-generation-api/open-graph-image-1" target="_blank">Open Graph Image API template</a>
 - We'll use this template to generate dynamic OG images using API routes
 
 ![Open Graph Image templates](/images/posts/og-image-templates.png)
@@ -206,6 +206,9 @@ or something like if you have data coming from server side:
   <meta property="og:image" content="https://YOUR_SITE_ADDRESS/api/og?title=${post.title}&description=${post.excerpt}`>
 </Head>
 ```
+
+If you're having issues setting it up, <a href="https://twitter.com/thelifeofrishi" target="_blank">feel free to DM me on Twitter</a>.
+I would be happy to help you out
 
 ## Testing
 
