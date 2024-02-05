@@ -357,12 +357,12 @@ export default function Home({ allPosts, allProjects, post }) {
         </div>
       </ContentWrapper>
 
-      <div className="w-full">
+      {/* <div className="w-full">
         <iframe
           src="https://pika-embed.vercel.app"
           className="w-full h-[800px]"
         />
-      </div>
+      </div> */}
     </div>
   );
 }
