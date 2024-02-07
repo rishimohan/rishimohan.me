@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { ThemeProvider } from "next-themes";
 import "styles/app.scss";
 import "styles/blog.scss";
@@ -11,6 +12,16 @@ function MyApp({ Component, pageProps }) {
   const canonicalUrl = (
     `https://rishimohan.me` + (router.asPath === "/" ? "" : router.asPath)
   ).split("?")[0];
+
+  useEffect(() => {
+    window.addEventListener("message", (event) => {
+      console.log(
+        "Message received from the child: " + event?.data,
+        event?.data?.message,
+        event?.data?.blob
+      ); // Message received from child
+    });
+  }, []);
 
   return (
     <ThemeProvider defaultTheme="system" attribute="class" enableSystem={true}>

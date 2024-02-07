@@ -357,12 +357,13 @@ export default function Home({ allPosts, allProjects, post }) {
         </div>
       </ContentWrapper>
 
-      {/* <div className="w-full">
+      <div className="w-full">
         <iframe
-          src="https://pika-embed.vercel.app"
+          // src="http://localhost:3000/templates/beautify-screenshots"
+          src="http://localhost:3000/templates/beautify-screenshots?use=https://ez4cast.s3.eu-west-1.amazonaws.com/userUpload/o6ZJ1fRuT&theme=dark"
           className="w-full h-[800px]"
         />
-      </div> */}
+      </div>
     </div>
   );
 }
