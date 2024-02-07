@@ -360,7 +360,7 @@ export default function Home({ allPosts, allProjects, post }) {
       <div className="w-full">
         <iframe
           // src="http://localhost:3000/templates/beautify-screenshots"
-          src="http://localhost:3000/templates/beautify-screenshots?use=https://ez4cast.s3.eu-west-1.amazonaws.com/userUpload/o6ZJ1fRuT&theme=dark"
+          src="https://embed.pika.style/templates/beautify-screenshots?use=https://ez4cast.s3.eu-west-1.amazonaws.com/userUpload/o6ZJ1fRuT&theme=dark"
           className="w-full h-[800px]"
         />
       </div>
