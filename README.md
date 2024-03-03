@@ -14,4 +14,4 @@
 ## License
 
 - Free for learning and personal purposes
-- Link to [rishimohan.me](https://rishimohan.me) mandatory for commercial usage
+- Link to [rishimohan.me](https://rishimohan.me) mandatory if you publish it online
