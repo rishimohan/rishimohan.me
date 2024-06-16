@@ -9,30 +9,6 @@
   </url>
 
   <url>
-    <loc>https://rishimohan.me/projects/kizie</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/lil</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/maazi</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/pika</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/qurb</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/zinx</loc>
-  </url>
-
-  <url>
     <loc>https://rishimohan.me/blog/2021-recap</loc>
   </url>
 
@@ -46,6 +22,10 @@
 
   <url>
     <loc>https://rishimohan.me/blog/accepting-stripe-payments-india</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/blog/clueless</loc>
   </url>
 
   <url>
@@ -137,6 +117,10 @@
   </url>
 
   <url>
+    <loc>https://rishimohan.me/blog/tried-enough</loc>
+  </url>
+
+  <url>
     <loc>https://rishimohan.me/blog/triund-experience</loc>
   </url>
 
@@ -146,5 +130,29 @@
 
   <url>
     <loc>https://rishimohan.me/blog/when-i-grow-up</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/kizie</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/lil</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/maazi</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/pika</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/qurb</loc>
+  </url>
+
+  <url>
+    <loc>https://rishimohan.me/projects/zinx</loc>
   </url>
 </urlset>

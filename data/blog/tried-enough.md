@@ -3,7 +3,7 @@ layout: post
 title: "You've tried enough"
 date: 2024-06-16 13:00:00 +0530
 categories: personal
-excerpt: The good, the bads and alrights of 2021
+excerpt: The Universe will never give you peace in something you were never meant to settle in
 ---
 
 ![Rishi Mohan](/images/posts/rishi-antalya-sunset.jpg)
