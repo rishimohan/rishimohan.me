@@ -38,9 +38,15 @@ export async function getStaticProps() {
     "excerpt",
     "content",
     "icon",
+    "status",
+    "statusText",
   ]);
 
   return {
-    props: { allProjects },
+    props: {
+      allProjects: allProjects
+        ?.sort((a, b) => new Date(a.date) - new Date(b.date))
+        ?.sort((a, b) => a.status === "Active" && -1),
+    },
   };
 }

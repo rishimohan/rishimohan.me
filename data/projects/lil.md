@@ -6,6 +6,7 @@ web: "https://lil.rishimohan.me"
 tech: ["React.js", "Styled Component", "Components"]
 icon: "/images/work/show/lil-icon.png"
 tagline: UI Components library
+status: Inactive
 ---
 
 ![lil UI](/images/work/show/lil-post.png)

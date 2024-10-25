@@ -49,6 +49,8 @@ export async function getStaticProps({ params }) {
     "content",
     "link",
     "icon",
+    "status",
+    "statusText",
   ]);
 
   const post = getPostBySlug(params.slug, [
@@ -63,6 +65,8 @@ export async function getStaticProps({ params }) {
     "web",
     "ios",
     "icon",
+    "status",
+    "statusText",
   ]);
 
   const content = await md2html(post.content || post.excerpt || "");

@@ -23,7 +23,7 @@ export default function WorkList({ allPosts, activeSlug }) {
               key={post.slug}
               // className="border-gray-200/50 dark:border-gray-800/50 py-[5px] border-b"
             >
-              <Link href={`/projects/${post.slug}`} className="w-full">
+              <Link href={`/projects/${post.slug}`} className="w-full ">
                 <article
                   className={clsx(
                     "flex  border-dashed font-medium w-full py-3 md:py-[12px] dark:text-white border-b border-gray-200 hover:border-gray-400 dark:border-gray-700 dark:hover:border-gray-500 flex-row",
@@ -48,6 +48,34 @@ export default function WorkList({ allPosts, activeSlug }) {
                     </div>
                   )}
                   <h2 className={clsx("font-semibold ml-3")}>{post.title}</h2>
+                  <div className="ml-auto flex gap-2 items-center">
+                    {post?.status ? (
+                      <span
+                        className={clsx(
+                          "font-mono border  px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)] text-xs",
+                          post?.status === "Active"
+                            ? "border-green-500 dark:bg-green-500/30 dark:border-green-800 dark:text-green-200 bg-green-100 text-green-700"
+                            : "border-gray-200 dark:border-gray-700"
+                        )}
+                      >
+                        {post?.status}
+                      </span>
+                    ) : (
+                      ""
+                    )}
+                    {post?.statusText?.length
+                      ? post?.statusText?.map((status) => (
+                          <span
+                            key={status}
+                            className={clsx(
+                              "font-mono border  px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)] text-xs border-gray-200 dark:border-gray-700"
+                            )}
+                          >
+                            {status}
+                          </span>
+                        ))
+                      : ""}
+                  </div>
                 </article>
               </Link>
             </div>

@@ -6,6 +6,7 @@ tech: ["PHP", "WordPress"]
 icon: /images/work/show/zinx-icon.png
 slug: zinx
 tagline: Tech and design blog
+status: Inactive
 ---
 
 ZINX is a technology and design blog I started in 2013. Back then, I used to spend a lot of my time playing video games and reading about latest technologies and design trends. I've written over 500 articles on the blog since then and it's been the most successful blog I've made.

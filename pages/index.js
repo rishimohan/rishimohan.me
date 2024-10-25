@@ -111,6 +111,7 @@ const IMAGES = [
 ];
 
 export default function Home({ allPosts, allProjects, post }) {
+  console.log("allProjects", allProjects);
   return (
     <div className="grid md:grid-cols-1 mt-0 md:mt-8">
       <ContentWrapper
@@ -233,7 +234,7 @@ export default function Home({ allPosts, allProjects, post }) {
                       <h3 className="font-medium text-base">
                         {project?.title}
                       </h3>
-                      {project?.active ? (
+                      {project?.status === "Active" ? (
                         <div
                           className="w-[8px] h-[8px] rounded-full bg-green-500"
                           title="Active"
@@ -247,6 +248,23 @@ export default function Home({ allPosts, allProjects, post }) {
                     ) : (
                       ""
                     )}
+
+                    {/* {project?.statusText?.length ? (
+                      <div className="flex gap-x-2 gap-y-1 items-center flex-wrap mt-2">
+                        {project?.statusText?.map((status) => (
+                          <span
+                            key={status}
+                            className={clsx(
+                              "font-mono border  px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)] text-xs border-gray-200 dark:border-gray-700"
+                            )}
+                          >
+                            {status}
+                          </span>
+                        ))}
+                      </div>
+                    ) : (
+                      ""
+                    )} */}
                   </div>
                 </Link>
               </div>
@@ -377,6 +395,8 @@ export async function getStaticProps() {
     "image",
     "excerpt",
     "external",
+    "status",
+    "statusText",
   ]);
 
   const allProjects = getAllProjects([
@@ -392,6 +412,8 @@ export async function getStaticProps() {
     "tagline",
     "web",
     "ios",
+    "status",
+    "statusText",
   ]);
 
   return {
@@ -399,6 +421,7 @@ export async function getStaticProps() {
       allPosts,
       allProjects: allProjects
         .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .sort((a, b) => a.status === "Active" && -1)
         .sort((left, right) =>
           left.hasOwnProperty("active")
             ? -1
