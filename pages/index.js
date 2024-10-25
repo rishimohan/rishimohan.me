@@ -111,7 +111,6 @@ const IMAGES = [
 ];
 
 export default function Home({ allPosts, allProjects, post }) {
-  console.log("allProjects", allProjects);
   return (
     <div className="grid md:grid-cols-1 mt-0 md:mt-8">
       <ContentWrapper
