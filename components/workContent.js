@@ -21,7 +21,7 @@ export default function WorkContent({ post }) {
       <h1 className="text-4xl mb-5 font-black md:text-4xl text-center max-w-[620px] mx-auto dark:text-white">
         {post.title}
       </h1>
-      <div className="flex gap-2 items-center justify-center mb-5">
+      <div className="flex gap-2 items-center justify-center mb-5 flex-wrap">
         <div className="flex gap-2 items-center">
           {post?.status ? (
             <span

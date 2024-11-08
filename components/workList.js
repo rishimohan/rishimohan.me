@@ -48,7 +48,7 @@ export default function WorkList({ allPosts, activeSlug }) {
                     </div>
                   )}
                   <h2 className={clsx("font-semibold ml-3")}>{post.title}</h2>
-                  <div className="ml-auto flex gap-2 items-center">
+                  <div className="ml-auto flex gap-2 items-center flex-wrap justify-end max-w-[70%]">
                     {post?.status ? (
                       <span
                         className={clsx(
