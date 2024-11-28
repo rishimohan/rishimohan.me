@@ -8,7 +8,7 @@ excerpt: Have so much of love in yourself so you can give the world more of what
 
 ![Abundance - Rishi in Zanshe Shans](/images/posts/abundance.jpg)
 
-**What is the most important things in life?**
+**What is the most important thing in life?**
 
 It would be different for everyone.
 Some would say money, some would say love, family, peace, and what not
