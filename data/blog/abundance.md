@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adundance"
+title: "Abundance"
 date: 2024-11-29 13:00:00 +0530
 categories: personal
 excerpt: Have so much of love in yourself so you can give the world more of what you love
