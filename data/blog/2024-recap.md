@@ -20,7 +20,7 @@ And honestly, I'm pretty happy with how 2024 turned out for me from the start
 - ✍️ **Wrote more**, whether it was journaling or blog posts
 - 🥰 **Made new friends** and lost some
 - 😋 Experienced many **first-time things**
-- ❇️ **+40% revenue** and **+33% MRR growth** on Pika
+- ❇️ **+35% revenue** and **+39% MRR growth** on Pika
 - 🚀 Started working on **a new SaaS** last month
 - 🧑‍💻 Decided to **part ways with Borg**
 - 🏇 **Started working towards a new goal** with a 3 years time limit
