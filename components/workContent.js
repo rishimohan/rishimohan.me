@@ -2,7 +2,6 @@ import { ExternalLinkIcon, AppleIcon } from "lib/icons";
 import clsx from "clsx";
 
 export default function WorkContent({ post }) {
-  console.log("p", post);
   return (
     <div
       key={post.title}

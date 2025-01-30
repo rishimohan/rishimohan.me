@@ -1,182 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://rishimohan.me</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/map</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/kizie</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/lil</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/maazi</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/pika</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/qurb</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/projects/zinx</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/2021-recap</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/2022-recap</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/2023-recap</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/2024-recap</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/abundance</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/accepting-stripe-payments-india</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/better-left-unsaid</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/clueless</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/cost-of-delay</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/covid-19-lockdown-days</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/discovered-not-indexed-fix</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/dom-to-image</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/dynamic-open-graph-image-nextjs</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/filter-blue-light-macos</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/heading-nowhere</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/hello-world</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/iOS-12-wishlist</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/in-between-airports</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/ios-12-review</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/kathmandu-photos</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/link-remote-success-interview</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/living-on-boat</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/losing-and-gaining</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/macos-color-pickers</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/meta-theme-color</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/nextjs-canonical-tag</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/nextjs-link-issue</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/on-leaving-bigbinary</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/shot-on-iphone-8-plus</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/side-project-learnings</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/simple-svg-spinner-icon</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/sinhagad-trek</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/the-cosmic-label</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/tried-enough</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/triund-experience</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/udaipur-blog</loc>
-  </url>
-
-  <url>
-    <loc>https://rishimohan.me/blog/when-i-grow-up</loc>
-  </url>
+	<url>
+		<loc>
+			https://rishimohan.me
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/map
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/projects/kizie
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/projects/lil
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/projects/maazi
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/projects/pika
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/projects/qurb
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/projects/zinx
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/2021-recap
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/2022-recap
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/2023-recap
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/2024-recap
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/good-past
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/on-leaving-borg
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/abundance
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/accepting-stripe-payments-india
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/better-left-unsaid
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/clueless
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/cost-of-delay
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/covid-19-lockdown-days
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/discovered-not-indexed-fix
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/dom-to-image
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/dynamic-open-graph-image-nextjs
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/filter-blue-light-macos
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/heading-nowhere
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/hello-world
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/iOS-12-wishlist
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/in-between-airports
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/ios-12-review
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/kathmandu-photos
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/link-remote-success-interview
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/living-on-boat
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/losing-and-gaining
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/macos-color-pickers
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/meta-theme-color
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/nextjs-canonical-tag
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/nextjs-link-issue
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/on-leaving-bigbinary
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/shot-on-iphone-8-plus
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/side-project-learnings
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/simple-svg-spinner-icon
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/sinhagad-trek
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/the-cosmic-label
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/tried-enough
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/triund-experience
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/udaipur-blog
+		</loc>
+	</url>
+	<url>
+		<loc>
+			https://rishimohan.me/blog/when-i-grow-up
+		</loc>
+	</url>
 </urlset>
