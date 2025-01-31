@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On leaving Borg"
-date: 2025-01-30 13:00:00 +0530
+date: 2025-01-31 13:00:00 +0530
 categories: personal
 excerpt: Reflecting on my time at Borg on my last day working here
 ---
