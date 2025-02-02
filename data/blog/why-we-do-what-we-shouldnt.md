@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What we shouldn't, why we still do?"
-date: 2025-02-01 13:00:00 +0530
+date: 2025-02-02 13:00:00 +0530
 categories: personal
 excerpt: Why do you do some things, even when you know you shouldn't?
 ---
