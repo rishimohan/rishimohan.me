@@ -1,6 +1,13 @@
 import clsx from "clsx";
 import Link from "next/link";
-import { ArrowSquareOut, InstagramLogo } from "phosphor-react";
+import {
+  ArrowSquareOut,
+  InstagramLogo,
+  XLogo,
+  MapPinSimple,
+  Code,
+  Briefcase,
+} from "@phosphor-icons/react";
 import { BlogList } from "components";
 import { getAllPosts } from "pages/api/blog";
 import { getAllProjects } from "pages/api/projects";
@@ -49,64 +56,114 @@ const TIMELINE = [
 
 const IMAGES = [
   {
-    src: "/images/pages/home/rishi-rome-1.jpeg",
-    place: "Rome, Italy",
-    className: "md:rotate-[-2deg]",
-  },
-  {
-    src: "/images/pages/home/rishi-nice.jpg",
-    place: "Nice, France",
-    className: "md:rotate-[-2deg]",
-  },
-  {
-    src: "/images/pages/home/rishi-nice-1.jpg",
+    src: "/images/pages/home/rishi-goa-1.jpg",
     place: "Nice, France",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/home/rishi-rome.jpeg",
-    place: "Rome, Italy",
-    className: "md:rotate-[-2deg]",
-  },
-  {
-    src: "/images/pages/home/rishi-nice-2.jpg",
-    place: "Nice, France",
+    src: "/images/pages/home/rishi-tomatina-1.jpg",
+    place: "Berlin, Germany",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/home/rishi-luxembourg.jpg",
+    src: "/images/pages/home/rishi-side-1.jpg",
     place: "Luxembourg",
     className: "md:rotate-[2deg]",
   },
   {
-    src: "/images/pages/home/rishi-berlin.jpeg",
+    src: "/images/pages/home/rishi-antalya-1.jpg",
     place: "Berlin, Germany",
     className: "md:rotate-[-2deg]",
   },
+];
+
+const INFO = [
   {
-    src: "/images/pages/home/rishi-berlin-1.jpeg",
-    place: "Berlin, Germany",
-    className: "md:rotate-[2deg]",
+    text: "Design Engineer based in Berlin",
+    icon: <MapPinSimple />,
+    className: "bg-red-50 text-red-800",
   },
   {
-    src: "/images/pages/home/rishi-goa-yellow.jpg",
-    place: "Goa, India",
-    className: "md:rotate-[-2deg]",
+    text: (
+      <>
+        Building{" "}
+        <Link
+          target="_blank"
+          href="https://pika.style"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          Pika
+        </Link>{" "}
+        and{" "}
+        <Link
+          target="_blank"
+          href="https://orshot.com"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          Orshot
+        </Link>
+      </>
+    ),
+    icon: <Code />,
+    className: "bg-emerald-50 text-emerald-800",
   },
   {
-    src: "/images/pages/home/rishi-holi-rishikesh.jpg",
-    place: "Rishikesh, India",
-    className: "md:rotate-[2deg]",
+    text: (
+      <>
+        Worked with{" "}
+        <Link
+          target="_blank"
+          href="https://graph.one"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          Borg
+        </Link>
+        ,{" "}
+        <Link
+          target="_blank"
+          href="https://bigbinary.com"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          BigBinary
+        </Link>{" "}
+        and{" "}
+        <Link
+          target="_blank"
+          href="https://instahyre.com"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          Instahyre
+        </Link>
+      </>
+    ),
+    icon: <Briefcase />,
+    className: "bg-blue-50 text-blue-800",
   },
   {
-    src: "/images/pages/home/rishi-triund.jpg",
-    place: "Triund, India",
-    className: "md:rotate-[-2deg]",
+    text: (
+      <Link
+        target="_blank"
+        href="https://twitter.com/thelifeofrishi"
+        className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+      >
+        Love ranting on Twitter
+      </Link>
+    ),
+    icon: <XLogo />,
+    className: "text-gray-900 bg-gray-100",
   },
   {
-    src: "/images/pages/home/rishi-goa.jpg",
-    place: "Goa, India",
-    className: "md:rotate-[2deg]",
+    text: (
+      <Link
+        target="_blank"
+        href="https://instagram.com/thelifeofrishi"
+        className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+      >
+        Posting adventures on Instagram
+      </Link>
+    ),
+    icon: <InstagramLogo />,
+    className: "text-orange-900 bg-orange-50",
   },
 ];
 
@@ -124,7 +181,21 @@ export default function Home({ allPosts, allProjects, post }) {
               Rishi Mohan!
             </span>
           </h2>
-          <div>
+          <div className="flex flex-wrap gap-2 text-sm">
+            {INFO?.map((item) => (
+              <div
+                className={clsx(
+                  "border rounded-lg px-[8px] py-[6px] flex gap-1.5 items-center",
+                  item?.className
+                )}
+                key={item?.title}
+              >
+                {item?.icon ? <div className="">{item?.icon}</div> : ""}
+                <div>{item?.text}</div>
+              </div>
+            ))}
+          </div>
+          {/* <div>
             <ul className="!mb-0 list-disc pl-4 dark:text-gray-300/80 space-y-1 md:space-y-[6px]">
               <li>Design engineer, entrepreneur based in Berlin</li>
               <li>
@@ -177,7 +248,7 @@ export default function Home({ allPosts, allProjects, post }) {
 
               <li>Love to travel, explore and capture life</li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="pt-6 pb-2">
           <h2 className="text-xl font-medium text-black dark:text-white mb-4">
@@ -185,7 +256,7 @@ export default function Home({ allPosts, allProjects, post }) {
           </h2>
           <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
             {allProjects?.map((project) => (
-              <div className="min-w-[120px] flex-col px-4 py-2 border border-gray-200 dark:border-gray-700/70 rounded-lg hover:bg-gray-100 dark:bg-gray-800/70 dark:hover:bg-gray-800 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative ">
+              <div className="min-w-[120px] flex-col px-4 py-1 border border-gray-200 dark:border-gray-700/70 rounded-lg hover:bg-gray-100 dark:bg-gray-800/70 dark:hover:bg-gray-800 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative ">
                 {project?.ios ? (
                   <Link
                     href={project?.ios}
@@ -213,16 +284,16 @@ export default function Home({ allPosts, allProjects, post }) {
                   href={`/projects/${project?.slug}` || "/"}
                   key={project?.title}
                 >
-                  <div className="py-3 relative">
+                  <div className="pt-3 pb-2 relative">
                     {project?.icon ? (
                       <img
-                        className="w-[40px] drop-shadow-xl"
+                        className="w-[32px] drop-shadow-xl"
                         src={project?.icon}
                         alt={project?.title}
                       />
                     ) : (
                       <>
-                        <div className="flex items-center justify-center w-[42px] h-[42px] text-lg font-medium text-white bg-black border border-gray-100 rounded-full dark:border-gray-800 drop-shadow-xl">
+                        <div className="flex items-center justify-center w-[32px] h-[32px] text-lg font-medium text-white bg-black border border-gray-100 rounded-full dark:border-gray-800 drop-shadow-xl">
                           {project?.title?.slice(0, 1)}
                         </div>
                       </>
@@ -347,7 +418,7 @@ export default function Home({ allPosts, allProjects, post }) {
             </p>
           </div>
 
-          <div className=" mt-5 mb-12 justify-center relative group">
+          <div className=" mt-5 justify-center relative group">
             <div className="grid grid-cols-3 md:grid-cols-4 gap-5 md:gap-6">
               {IMAGES?.slice(0, 8)?.map((item) => (
                 <div
@@ -373,14 +444,6 @@ export default function Home({ allPosts, allProjects, post }) {
           </div>
         </div>
       </ContentWrapper>
-
-      {/* <div className="w-full">
-        <iframe
-          // src="http://localhost:3000/templates/beautify-screenshots"
-          src="https://embed.pika.style/templates/beautify-screenshots?use=https://ez4cast.s3.eu-west-1.amazonaws.com/userUpload/o6ZJ1fRuT&theme=dark"
-          className="w-full h-[800px]"
-        />
-      </div> */}
     </div>
   );
 }
