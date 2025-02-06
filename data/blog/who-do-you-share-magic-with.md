@@ -3,7 +3,7 @@ layout: post
 title: "Who do you share magic with?"
 date: 2025-02-06 13:00:00 +0530
 categories: personal
-excerpt: The good, the bads and alrights of 2021
+excerpt: About how magical some songs are, so much you don't want to share them with anyone, unless you're lucky
 ---
 
 ![Songs to send - Rishi Mohan](/images/posts/songs-to-send.jpg)
