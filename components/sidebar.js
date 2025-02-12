@@ -204,6 +204,7 @@ export default function Sidebar() {
           <div className="flex gap-3 items-center ml-auto">
             {SOCIAL_LINKS?.map((item) => (
               <Link
+                key={item?.url}
                 className="text-lg opacity-50 hover:opacity-80"
                 href={item?.url}
                 target="_blank"

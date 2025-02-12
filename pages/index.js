@@ -7,6 +7,8 @@ import {
   MapPinSimple,
   Code,
   Briefcase,
+  Asterisk,
+  Newspaper,
 } from "@phosphor-icons/react";
 import { BlogList } from "components";
 import { getAllPosts } from "pages/api/blog";
@@ -79,10 +81,16 @@ const IMAGES = [
 
 const INFO = [
   {
-    text: "Design Engineer based in Berlin",
-    icon: <MapPinSimple />,
-    className: "bg-red-50 text-red-800",
+    text: "Indie-hacking, Design & Engineering",
+    icon: <Asterisk />,
+    className: "bg-purple-50 text-purple-800",
   },
+  {
+    text: "From India, based in Berlin",
+    icon: <MapPinSimple />,
+    className: "bg-yellow-50 text-yellow-800",
+  },
+
   {
     text: (
       <>
@@ -110,7 +118,23 @@ const INFO = [
   {
     text: (
       <>
-        Worked with{" "}
+        Code & Pixels unperfectioner at{" "}
+        <Link
+          target="_blank"
+          href="https://xata.io"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          Xata.io
+        </Link>
+      </>
+    ),
+    icon: <Briefcase />,
+    className: "bg-red-50 text-red-800",
+  },
+  {
+    text: (
+      <>
+        Previously at{" "}
         <Link
           target="_blank"
           href="https://graph.one"
@@ -146,7 +170,7 @@ const INFO = [
         href="https://twitter.com/thelifeofrishi"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
-        Love ranting on Twitter
+        Thoughts on Twitter
       </Link>
     ),
     icon: <XLogo />,
@@ -159,7 +183,7 @@ const INFO = [
         href="https://instagram.com/thelifeofrishi"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
-        Posting adventures on Instagram
+        Adventures on Instagram
       </Link>
     ),
     icon: <InstagramLogo />,
@@ -167,9 +191,55 @@ const INFO = [
   },
 ];
 
+const APPEARANCES = [
+  {
+    title: "I Built A Screenshots App On The Side And Grew It To $3.8K/Month",
+    href: "https://www.starterstory.com/stories/pika",
+    publication: "StarterStory",
+    type: "Interview",
+  },
+  {
+    title: "Side Hustler Who Built an App that generates $2K MRR",
+    href: "https://thehustlers.substack.com/p/30-side-hustler-who-built-an-app",
+    publication: "The Hustlers",
+    type: "Interview",
+  },
+  {
+    title: "Self teaching how to code and growing a side project to 4000$ MRR",
+    href: "https://open.spotify.com/episode/1t58f1SkAPF1cbD5xAcTbK",
+    publication: "Founder Stories",
+    type: "Podcast",
+  },
+  {
+    title:
+      "How One Expertimental App Pika.Style Turned into a Business Project",
+    href: "https://en.trafficcardinal.com/post/25k-year-how-one-expertimental-app-pika-style-turned-into-a-business-project-interview-with-rishi-mohan",
+    publication: "Traffic Cardinal",
+    type: "Interview",
+  },
+  {
+    title: "Interview with the founder of Pika Style",
+    href: "https://boringcashcow.com/interview/interview-with-the-founder-of-pika-style",
+    publication: "BoringCashCow",
+    type: "Interview",
+  },
+  {
+    title: "Rishi Grows Pika to $700 MRR in Only 7 Months",
+    href: "https://founderbeats.com/micro-saas-screenshots-to-images-pika",
+    publication: "FounderBeats",
+    type: "Interview",
+  },
+  {
+    title: "Discover One Amazing Creator Everyday #Creator61",
+    href: "https://fueler.io/blog/discover-one-amazing-creator-everyday-creator61",
+    publication: "Fueler",
+    type: "Interview",
+  },
+];
+
 export default function Home({ allPosts, allProjects, post }) {
   return (
-    <div className="grid md:grid-cols-1 mt-0 md:mt-8">
+    <div className="grid md:grid-cols-1 mt-0 md:mt-4">
       <ContentWrapper
         width="620px"
         className="divide-y divide-gray-200 dark:divide-gray-800 space-y-6"
@@ -185,7 +255,7 @@ export default function Home({ allPosts, allProjects, post }) {
             {INFO?.map((item) => (
               <div
                 className={clsx(
-                  "border rounded-lg px-[8px] py-[6px] flex gap-1.5 items-center",
+                  "border rounded-lg px-[10px] py-[6px] flex gap-1.5 items-center",
                   item?.className
                 )}
                 key={item?.title}
@@ -318,23 +388,6 @@ export default function Home({ allPosts, allProjects, post }) {
                     ) : (
                       ""
                     )}
-
-                    {/* {project?.statusText?.length ? (
-                      <div className="flex gap-x-2 gap-y-1 items-center flex-wrap mt-2">
-                        {project?.statusText?.map((status) => (
-                          <span
-                            key={status}
-                            className={clsx(
-                              "font-mono border  px-1 py-px rounded-md text-gray-600 dark:text-gray-400 shadow-[0_1px_2px_rgba(0,0,0,0.08)] dark:shadow-[0_1px_2px_rgba(0,0,0,0.3)] text-xs border-gray-200 dark:border-gray-700"
-                            )}
-                          >
-                            {status}
-                          </span>
-                        ))}
-                      </div>
-                    ) : (
-                      ""
-                    )} */}
                   </div>
                 </Link>
               </div>
@@ -351,6 +404,39 @@ export default function Home({ allPosts, allProjects, post }) {
             </Button>
           </div>
           <BlogList data={allPosts?.slice(0, 12)} activeSlug={post?.slug} />
+        </div>
+        <div className="pt-8 pb-2">
+          <div className="flex items-center gap-3 pb-3">
+            <h2 className=" text-xl font-medium text-black dark:text-white">
+              Appearances
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+            {APPEARANCES?.map((item) => (
+              <div
+                key={item?.href}
+                className="border rounded-xl p-3 text-sm bg-yellow-100/30 border-yellow-200 relative overflow-hidden group dark:bg-yellow-600/10 dark:border-yellow-900/40"
+              >
+                <Link href={item?.href} target="_blank">
+                  <h2>
+                    <div className="block">{item?.title}</div>
+                    <div className="mt-4">
+                      <ArrowSquareOut className="inline-block mr-1 relative top-[-2px] group-hover:scale-[1.1] duration-100" />
+                      <div className="font-semibold inline-block">
+                        {item?.publication}
+                      </div>
+                      <span className="px-1 opacity-40">/</span>
+                      <div className="inline-block opacity-40">
+                        {item?.type}
+                      </div>
+                    </div>
+                  </h2>
+                </Link>
+                <Newspaper className="text-7xl absolute right-[-10px] bottom-[-12px] opacity-[.05] -rotate-[5deg] dark:opacity-[.01] text-yellow-500" />
+              </div>
+            ))}
+          </div>
         </div>
         {/* <div>
           <div className="mt-12 mb-4">

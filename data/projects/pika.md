@@ -6,7 +6,7 @@ tech: ["Next.js", "TailwindCSS"]
 web: https://pika.style
 icon: /images/work/show/pika-icon.png
 active: true
-tagline: Screenshot API and Editor
+tagline: Beautiful Screenshots and Mockups
 status: Active
 statusText: ["$3.5k+ MRR", "250+ Paid Users"]
 ---
