@@ -252,73 +252,19 @@ export default function Home({ allPosts, allProjects, post }) {
             </span>
           </h2>
           <div className="flex flex-wrap gap-2 text-sm">
-            {INFO?.map((item) => (
+            {INFO?.map((item, index) => (
               <div
                 className={clsx(
                   "border rounded-lg px-[10px] py-[6px] flex gap-1.5 items-center",
                   item?.className
                 )}
-                key={item?.title}
+                key={item?.text + index}
               >
                 {item?.icon ? <div className="">{item?.icon}</div> : ""}
                 <div>{item?.text}</div>
               </div>
             ))}
           </div>
-          {/* <div>
-            <ul className="!mb-0 list-disc pl-4 dark:text-gray-300/80 space-y-1 md:space-y-[6px]">
-              <li>Design engineer, entrepreneur based in Berlin</li>
-              <li>
-                Building{" "}
-                <Link
-                  className="border-b border-gray-300 hover:border-gray-400 dark:text-gray-200"
-                  href="https://pika.style"
-                >
-                  Pika
-                </Link>{" "}
-                (screenshot editor and image generation API)
-              </li>
-              <li>
-                Working with{" "}
-                <Link
-                  className="border-b border-gray-300 hover:border-gray-400 dark:text-gray-200"
-                  href="https://hive.one"
-                  target="_blank"
-                >
-                  Hive
-                </Link>
-                , previously at{" "}
-                <Link
-                  className="border-b border-gray-300 hover:border-gray-400 dark:text-gray-200"
-                  href="https://bigbinary.com"
-                  target="_blank"
-                >
-                  BigBinary
-                </Link>
-                ,{" "}
-                <Link
-                  className="border-b border-gray-300 hover:border-gray-400 dark:text-gray-200"
-                  href="https://instahyre.com"
-                  target="_blank"
-                >
-                  Instahyre
-                </Link>
-              </li>
-
-              <li>
-                Kinda active on Twitter{" "}
-                <Link
-                  className="border-b border-gray-300 hover:border-gray-400 dark:text-gray-200"
-                  href="https://twitter.com/thelifeofrishi"
-                  target="_blank"
-                >
-                  @thelifeofrishi
-                </Link>
-              </li>
-
-              <li>Love to travel, explore and capture life</li>
-            </ul>
-          </div> */}
         </div>
         <div className="pt-6 pb-2">
           <h2 className="text-xl font-medium text-black dark:text-white mb-4">
@@ -326,7 +272,10 @@ export default function Home({ allPosts, allProjects, post }) {
           </h2>
           <div className="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
             {allProjects?.map((project) => (
-              <div className="min-w-[120px] flex-col px-4 py-1 border border-gray-200 dark:border-gray-700/70 rounded-lg hover:bg-gray-100 dark:bg-gray-800/70 dark:hover:bg-gray-800 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative ">
+              <div
+                className="min-w-[120px] flex-col px-4 py-1 border border-gray-200 dark:border-gray-700/70 rounded-lg hover:bg-gray-100 dark:bg-gray-800/70 dark:hover:bg-gray-800 dark:hover:border-gray-700 dark:shadow-[0_0_8px_rgba(0,0,0,0.8)] shadow-[0_0_8px_rgba(0,0,0,0.06)] flex relative"
+                key={project?.title}
+              >
                 {project?.ios ? (
                   <Link
                     href={project?.ios}
@@ -415,7 +364,7 @@ export default function Home({ allPosts, allProjects, post }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
             {APPEARANCES?.map((item) => (
               <div
-                key={item?.href}
+                key={item?.href + item?.title}
                 className="border rounded-xl p-3 text-sm bg-yellow-100/30 border-yellow-200 relative overflow-hidden group dark:bg-yellow-600/10 dark:border-yellow-900/40"
               >
                 <Link href={item?.href} target="_blank">
@@ -505,7 +454,7 @@ export default function Home({ allPosts, allProjects, post }) {
           </div>
 
           <div className=" mt-5 justify-center relative group">
-            <div className="grid grid-cols-3 md:grid-cols-4 gap-5 md:gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6">
               {IMAGES?.slice(0, 8)?.map((item) => (
                 <div
                   key={item.src}
