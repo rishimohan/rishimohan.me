@@ -75,6 +75,12 @@ export default function Sidebar() {
       active: pathname.includes("/blog"),
     },
     {
+      title: "Pen",
+      url: "/pen",
+      icon: <Note size={16} />,
+      active: pathname.includes("/pen"),
+    },
+    {
       title: "Projects",
       url: "/projects",
       icon: <BracketsCurly size={16} />,
