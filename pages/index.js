@@ -9,6 +9,7 @@ import {
   Briefcase,
   Asterisk,
   Newspaper,
+  Buildings,
 } from "@phosphor-icons/react";
 import { BlogList } from "components";
 import { getAllPosts } from "pages/api/blog";
@@ -81,14 +82,30 @@ const IMAGES = [
 
 const INFO = [
   {
-    text: "Indie-hacking, Design & Engineering",
-    icon: <Asterisk />,
-    className: "bg-purple-50 text-purple-800",
+    text: (
+      <>
+        Founder at{" "}
+        <Link
+          target="_blank"
+          href="https://daskrad.com"
+          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
+        >
+          DaSkrad
+        </Link>
+      </>
+    ),
+    icon: <Buildings />,
+    className: "bg-slate-50 text-slate-800",
   },
   {
     text: "From India, based in Berlin",
     icon: <MapPinSimple />,
     className: "bg-yellow-50 text-yellow-800",
+  },
+  {
+    text: "Indie-hacking, Design & Engineering",
+    icon: <Asterisk />,
+    className: "bg-purple-50 text-purple-800",
   },
 
   {
@@ -118,7 +135,7 @@ const INFO = [
   {
     text: (
       <>
-        Code & Pixels unperfectioner at{" "}
+        Design Engineering at{" "}
         <Link
           target="_blank"
           href="https://xata.io"
