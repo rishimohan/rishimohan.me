@@ -46,7 +46,7 @@ export default function Sidebar() {
     },
     {
       title: "LinkedIn",
-      url: "https://linkedin.com/in/qaplen",
+      url: "https://linkedin.com/in/thelifeofrishi",
       icon: <LinkedinLogo />,
     },
     {
