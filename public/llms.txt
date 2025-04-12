@@ -1,0 +1,81 @@
+# Hi, I'm Rishi Mohan!
+
+> I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.
+
+## Map
+
+- [Travel Map – Rishi Mohan](https://rishimohan.me/map): I've created this page to visualize all the locations I've been so far.
+
+## Pen
+
+- [Pen - Rishi Mohan](https://rishimohan.me/pen): I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.
+
+## Projects
+
+- [Kizie - Rishi Mohan](https://rishimohan.me/projects/kizie): Twitter Web app for people who love tweeting, with undo tweet, tweet threads, quick media preview and more powerful features.
+In Kizie, I’ve also added some standalone apps:
+
+
+- [lil UI - Rishi Mohan](https://rishimohan.me/projects/lil): 
+Minimalistic SIY(style it yourself) UI components for your React project.
+Current list of components:
+Modal
+Pane
+
+- [Maazi - Rishi Mohan](https://rishimohan.me/projects/maazi): 
+Maazi is a personal diary app, which I wrote to practically learn React native, enough that I can create standard app and g
+- [Pika - Rishi Mohan](https://rishimohan.me/projects/pika): 
+Created Pika to quickly generate shareable screenshots
+from boring screenshots. Previous workflow included
+involvement of
+- [Qurb - Rishi Mohan](https://rishimohan.me/projects/qurb): 
+Qurb lets you generate mockup for iPhone X/XS/Max, iPad, MacBook and other devices quickly. Just select the device, add your
+- [Zinx - Rishi Mohan](https://rishimohan.me/projects/zinx): ZINX is a technology and design blog I started in 2013. Back then, I used to spend a lot of my time playing video games and reading about latest technologies and design trends. I’ve written over 50
+
+## Blog
+
+- [Pika crosses $100k - Rishi Mohan](https://rishimohan.me/blog/pika-100k): Pika crossed $1,00,000 in total revenue. Started Pika to solve my own problem and never intended to grow it as a busines
+- [Registered my first business: DaSkrad Ltd. - Rishi Mohan](https://rishimohan.me/blog/registering-daskrad): This was important to keep running and scale my SaaS products, accept payments and do things in a more forwal way now
+- [Seeing The Northern Lights - Rishi Mohan](https://rishimohan.me/blog/iceland-northern-lights): There were these waves of green northern lights in the sky, almost flowing like waves do at the shore
+- [Who do you share magic with? - Rishi Mohan](https://rishimohan.me/blog/who-do-you-share-magic-with): About how magical some songs are, so much you don't want to share them with anyone, unless you're lucky
+- [What we shouldn't, why we still do? - Rishi Mohan](https://rishimohan.me/blog/why-we-do-what-we-shouldnt): Why do you do some things, even when you know you shouldn't?
+- [2021 Recap - Rishi Mohan](https://rishimohan.me/blog/2021-recap): The good, the bads and alrights of 2021
+- [2022 Recap - Rishi Mohan](https://rishimohan.me/blog/2022-recap): I can recall some good fun days in Goa and Gurgaon, wandering in Hauz Khas, napping at a train station, cancelling plans
+- [2023 Recap - Rishi Mohan](https://rishimohan.me/blog/2023-recap): A year spent moving to new a country, travelling, experiencing, learning and living
+- [2024 Recap - Rishi Mohan](https://rishimohan.me/blog/2024-recap): Highlights from 2024 and plans for 2025
+- [Living the good past - Rishi Mohan](https://rishimohan.me/blog/good-past): The importance of living small moments from your childhood and to keep the kid inside of you alive
+- [On leaving Borg - Rishi Mohan](https://rishimohan.me/blog/on-leaving-borg): Reflecting on my time at Borg on my last day working here
+- [Abundance - Rishi Mohan](https://rishimohan.me/blog/abundance): Have so much of love in yourself so you can give the world more of what you love
+- [Accepting payments using Stripe for Indian users - Rishi Mohan](https://rishimohan.me/blog/accepting-stripe-payments-india): A guide on why and why shouldn't you use Stripe in your products, and how am I accepting INR and international payments 
+- [Postcards - Rishi Mohan](https://rishimohan.me/blog/better-left-unsaid): Why some things are better left unsaid
+- [Clueless - Rishi Mohan](https://rishimohan.me/blog/clueless): Of all the things that have happened in my life, the last one year or so have been the most craziest and twistful
+- [The Cost of Delay - Rishi Mohan](https://rishimohan.me/blog/cost-of-delay): What are you losing and why are you losing
+- [On lockdown days and my favorite content - Rishi Mohan](https://rishimohan.me/blog/covid-19-lockdown-days): I never had imagined in my life that I would face something like this.
+- [How I fixed "Discovered not indexed" issue in Google Search - Rishi Mohan](https://rishimohan.me/blog/discovered-not-indexed-fix): It's not uncommon to have some of your sitemap links to not be indexed in Google search. Google tags these links as "Dis
+- [DOM element to Image and saving image to Clipboard in JS - Rishi Mohan](https://rishimohan.me/blog/dom-to-image): Wrote a blog post on BigBinary Blog to create an image from DOM element, and saving the image to clipboard. It gets tric
+- [Generate Dynamic Open Graph Images in Next.js - Rishi Mohan](https://rishimohan.me/blog/dynamic-open-graph-image-nextjs): Automate dynamic generation of Open Graph(OG) images in Next.js 12, 13 above projects. We'll also preview the Open Graph
+- [Always on blue light filter on macOS - Rishi Mohan](https://rishimohan.me/blog/filter-blue-light-macos): A simple hack and always-on way to filter blue light in macOS using colour profiles(not using night shift or an app)
+- [I don't know where am I heading but I'm on my way - Rishi Mohan](https://rishimohan.me/blog/heading-nowhere): The thought of what life is all about and the wandering between Passion, People and Nature
+- [Hello World! - Rishi Mohan](https://rishimohan.me/blog/hello-world): Who am I and what this website is all about
+- [iOS 12 Wishlist - Rishi Mohan](https://rishimohan.me/blog/iOS-12-wishlist): From Notifications grouping, priorities, RAW support in stock Camera app, redesigned home-screen to everything I want to
+- [Airport diaries ✈️ - Rishi Mohan](https://rishimohan.me/blog/in-between-airports): I've been travelling since last 3 months. Here's all the experiences I've had those months travelling from Goa to Mumbai
+- [My Review of iOS 12 - Rishi Mohan](https://rishimohan.me/blog/ios-12-review): After using iOS 12 for a week, I feel there are some nice additions. The features that I'm enjoying the most are Grouped
+- [Kathmandu in Photos - Rishi Mohan](https://rishimohan.me/blog/kathmandu-photos): I did a quick trip of 5 days to Kathmandu and I did not like it as much as I expected me to
+- [Interview at Hello Remote Life - Rishi Mohan](https://rishimohan.me/blog/link-remote-success-interview): TL;DR — We work hard in our lives to achieve what we want, but most forget why we’re doing what we’re doing — they just 
+- [Living on a boat - Rishi Mohan](https://rishimohan.me/blog/living-on-boat): Do you know what life feels like at this point? Like a fakir who wants to cross a big sea, the end of which is covered b
+- [Losing and Gaining - Rishi Mohan](https://rishimohan.me/blog/losing-and-gaining): <p><img src="/images/posts/rishi-valencia-oceanograpfic.jpg" alt="Rishi at Oceanografic in Valencia"></p>
+<p>I just got 
+- [3 simple and free macOS Color Picker apps - Rishi Mohan](https://rishimohan.me/blog/macos-color-pickers): After trying tons of apps like ColorSlurp and ColorPeeker, I've found Pika to be the best free color picker app for macO
+- [Using `theme-color` meta tag - Rishi Mohan](https://rishimohan.me/blog/meta-theme-color): Learn how to use a special meta tag called theme-color to spice up your website's accent in Safari, Chrome and some othe
+- [Adding canonical tag in Next.js - Rishi Mohan](https://rishimohan.me/blog/nextjs-canonical-tag): Make it easy for search engines to find out correct URL in your Next.js blog or website.
+- [The issue with Next.js <Link /> tag - Rishi Mohan](https://rishimohan.me/blog/nextjs-link-issue): Next.js Link tag makes it fast to navigate between pages, but it comes with a big accessibility issue
+- [On leaving BigBinary - Rishi Mohan](https://rishimohan.me/blog/on-leaving-bigbinary): Last couple days in BigBinary where I've worked for 6 long years. Learned, lived and laughed...
+- [Shot on iPhone 8 Plus - Rishi Mohan](https://rishimohan.me/blog/shot-on-iphone-8-plus): Story behind why I got iPhone 8 Plus and shots from my recent trip to Patna
+- [Some learnings from my first side-project - Rishi Mohan](https://rishimohan.me/blog/side-project-learnings): Just a list of some miscellaneous learnings from my first product built with Next.js, TailwindCSS and Supabase.
+- [A Simple SVG Spinner Icon - Rishi Mohan](https://rishimohan.me/blog/simple-svg-spinner-icon): An animated SVG for a spinner icon that can be used in any kind of project
+- [Sinhagad: My first ever trek - Rishi Mohan](https://rishimohan.me/blog/sinhagad-trek): Finally checked my goal to do a trek before the end of the year
+- [The Cosmic Label - Rishi Mohan](https://rishimohan.me/blog/the-cosmic-label): The Cosmic Label is a place where I’m exploring my interest in menswear and aesthetic dressing, I’m a web designer by pr
+- [You've tried enough - Rishi Mohan](https://rishimohan.me/blog/tried-enough): The Universe will never give you peace in something you were never meant to settle in
+- [The Triund trek - Rishi Mohan](https://rishimohan.me/blog/triund-experience): From wanting to do a trek before 2021 fades out to doing it, here's why I'm going to remember from the Triund trek
+- [Udaipur Travel Blog - Rishi Mohan](https://rishimohan.me/blog/udaipur-blog): Places I travelled in Udaipur, experiences and photos from the trip
+- [What I don't want to be when I grow up - Rishi Mohan](https://rishimohan.me/blog/when-i-grow-up): A certain list of traits that I have decided after observing people close to me which I don't want to have when I grow u
