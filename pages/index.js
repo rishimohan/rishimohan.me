@@ -135,22 +135,6 @@ const INFO = [
   {
     text: (
       <>
-        Design Engineering at{" "}
-        <Link
-          target="_blank"
-          href="https://xata.io"
-          className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-        >
-          Xata.io
-        </Link>
-      </>
-    ),
-    icon: <Briefcase />,
-    className: "bg-red-50 text-red-800",
-  },
-  {
-    text: (
-      <>
         Previously at{" "}
         <Link
           target="_blank"
