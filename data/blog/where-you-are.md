@@ -8,9 +8,9 @@ excerpt: The places you've seen, the photos you've taken, the people that touche
 
 ![Where you are - Rishi Mohan](/images/posts/where-you-are.jpg)
 
-_Where's home?_ Yes, it's where you are
+_Where's your home?_ It's where you are
 
-You're home for memories that randomly make you smile.
+You're your home for memories that randomly make you smile.
 You're home for all the adventures you've taken,
 for all the mischiefs you've done
 
