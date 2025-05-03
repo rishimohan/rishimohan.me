@@ -526,7 +526,8 @@ export async function getStaticProps() {
             : right.hasOwnProperty("active")
             ? 1
             : 0
-        ),
+        )
+        ?.slice(0, 6),
     },
   };
 }
