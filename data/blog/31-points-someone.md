@@ -8,7 +8,7 @@ excerpt: The good, the bads and alrights of 2021
 
 ![31 Points Someone - Rishi Mohan](/images/posts/31.jpeg)
 
-[Turned 31 this year in a small town in Cinque Terre called Levanto](https://www.instagram.com/p/DJUHtcpM0gW/?img_index=1)
+[Turned 31 this year in a small town in Cinque Terre called Levanto](https://www.instagram.com/p/DJLz05EsUM-/?img_index=1)
 
 How do I feel? **My best!**
 
