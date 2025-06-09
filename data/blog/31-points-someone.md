@@ -3,7 +3,7 @@ layout: post
 title: "31 Points Someone"
 date: 2025-05-28 13:00:00 +0530
 categories: personal
-excerpt: The good, the bads and alrights of 2021
+excerpt: Turning 31 and life right now
 ---
 
 ![31 Points Someone - Rishi Mohan](/images/posts/31.jpeg)
