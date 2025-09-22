@@ -8,7 +8,7 @@ icon: /images/work/show/orshot-icon.svg
 active: true
 tagline: Automation for Creative Marketing
 status: Active
-statusText: ["Beta"]
+statusText: ["$$$$/m"]
 ---
 
 ![Orshot Screenshot](/images/work/show/orshot-preview.png)

@@ -8,7 +8,7 @@ icon: /images/work/show/pika-icon.png
 active: true
 tagline: Beautiful Screenshots and Mockups
 status: Active
-statusText: ["$3.5k+ MRR", "250+ Paid Users"]
+statusText: ["$$$$/m"]
 ---
 
 ![Pika Screenshot](/images/work/show/pika-preview.png)
