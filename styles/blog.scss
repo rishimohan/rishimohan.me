@@ -6,6 +6,10 @@ $laptop: "screen and (min-width: 992px)"; /* Laptop and desktop */
 $desktop: "screen and (min-width: 1200px)"; /* Only desktop */
 
 .post-content {
+  iframe {
+    @apply my-10 rounded-md;
+  }
+
   a {
     position: relative;
   }
