@@ -24,7 +24,7 @@ while I was waiting to join Xata
 I was excited but it was short-lived, after working for 2 months
 I was let go
 
-It should've felt disappointing, but it was meant to me.
+It should've felt disappointing, but it was meant to be.
 I know it because not a single cell in my body felt I'm losing,
 it was opposite and it felt and feels like this is what I should've done long back
 
@@ -80,15 +80,13 @@ which day of the month it was.
 Or if it's weekend or if I had lunch
 
 This is the spark I don't want to lose,
-the feeling of having done on my own,
-of my own is unmatched
+the satisfaction of playing my own tunes is unmatched
 
 This is what I want to do now.
 A company that I run,
 work that I love,
 people that I care for,
-be free and travel with no borders
-
+be free and travel with no borders.
 Realizing these feels more closer to now
 
 ## Highlights of 2025
