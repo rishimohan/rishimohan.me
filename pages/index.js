@@ -257,7 +257,7 @@ export default function Home({ allPosts, allProjects, post }) {
               <div
                 className={clsx(
                   "border rounded-lg px-[10px] py-[6px] flex gap-1.5 items-center",
-                  item?.className
+                  item?.className,
                 )}
                 key={item?.text + index}
               >
@@ -307,7 +307,7 @@ export default function Home({ allPosts, allProjects, post }) {
                   <div className="pt-3 pb-2 relative">
                     {project?.icon ? (
                       <img
-                        className="w-[32px] drop-shadow-xl"
+                        className="w-[32px] drop-shadow-xl rounded-md"
                         src={project?.icon}
                         alt={project?.title}
                       />
@@ -461,7 +461,7 @@ export default function Home({ allPosts, allProjects, post }) {
                   key={item.src}
                   className={clsx(
                     // item?.className,
-                    "relative bg-gray-100  hover:bg-gray-900 duration-100 ease-in-out rounded-[12px] dark:border-gray-700 hover:shadow-xl md:hover:scale-[1.1]"
+                    "relative bg-gray-100  hover:bg-gray-900 duration-100 ease-in-out rounded-[12px] dark:border-gray-700 hover:shadow-xl md:hover:scale-[1.1]",
                   )}
                 >
                   <img
@@ -525,7 +525,7 @@ export async function getStaticProps() {
             ? -1
             : right.hasOwnProperty("active")
             ? 1
-            : 0
+            : 0,
         )
         ?.slice(0, 6),
     },
