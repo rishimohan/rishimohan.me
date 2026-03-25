@@ -3,7 +3,7 @@ layout: post
 title: "Now a Permanent Resident of Deutschland 🇩🇪"
 date: 2026-03-25 13:00:00 +0530
 categories: personal
-excerpt: Turning 31 and life right now
+excerpt: It's a huge relief and milestone for me and now I can focus on things I really want to do :)
 ---
 
 ![Now a Permanent Resident of Deutschland 🇩🇪 - Rishi Mohan](/images/posts/german-pr.jpeg)
