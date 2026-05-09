@@ -91,9 +91,3 @@ In the bigger picture I don't know where I am supposed to head
 
 And so, I'll do it moment by moment. I hope I stay grounded,
 and that nothing in this world gets on me, more than the divinity
-
-**A bit of a side-note not related to this blog:**
-I know who visits the blog. But I don't know how you're(andar se).
-And since we're ajnabee, I have nothing to say,
-except I hope you're closer to what you always wanted,
-filled with love and winning in life :)
