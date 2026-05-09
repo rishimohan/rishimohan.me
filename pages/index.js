@@ -194,6 +194,12 @@ const INFO = [
 
 const APPEARANCES = [
   {
+    title: "He Built Profitable SaaS Solo While Travelling the World",
+    href: "https://www.youtube.com/watch?v=kCYsD9_jK6w",
+    publication: "Podcast with Manu",
+    type: "Podcast",
+  },
+  {
     title: "I Built A Screenshots App On The Side And Grew It To $3.8K/Month",
     href: "https://www.starterstory.com/stories/pika",
     publication: "StarterStory",

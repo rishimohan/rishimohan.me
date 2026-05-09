@@ -74,12 +74,12 @@ export default function Sidebar() {
       icon: <Note size={16} />,
       active: pathname.includes("/blog"),
     },
-    {
-      title: "Pen",
-      url: "/pen",
-      icon: <Note size={16} />,
-      active: pathname.includes("/pen"),
-    },
+    // {
+    //   title: "Pen",
+    //   url: "/pen",
+    //   icon: <Note size={16} />,
+    //   active: pathname.includes("/pen"),
+    // },
     {
       title: "Projects",
       url: "/projects",
@@ -105,13 +105,13 @@ export default function Sidebar() {
     //   active: false,
     //   external: true,
     // },
-    {
-      title: "Resume",
-      url: "https://peerlist.io/rishimohan",
-      icon: <IdentificationCard size={16} />,
-      active: false,
-      external: true,
-    },
+    // {
+    //   title: "Resume",
+    //   url: "https://peerlist.io/rishimohan",
+    //   icon: <IdentificationCard size={16} />,
+    //   active: false,
+    //   external: true,
+    // },
   ];
 
   const SOCIAL = [
@@ -160,7 +160,7 @@ export default function Sidebar() {
                   "flex items-center w-full py-[6px] md:py-[3px] px-[8px] transition-all duration-150 ease-in-out rounded-lg ",
                   link?.active
                     ? "bg-gray-200 dark:bg-gray-700 backdrop-blur-md"
-                    : "text-gray-800 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-800"
+                    : "text-gray-800 hover:bg-gray-200 dark:text-gray-400 dark:hover:bg-gray-800",
                 )}
               >
                 {/* <span className="mr-[3px] opacity-80">{link?.icon}</span> */}
