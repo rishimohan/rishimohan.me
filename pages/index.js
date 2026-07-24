@@ -193,6 +193,12 @@ const INFO = [
 ];
 
 const APPEARANCES = [
+    {
+    title: "From Side Hustles to $6.2K MRR: How Rishi Mohan Built Orshot",
+    href: "https://www.fakemayo.com/p/from-side-hustles-to-6-2k-mrr-how-rishi-mohan-built-orshot",
+    publication: "Interview with Jakob",
+    type: "Interview",
+  },
   {
     title: "He Built Profitable SaaS Solo While Travelling the World",
     href: "https://www.youtube.com/watch?v=kCYsD9_jK6w",
