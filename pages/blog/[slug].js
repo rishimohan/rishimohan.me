@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ogImage } from "lib/og";
 import { useRouter } from "next/router";
 import { getPostBySlug, getAllPosts } from "pages/api/blog";
 import md2html from "lib/md2html";
@@ -31,15 +32,9 @@ export default function Post({ allPosts, post }) {
           site_name: `${post.title} - Rishi Mohan`,
           images: [
             {
-              url:
-                post.ogImage ??
-                `${process.env.NEXT_PUBLIC_APP_URL}/api/og?title=${
-                  post.title
-                }&description=${
-                  post.excerpt.slice(0, 100) || post.content.slice(0, 100) || ""
-                }...`,
-              width: 800,
-              height: 600,
+              url: post.ogImage ?? ogImage({ title: post.title }),
+              width: 1200,
+              height: 630,
             },
           ],
         }}

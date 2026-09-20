@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ogImage } from "lib/og";
 import { ThemeProvider } from "next-themes";
 import "styles/app.scss";
 import "styles/blog.scss";
@@ -37,9 +38,9 @@ function MyApp({ Component, pageProps }) {
               "I'm a designer and front-end engineer by profession. I build SaaS apps, like to travel, take photos and binge try Cafes and Restaurants.",
             images: [
               {
-                url: "https://rishimohan.me/images/site/meta.jpg",
-                width: 800,
-                height: 600,
+                url: ogImage({ title: "Hi, I'm Rishi Mohan!" }),
+                width: 1200,
+                height: 630,
                 alt: "Rishi Mohan",
               },
             ],
@@ -59,12 +60,22 @@ function MyApp({ Component, pageProps }) {
 
         {process.env.NODE_ENV == "production" ? (
           // Analytics Script
-          <Script
-            src="https://api.pirsch.io/pirsch.js"
-            id="pirschjs"
-            data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
-            strategy="afterInteractive"
-          />
+          <>
+            <Script
+              src="https://api.pirsch.io/pirsch.js"
+              id="pirschjs"
+              data-code={process.env.NEXT_PUBLIC_PIRSCH_KEY}
+              strategy="afterInteractive"
+            />
+
+            <Script
+              src="https://datafa.st/js/script.js"
+              id="datafastjs"
+              data-website-id="dfid_uyxlzwWUmIzvntuMv5Clw"
+              data-domain="rishimohan.me"
+              strategy="afterInteractive"
+            />
+          </>
         ) : (
           ""
         )}
