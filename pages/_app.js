@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }) {
             />
 
             <Script
-              src="https://datafa.st/js/script.js"
+              src="/js/fast-script.js"
               id="datafastjs"
               data-website-id="dfid_uyxlzwWUmIzvntuMv5Clw"
               data-domain="rishimohan.me"
