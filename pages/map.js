@@ -1,22 +1,16 @@
-import Head from "next/head";
-import { useEffect } from "react";
+import dynamic from "next/dynamic";
 import { NextSeo } from "next-seo";
-import FlightMap from "components/flightMap";
-import TravelPosterSection from "components/travelPosterSection";
 import AnchorHeading from "components/anchorHeading";
+import TravelSectionsSkeleton from "components/travelSectionsSkeleton";
+
+// The map and poster pull in world atlases and every journey, so keep them
+// out of the initial bundle and show a skeleton while they load
+const TravelSections = dynamic(() => import("components/travelSections"), {
+  ssr: false,
+  loading: TravelSectionsSkeleton,
+});
 
 export default function Home() {
-  // The map and poster render after first paint, so re-scroll to a linked heading
-  useEffect(() => {
-    const id = decodeURIComponent(window.location.hash.slice(1));
-    if (!id) return;
-    const t = setTimeout(
-      () => document.getElementById(id)?.scrollIntoView(),
-      300
-    );
-    return () => clearTimeout(t);
-  }, []);
-
   return (
     <>
       <NextSeo
@@ -76,8 +70,7 @@ export default function Home() {
         </div>
       </article>
 
-      <FlightMap />
-      <TravelPosterSection />
+      <TravelSections />
     </>
   );
 }
