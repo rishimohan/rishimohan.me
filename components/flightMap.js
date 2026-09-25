@@ -5,6 +5,7 @@ import { Airplane, Train } from "@phosphor-icons/react";
 import clsx from "clsx";
 import world from "world-atlas/countries-110m.json";
 import data from "data/flights.json";
+import AnchorHeading from "components/anchorHeading";
 
 const WIDTH = 960;
 const HEIGHT = 520;
@@ -259,7 +260,12 @@ export default function FlightMap() {
           {hasTrains && <ModeIcon mode="train" size={13} />}
           <span className="opacity-60">{years[0]} → today</span>
         </div>
-        <h2 className="mb-3 text-2xl md:text-3xl font-bold">On the move</h2>
+        <AnchorHeading
+          id="on-the-move"
+          className="mb-3 text-2xl md:text-3xl font-bold"
+        >
+          On the move
+        </AnchorHeading>
         <p className="mb-8 opacity-70 leading-[1.7]">
           Every flight{hasTrains && " and long-distance train"} I've taken since{" "}
           {years[0]}, pieced together from old boarding passes, tickets and
@@ -558,7 +564,13 @@ export default function FlightMap() {
           />
         </div>
 
-        <h3 className="mb-6 text-lg font-bold">Year by year</h3>
+        <AnchorHeading
+          as="h3"
+          id="year-by-year"
+          className="mb-6 text-lg font-bold"
+        >
+          Year by year
+        </AnchorHeading>
         <ol className="relative border-l border-gray-500/15 ml-1.5">
           {log
             .filter((y) => y.routes.length)

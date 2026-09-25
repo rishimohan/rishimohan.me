@@ -1,8 +1,22 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import { NextSeo } from "next-seo";
 import FlightMap from "components/flightMap";
+import TravelPosterSection from "components/travelPosterSection";
+import AnchorHeading from "components/anchorHeading";
 
 export default function Home() {
+  // The map and poster render after first paint, so re-scroll to a linked heading
+  useEffect(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (!id) return;
+    const t = setTimeout(
+      () => document.getElementById(id)?.scrollIntoView(),
+      300
+    );
+    return () => clearTimeout(t);
+  }, []);
+
   return (
     <>
       <NextSeo
@@ -30,7 +44,12 @@ export default function Home() {
       </div>
 
       <article className="w-full px-5 pb-10 overflow-y-auto max-w-[620px] mx-auto">
-        <h2 className="mb-6 text-2xl md:text-3xl font-bold">The Wanderland!</h2>
+        <AnchorHeading
+          id="wanderland"
+          className="mb-6 text-2xl md:text-3xl font-bold"
+        >
+          The Wanderland!
+        </AnchorHeading>
         <div className="post-content leading-[1.7]">
           <p className="">
             I didn't know I would love travelling so much until back in 2017
@@ -58,6 +77,7 @@ export default function Home() {
       </article>
 
       <FlightMap />
+      <TravelPosterSection />
     </>
   );
 }
