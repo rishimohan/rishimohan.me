@@ -17,6 +17,7 @@
     "autoprefixer": "^10.4.16",
     "classnames": "^2.3.1",
     "clsx": "^1.2.1",
+    "d3-geo": "^3.1.1",
     "eslint-config-next": "^16.3.5",
     "framer-motion": "^13.4.0",
     "global": "^4.4.0",
@@ -33,7 +34,9 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "sass": "^1.56.1",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.3.5",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   },
   "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }

@@ -1,0 +1,1366 @@
+{
+  "stats": {
+    "flights": 123,
+    "distanceKm": 165675,
+    "airports": 46,
+    "countries": 18,
+    "airlines": 27,
+    "firstYear": 2017
+  },
+  "airports": {
+    "AGR": {
+      "iata": "AGR",
+      "name": "Agra Airport",
+      "city": "Agra",
+      "country": "IN",
+      "lat": 27.158,
+      "lng": 77.961
+    },
+    "ALC": {
+      "iata": "ALC",
+      "name": "Alicante-Elche Miguel Hernández Airport",
+      "city": "Alicante",
+      "country": "ES",
+      "lat": 38.2822,
+      "lng": -0.5582
+    },
+    "AMD": {
+      "iata": "AMD",
+      "name": "Sardar Vallabh Patel International Airport",
+      "city": "Ahmedabad",
+      "country": "IN",
+      "lat": 23.0772,
+      "lng": 72.6347
+    },
+    "ATQ": {
+      "iata": "ATQ",
+      "name": "Sri Guru Ram Das Ji International Airport",
+      "city": "Amritsar",
+      "country": "IN",
+      "lat": 31.7096,
+      "lng": 74.7973
+    },
+    "AYT": {
+      "iata": "AYT",
+      "name": "Antalya International Airport",
+      "city": "Antalya",
+      "country": "TR",
+      "lat": 36.8987,
+      "lng": 30.8005
+    },
+    "BBI": {
+      "iata": "BBI",
+      "name": "Biju Patnaik International Airport",
+      "city": "Bhubaneswar",
+      "country": "IN",
+      "lat": 20.251,
+      "lng": 85.8147
+    },
+    "BCN": {
+      "iata": "BCN",
+      "name": "Josep Tarradellas Barcelona-El Prat Airport",
+      "city": "Barcelona",
+      "country": "ES",
+      "lat": 41.2971,
+      "lng": 2.0785
+    },
+    "BER": {
+      "iata": "BER",
+      "name": "Berlin Brandenburg Airport",
+      "city": "Berlin",
+      "country": "DE",
+      "lat": 52.3617,
+      "lng": 13.5023
+    },
+    "BLR": {
+      "iata": "BLR",
+      "name": "Kempegowda International Airport Bengaluru",
+      "city": "Bengaluru",
+      "country": "IN",
+      "lat": 13.1979,
+      "lng": 77.7063
+    },
+    "BOM": {
+      "iata": "BOM",
+      "name": "Chhatrapati Shivaji Maharaj International Airport",
+      "city": "Mumbai",
+      "country": "IN",
+      "lat": 19.0887,
+      "lng": 72.8679
+    },
+    "BRI": {
+      "iata": "BRI",
+      "name": "Bari Karol Wojtyła International Airport",
+      "city": "Bari",
+      "country": "IT",
+      "lat": 41.1389,
+      "lng": 16.7606
+    },
+    "BRU": {
+      "iata": "BRU",
+      "name": "Brussels Airport",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.9014,
+      "lng": 4.4844
+    },
+    "BSL": {
+      "iata": "BSL",
+      "name": "EuroAirport Basel–Mulhouse–Freiburg",
+      "city": "Basel",
+      "country": "FR",
+      "lat": 47.6007,
+      "lng": 7.5211
+    },
+    "BUD": {
+      "iata": "BUD",
+      "name": "Budapest Liszt Ferenc International Airport",
+      "city": "Budapest",
+      "country": "HU",
+      "lat": 47.4302,
+      "lng": 19.2624
+    },
+    "CCU": {
+      "iata": "CCU",
+      "name": "Netaji Subhash Chandra Bose International Airport",
+      "city": "Kolkata",
+      "country": "IN",
+      "lat": 22.654,
+      "lng": 88.4476
+    },
+    "COK": {
+      "iata": "COK",
+      "name": "Cochin International Airport",
+      "city": "Kochi",
+      "country": "IN",
+      "lat": 10.151,
+      "lng": 76.4008
+    },
+    "CRL": {
+      "iata": "CRL",
+      "name": "Brussels South Charleroi Airport",
+      "city": "Charleroi",
+      "country": "BE",
+      "lat": 50.462,
+      "lng": 4.4596
+    },
+    "DBV": {
+      "iata": "DBV",
+      "name": "Dubrovnik Ruđer Bošković Airport",
+      "city": "Dubrovnik",
+      "country": "HR",
+      "lat": 42.5622,
+      "lng": 18.2655
+    },
+    "DED": {
+      "iata": "DED",
+      "name": "Dehradun Jolly Grant Airport",
+      "city": "Dehradun",
+      "country": "IN",
+      "lat": 30.1892,
+      "lng": 78.1767
+    },
+    "DEL": {
+      "iata": "DEL",
+      "name": "Indira Gandhi International Airport",
+      "city": "New Delhi",
+      "country": "IN",
+      "lat": 28.5556,
+      "lng": 77.0952
+    },
+    "DHM": {
+      "iata": "DHM",
+      "name": "Kangra Airport",
+      "city": "Dharamshala",
+      "country": "IN",
+      "lat": 32.1649,
+      "lng": 76.263
+    },
+    "DOH": {
+      "iata": "DOH",
+      "name": "Hamad International Airport",
+      "city": "Doha",
+      "country": "QA",
+      "lat": 25.2731,
+      "lng": 51.6081
+    },
+    "FAO": {
+      "iata": "FAO",
+      "name": "Faro - Gago Coutinho International Airport",
+      "city": "Faro",
+      "country": "PT",
+      "lat": 37.0159,
+      "lng": -7.9709
+    },
+    "FCO": {
+      "iata": "FCO",
+      "name": "Rome–Fiumicino Leonardo da Vinci International Airport",
+      "city": "Rome",
+      "country": "IT",
+      "lat": 41.8045,
+      "lng": 12.252
+    },
+    "FRA": {
+      "iata": "FRA",
+      "name": "Frankfurt Main Airport",
+      "city": "Frankfurt",
+      "country": "DE",
+      "lat": 50.0267,
+      "lng": 8.5584
+    },
+    "GOI": {
+      "iata": "GOI",
+      "name": "Goa Dabolim International Airport",
+      "city": "Goa",
+      "country": "IN",
+      "lat": 15.3801,
+      "lng": 73.8333
+    },
+    "HYD": {
+      "iata": "HYD",
+      "name": "Rajiv Gandhi International Airport",
+      "city": "Hyderabad",
+      "country": "IN",
+      "lat": 17.2313,
+      "lng": 78.4299
+    },
+    "IST": {
+      "iata": "IST",
+      "name": "İstanbul Airport",
+      "city": "Istanbul",
+      "country": "TR",
+      "lat": 41.2749,
+      "lng": 28.7321
+    },
+    "KEF": {
+      "iata": "KEF",
+      "name": "Keflavik International Airport",
+      "city": "Reykjavík",
+      "country": "IS",
+      "lat": 63.985,
+      "lng": -22.6056
+    },
+    "KTM": {
+      "iata": "KTM",
+      "name": "Tribhuvan International Airport",
+      "city": "Kathmandu",
+      "country": "NP",
+      "lat": 27.6966,
+      "lng": 85.3591
+    },
+    "LIS": {
+      "iata": "LIS",
+      "name": "Lisbon Humberto Delgado Airport",
+      "city": "Lisbon",
+      "country": "PT",
+      "lat": 38.7813,
+      "lng": -9.1359
+    },
+    "LUX": {
+      "iata": "LUX",
+      "name": "Luxembourg-Findel International Airport",
+      "city": "Luxembourg",
+      "country": "LU",
+      "lat": 49.6268,
+      "lng": 6.2121
+    },
+    "MLA": {
+      "iata": "MLA",
+      "name": "Malta International Airport",
+      "city": "Malta",
+      "country": "MT",
+      "lat": 35.8459,
+      "lng": 14.4915
+    },
+    "NCE": {
+      "iata": "NCE",
+      "name": "Nice-Côte d'Azur Airport",
+      "city": "Nice",
+      "country": "FR",
+      "lat": 43.6584,
+      "lng": 7.2159
+    },
+    "NMI": {
+      "iata": "NMI",
+      "name": "Navi Mumbai International Airport",
+      "city": "Navi Mumbai",
+      "country": "IN",
+      "lat": 18.9846,
+      "lng": 73.0653
+    },
+    "OPO": {
+      "iata": "OPO",
+      "name": "Francisco de Sá Carneiro Airport",
+      "city": "Porto",
+      "country": "PT",
+      "lat": 41.2481,
+      "lng": -8.6814
+    },
+    "PAT": {
+      "iata": "PAT",
+      "name": "Jay Prakash Narayan Airport",
+      "city": "Patna",
+      "country": "IN",
+      "lat": 25.5913,
+      "lng": 85.088
+    },
+    "PMI": {
+      "iata": "PMI",
+      "name": "Palma de Mallorca Airport",
+      "city": "Palma de Mallorca",
+      "country": "ES",
+      "lat": 39.5517,
+      "lng": 2.7388
+    },
+    "PNQ": {
+      "iata": "PNQ",
+      "name": "Pune International Airport",
+      "city": "Pune",
+      "country": "IN",
+      "lat": 18.5821,
+      "lng": 73.9197
+    },
+    "PRG": {
+      "iata": "PRG",
+      "name": "Václav Havel Airport Prague",
+      "city": "Prague",
+      "country": "CZ",
+      "lat": 50.1009,
+      "lng": 14.2599
+    },
+    "PSA": {
+      "iata": "PSA",
+      "name": "Pisa International Airport",
+      "city": "Pisa",
+      "country": "IT",
+      "lat": 43.6839,
+      "lng": 10.3927
+    },
+    "SPU": {
+      "iata": "SPU",
+      "name": "Split Saint Jerome Airport",
+      "city": "Split",
+      "country": "HR",
+      "lat": 43.5389,
+      "lng": 16.298
+    },
+    "TIR": {
+      "iata": "TIR",
+      "name": "Tirupati International Airport",
+      "city": "Tirupati",
+      "country": "IN",
+      "lat": 13.632,
+      "lng": 79.5399
+    },
+    "VLC": {
+      "iata": "VLC",
+      "name": "Valencia Airport",
+      "city": "Valencia",
+      "country": "ES",
+      "lat": 39.4892,
+      "lng": -0.481
+    },
+    "WAW": {
+      "iata": "WAW",
+      "name": "Warsaw Chopin Airport",
+      "city": "Warsaw",
+      "country": "PL",
+      "lat": 52.1657,
+      "lng": 20.9671
+    },
+    "ZRH": {
+      "iata": "ZRH",
+      "name": "Zürich Airport",
+      "city": "Zurich",
+      "country": "CH",
+      "lat": 47.4581,
+      "lng": 8.5481
+    }
+  },
+  "flights": [
+    {
+      "year": 2017,
+      "from": "DEL",
+      "to": "PNQ",
+      "airline": "IndiGo",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2017,
+      "from": "PNQ",
+      "to": "DEL",
+      "airline": "Jet Airways",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2017,
+      "from": "DEL",
+      "to": "PNQ",
+      "airline": "AirAsia India",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2017,
+      "from": "BOM",
+      "to": "DEL",
+      "airline": "Air India",
+      "distanceKm": 1137,
+      "status": "flown"
+    },
+    {
+      "year": 2017,
+      "from": "DEL",
+      "to": "PAT",
+      "airline": "IndiGo",
+      "distanceKm": 857,
+      "status": "flown"
+    },
+    {
+      "year": 2017,
+      "from": "PAT",
+      "to": "DEL",
+      "airline": "Jet Airways",
+      "distanceKm": 857,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "BLR",
+      "to": "BOM",
+      "airline": "Jet Airways",
+      "distanceKm": 834,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "BOM",
+      "to": "DEL",
+      "airline": "Air India",
+      "distanceKm": 1137,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "DEL",
+      "to": "KTM",
+      "airline": "Nepal Airlines",
+      "distanceKm": 816,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "KTM",
+      "to": "DEL",
+      "airline": "IndiGo",
+      "distanceKm": 816,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "PNQ",
+      "to": "DEL",
+      "airline": "Vistara",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "DEL",
+      "to": "PNQ",
+      "airline": "GoAir",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2018,
+      "from": "PNQ",
+      "to": "DEL",
+      "airline": "IndiGo",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2019,
+      "from": "DEL",
+      "to": "BLR",
+      "airline": "IndiGo",
+      "distanceKm": 1709,
+      "status": "flown"
+    },
+    {
+      "year": 2019,
+      "from": "BLR",
+      "to": "PNQ",
+      "airline": "AirAsia India",
+      "distanceKm": 723,
+      "status": "booked"
+    },
+    {
+      "year": 2019,
+      "from": "PNQ",
+      "to": "DEL",
+      "airline": "IndiGo",
+      "distanceKm": 1155,
+      "status": "booked"
+    },
+    {
+      "year": 2019,
+      "from": "BOM",
+      "to": "DEL",
+      "airline": "Vistara",
+      "distanceKm": 1137,
+      "status": "flown"
+    },
+    {
+      "year": 2019,
+      "from": "DEL",
+      "to": "DHM",
+      "airline": "SpiceJet",
+      "distanceKm": 409,
+      "status": "booked"
+    },
+    {
+      "year": 2019,
+      "from": "DHM",
+      "to": "DEL",
+      "airline": "SpiceJet",
+      "distanceKm": 409,
+      "status": "booked"
+    },
+    {
+      "year": 2019,
+      "from": "DEL",
+      "to": "PNQ",
+      "airline": "AirAsia India",
+      "distanceKm": 1155,
+      "status": "booked"
+    },
+    {
+      "year": 2019,
+      "from": "DEL",
+      "to": "PNQ",
+      "airline": "Air India",
+      "distanceKm": 1155,
+      "status": "booked"
+    },
+    {
+      "year": 2019,
+      "from": "DEL",
+      "to": "IST",
+      "airline": "Turkish Airlines",
+      "distanceKm": 4567,
+      "status": "flown"
+    },
+    {
+      "year": 2019,
+      "from": "IST",
+      "to": "LUX",
+      "airline": "Turkish Airlines",
+      "distanceKm": 1976,
+      "status": "flown"
+    },
+    {
+      "year": 2019,
+      "from": "LUX",
+      "to": "MLA",
+      "airline": "Ryanair",
+      "distanceKm": 1672,
+      "status": "flown"
+    },
+    {
+      "year": 2019,
+      "from": "MLA",
+      "to": "LUX",
+      "airline": "Ryanair",
+      "distanceKm": 1672,
+      "status": "flown"
+    },
+    {
+      "year": 2020,
+      "from": "LUX",
+      "to": "IST",
+      "airline": "Turkish Airlines",
+      "distanceKm": 1976,
+      "status": "booked"
+    },
+    {
+      "year": 2020,
+      "from": "IST",
+      "to": "DEL",
+      "airline": "Turkish Airlines",
+      "distanceKm": 4567,
+      "status": "booked"
+    },
+    {
+      "year": 2020,
+      "from": "DEL",
+      "to": "BOM",
+      "airline": "Vistara",
+      "distanceKm": 1137,
+      "status": "booked"
+    },
+    {
+      "year": 2020,
+      "from": "BOM",
+      "to": "BLR",
+      "airline": "AirAsia India",
+      "distanceKm": 834,
+      "status": "booked"
+    },
+    {
+      "year": 2020,
+      "from": "BLR",
+      "to": "COK",
+      "airline": "AirAsia India",
+      "distanceKm": 367,
+      "status": "booked"
+    },
+    {
+      "year": 2020,
+      "from": "BOM",
+      "to": "DEL",
+      "airline": "Vistara",
+      "distanceKm": 1137,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "DEL",
+      "to": "PNQ",
+      "airline": "IndiGo",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "PNQ",
+      "to": "DEL",
+      "airline": "Vistara",
+      "distanceKm": 1155,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "DEL",
+      "to": "DED",
+      "airline": "Vistara",
+      "distanceKm": 210,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "DED",
+      "to": "DEL",
+      "airline": "SpiceJet",
+      "distanceKm": 210,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "DEL",
+      "to": "GOI",
+      "airline": "SpiceJet",
+      "distanceKm": 1503,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "GOI",
+      "to": "DEL",
+      "airline": "Vistara",
+      "distanceKm": 1503,
+      "status": "flown"
+    },
+    {
+      "year": 2021,
+      "from": "DHM",
+      "to": "DEL",
+      "airline": "SpiceJet",
+      "distanceKm": 409,
+      "status": "flown"
+    },
+    {
+      "year": 2022,
+      "from": "DEL",
+      "to": "GOI",
+      "airline": "SpiceJet",
+      "distanceKm": 1503,
+      "status": "flown"
+    },
+    {
+      "year": 2022,
+      "from": "GOI",
+      "to": "BOM",
+      "airline": "AirAsia India",
+      "distanceKm": 425,
+      "status": "flown"
+    },
+    {
+      "year": 2022,
+      "from": "BOM",
+      "to": "DEL",
+      "airline": "AirAsia India",
+      "distanceKm": 1137,
+      "status": "flown"
+    },
+    {
+      "year": 2022,
+      "from": "DEL",
+      "to": "ATQ",
+      "airline": "Go First",
+      "distanceKm": 414,
+      "status": "flown"
+    },
+    {
+      "year": 2022,
+      "from": "TIR",
+      "to": "HYD",
+      "airline": "Air India",
+      "distanceKm": 418,
+      "status": "flown"
+    },
+    {
+      "year": 2022,
+      "from": "HYD",
+      "to": "DEL",
+      "airline": "Air India",
+      "distanceKm": 1267,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "DEL",
+      "to": "FRA",
+      "airline": "Air India",
+      "distanceKm": 6122,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "FRA",
+      "to": "BER",
+      "airline": "Lufthansa",
+      "distanceKm": 431,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "LUX",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "booked"
+    },
+    {
+      "year": 2023,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "FCO",
+      "airline": null,
+      "distanceKm": 1178,
+      "status": "inferred"
+    },
+    {
+      "year": 2023,
+      "from": "FCO",
+      "to": "NCE",
+      "airline": "Wizz Air Malta",
+      "distanceKm": 460,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "NCE",
+      "to": "BRU",
+      "airline": null,
+      "distanceKm": 831,
+      "status": "inferred"
+    },
+    {
+      "year": 2023,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "BRU",
+      "airline": "Ryanair",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BRU",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "BRU",
+      "airline": "Ryanair",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BRU",
+      "to": "FAO",
+      "airline": "Transavia",
+      "distanceKm": 1832,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "FAO",
+      "to": "LIS",
+      "airline": "TAP Air Portugal",
+      "distanceKm": 221,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "LIS",
+      "to": "OPO",
+      "airline": "TAP Air Portugal",
+      "distanceKm": 277,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "OPO",
+      "to": "LUX",
+      "airline": "Ryanair",
+      "distanceKm": 1485,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BRU",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "PRG",
+      "to": "BRU",
+      "airline": "Brussels Airlines",
+      "distanceKm": 697,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BRU",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "LUX",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "BRU",
+      "airline": "Brussels Airlines",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2023,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "booked"
+    },
+    {
+      "year": 2023,
+      "from": "BER",
+      "to": "BUD",
+      "airline": "Ryanair",
+      "distanceKm": 686,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BUD",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 686,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BER",
+      "to": "DOH",
+      "airline": "Qatar Airways",
+      "distanceKm": 4382,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "DOH",
+      "to": "BOM",
+      "airline": "Qatar Airways",
+      "distanceKm": 2291,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BOM",
+      "to": "BLR",
+      "airline": "IndiGo",
+      "distanceKm": 834,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BLR",
+      "to": "CCU",
+      "airline": "IndiGo",
+      "distanceKm": 1547,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "CCU",
+      "to": "BLR",
+      "airline": "Air India Express",
+      "distanceKm": 1547,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BLR",
+      "to": "GOI",
+      "airline": "Air India Express",
+      "distanceKm": 483,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "GOI",
+      "to": "BOM",
+      "airline": "IndiGo",
+      "distanceKm": 425,
+      "status": "booked"
+    },
+    {
+      "year": 2024,
+      "from": "BOM",
+      "to": "FRA",
+      "airline": "Lufthansa",
+      "distanceKm": 6570,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "FRA",
+      "to": "BER",
+      "airline": "Lufthansa",
+      "distanceKm": 431,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BER",
+      "to": "AYT",
+      "airline": "SunExpress",
+      "distanceKm": 2186,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "AYT",
+      "to": "BER",
+      "airline": "Freebird Airlines",
+      "distanceKm": 2186,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BER",
+      "to": "PMI",
+      "airline": "easyJet",
+      "distanceKm": 1646,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "PMI",
+      "to": "BCN",
+      "airline": "Air Europa",
+      "distanceKm": 202,
+      "status": "booked"
+    },
+    {
+      "year": 2024,
+      "from": "BCN",
+      "to": "CRL",
+      "airline": "Ryanair",
+      "distanceKm": 1035,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BER",
+      "to": "BRU",
+      "airline": "Ryanair",
+      "distanceKm": 643,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BER",
+      "to": "ALC",
+      "airline": "Eurowings",
+      "distanceKm": 1906,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "VLC",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 1787,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "BER",
+      "to": "DOH",
+      "airline": "Qatar Airways",
+      "distanceKm": 4382,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "DOH",
+      "to": "DEL",
+      "airline": "Qatar Airways",
+      "distanceKm": 2548,
+      "status": "flown"
+    },
+    {
+      "year": 2024,
+      "from": "AGR",
+      "to": "BOM",
+      "airline": "IndiGo",
+      "distanceKm": 1037,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "AGR",
+      "to": "HYD",
+      "airline": "IndiGo",
+      "distanceKm": 1105,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "HYD",
+      "to": "GOI",
+      "airline": "IndiGo",
+      "distanceKm": 532,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "GOI",
+      "to": "AMD",
+      "airline": "IndiGo",
+      "distanceKm": 865,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "AMD",
+      "to": "AGR",
+      "airline": "IndiGo",
+      "distanceKm": 702,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "DEL",
+      "to": "DOH",
+      "airline": "Qatar Airways",
+      "distanceKm": 2548,
+      "status": "booked"
+    },
+    {
+      "year": 2025,
+      "from": "DOH",
+      "to": "BER",
+      "airline": "Qatar Airways",
+      "distanceKm": 4382,
+      "status": "booked"
+    },
+    {
+      "year": 2025,
+      "from": "BER",
+      "to": "KEF",
+      "airline": "Icelandair",
+      "distanceKm": 2432,
+      "status": "booked"
+    },
+    {
+      "year": 2025,
+      "from": "KEF",
+      "to": "BER",
+      "airline": "Icelandair",
+      "distanceKm": 2432,
+      "status": "booked"
+    },
+    {
+      "year": 2025,
+      "from": "BER",
+      "to": "PSA",
+      "airline": "Ryanair",
+      "distanceKm": 992,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "PSA",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 992,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "BER",
+      "to": "LUX",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "WAW",
+      "to": "BER",
+      "airline": "LOT Polish Airlines",
+      "distanceKm": 508,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2025,
+      "from": "BER",
+      "to": "LUX",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "booked"
+    },
+    {
+      "year": 2025,
+      "from": "BER",
+      "to": "BSL",
+      "airline": "easyJet",
+      "distanceKm": 680,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "BER",
+      "to": "DOH",
+      "airline": "Qatar Airways",
+      "distanceKm": 4382,
+      "status": "booked"
+    },
+    {
+      "year": 2026,
+      "from": "DOH",
+      "to": "BOM",
+      "airline": "Qatar Airways",
+      "distanceKm": 2291,
+      "status": "booked"
+    },
+    {
+      "year": 2026,
+      "from": "BOM",
+      "to": "ZRH",
+      "airline": "SWISS",
+      "distanceKm": 6540,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "ZRH",
+      "to": "BER",
+      "airline": "SWISS",
+      "distanceKm": 650,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "BER",
+      "to": "BRI",
+      "airline": "Ryanair",
+      "distanceKm": 1272,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "BRI",
+      "to": "BER",
+      "airline": "Ryanair",
+      "distanceKm": 1272,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "BER",
+      "to": "DBV",
+      "airline": "Ryanair",
+      "distanceKm": 1146,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "SPU",
+      "to": "BER",
+      "airline": null,
+      "distanceKm": 1003,
+      "status": "inferred"
+    },
+    {
+      "year": 2026,
+      "from": "BER",
+      "to": "LUX",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "LUX",
+      "to": "BER",
+      "airline": "Luxair",
+      "distanceKm": 594,
+      "status": "booked"
+    },
+    {
+      "year": 2026,
+      "from": "BER",
+      "to": "DOH",
+      "airline": "Qatar Airways",
+      "distanceKm": 4382,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "DOH",
+      "to": "BOM",
+      "airline": "Qatar Airways",
+      "distanceKm": 2291,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "BOM",
+      "to": "BBI",
+      "airline": "IndiGo",
+      "distanceKm": 1361,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "BBI",
+      "to": "DEL",
+      "airline": "IndiGo",
+      "distanceKm": 1277,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "AGR",
+      "to": "NMI",
+      "airline": "IndiGo",
+      "distanceKm": 1037,
+      "status": "flown"
+    },
+    {
+      "year": 2026,
+      "from": "NMI",
+      "to": "GOI",
+      "airline": "IndiGo",
+      "distanceKm": 409,
+      "status": "flown"
+    }
+  ]
+}

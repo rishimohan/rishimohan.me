@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { NextSeo } from "next-seo";
+import FlightMap from "components/flightMap";
 
 export default function Home() {
   return (
@@ -55,6 +56,8 @@ export default function Home() {
           </p>
         </div>
       </article>
+
+      <FlightMap />
     </>
   );
 }
