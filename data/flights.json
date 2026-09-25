@@ -5,7 +5,8 @@
     "airports": 46,
     "countries": 18,
     "airlines": 27,
-    "firstYear": 2017
+    "firstYear": 2017,
+    "trains": 79
   },
   "airports": {
     "AGR": {
@@ -1361,6 +1362,858 @@
       "airline": "IndiGo",
       "distanceKm": 409,
       "status": "flown"
+    }
+  ],
+  "stations": {
+    "agra": {
+      "city": "Agra",
+      "country": "IN",
+      "lat": 27.158,
+      "lng": 77.9902
+    },
+    "alicante": {
+      "city": "Alicante",
+      "country": "ES",
+      "lat": 38.3444,
+      "lng": -0.4953
+    },
+    "amsterdam": {
+      "city": "Amsterdam",
+      "country": "NL",
+      "lat": 52.3791,
+      "lng": 4.9003
+    },
+    "antwerp": {
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.2172,
+      "lng": 4.4211
+    },
+    "bari": {
+      "city": "Bari",
+      "country": "IT",
+      "lat": 41.1177,
+      "lng": 16.8697
+    },
+    "basel": {
+      "city": "Basel",
+      "country": "CH",
+      "lat": 47.5476,
+      "lng": 7.5897
+    },
+    "berlin": {
+      "city": "Berlin",
+      "country": "DE",
+      "lat": 52.5251,
+      "lng": 13.3694
+    },
+    "bhopal": {
+      "city": "Bhopal",
+      "country": "IN",
+      "lat": 23.2669,
+      "lng": 77.4131
+    },
+    "boom": {
+      "city": "Boom",
+      "country": "BE",
+      "lat": 51.0917,
+      "lng": 4.3667
+    },
+    "bruges": {
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.1972,
+      "lng": 3.217
+    },
+    "brussels": {
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.8454,
+      "lng": 4.357
+    },
+    "budapest": {
+      "city": "Budapest",
+      "country": "HU",
+      "lat": 47.5003,
+      "lng": 19.0839
+    },
+    "charleroi": {
+      "city": "Charleroi",
+      "country": "BE",
+      "lat": 50.4046,
+      "lng": 4.4383
+    },
+    "colmar": {
+      "city": "Colmar",
+      "country": "FR",
+      "lat": 48.073,
+      "lng": 7.347
+    },
+    "cologne": {
+      "city": "Cologne",
+      "country": "DE",
+      "lat": 50.943,
+      "lng": 6.9589
+    },
+    "goa": {
+      "city": "Goa",
+      "country": "IN",
+      "lat": 15.6296,
+      "lng": 73.8761
+    },
+    "goettingen": {
+      "city": "Göttingen",
+      "country": "DE",
+      "lat": 51.5364,
+      "lng": 9.9268
+    },
+    "jodhpur": {
+      "city": "Jodhpur",
+      "country": "IN",
+      "lat": 26.2838,
+      "lng": 73.0232
+    },
+    "kalyan": {
+      "city": "Kalyan",
+      "country": "IN",
+      "lat": 19.2347,
+      "lng": 73.1297
+    },
+    "lucknow": {
+      "city": "Lucknow",
+      "country": "IN",
+      "lat": 26.832,
+      "lng": 80.9186
+    },
+    "luxembourg": {
+      "city": "Luxembourg",
+      "country": "LU",
+      "lat": 49.6,
+      "lng": 6.1335
+    },
+    "mathura": {
+      "city": "Mathura",
+      "country": "IN",
+      "lat": 27.4801,
+      "lng": 77.6731
+    },
+    "monopoli": {
+      "city": "Monopoli",
+      "country": "IT",
+      "lat": 40.9502,
+      "lng": 17.2977
+    },
+    "mumbai": {
+      "city": "Mumbai",
+      "country": "IN",
+      "lat": 18.9398,
+      "lng": 72.8355
+    },
+    "new-delhi": {
+      "city": "New Delhi",
+      "country": "IN",
+      "lat": 28.6423,
+      "lng": 77.22
+    },
+    "panvel": {
+      "city": "Panvel",
+      "country": "IN",
+      "lat": 18.9909,
+      "lng": 73.1218
+    },
+    "polignano-a-mare": {
+      "city": "Polignano a Mare",
+      "country": "IT",
+      "lat": 40.9959,
+      "lng": 17.2186
+    },
+    "prague": {
+      "city": "Prague",
+      "country": "CZ",
+      "lat": 50.0833,
+      "lng": 14.4353
+    },
+    "pune": {
+      "city": "Pune",
+      "country": "IN",
+      "lat": 18.5294,
+      "lng": 73.8731
+    },
+    "strasbourg": {
+      "city": "Strasbourg",
+      "country": "FR",
+      "lat": 48.585,
+      "lng": 7.7345
+    },
+    "thane": {
+      "city": "Thane",
+      "country": "IN",
+      "lat": 19.1858,
+      "lng": 72.9754
+    },
+    "udaipur": {
+      "city": "Udaipur",
+      "country": "IN",
+      "lat": 24.5669,
+      "lng": 73.6996
+    },
+    "valencia": {
+      "city": "Valencia",
+      "country": "ES",
+      "lat": 39.4598,
+      "lng": -0.3831
+    },
+    "vasai": {
+      "city": "Vasai",
+      "country": "IN",
+      "lat": 19.3824,
+      "lng": 72.8322
+    },
+    "vienna": {
+      "city": "Vienna",
+      "country": "AT",
+      "lat": 48.1851,
+      "lng": 16.3767
+    },
+    "warsaw": {
+      "city": "Warsaw",
+      "country": "PL",
+      "lat": 52.2289,
+      "lng": 21.0031
+    }
+  },
+  "trains": [
+    {
+      "year": 2017,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2017,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2017,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2017,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2017,
+      "from": "agra",
+      "to": "udaipur",
+      "operator": "Indian Railways",
+      "distanceKm": 620,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "udaipur",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 620,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "pune",
+      "to": "kalyan",
+      "operator": "Indian Railways",
+      "distanceKm": 133,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "kalyan",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 133,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "pune",
+      "to": "panvel",
+      "operator": "Indian Railways",
+      "distanceKm": 113,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "thane",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "thane",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "pune",
+      "to": "thane",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "panvel",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 113,
+      "status": "travelled"
+    },
+    {
+      "year": 2018,
+      "from": "new-delhi",
+      "to": "bhopal",
+      "operator": "Indian Railways",
+      "distanceKm": 718,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "bhopal",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 718,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "goa",
+      "to": "vasai",
+      "operator": "Indian Railways",
+      "distanceKm": 518,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "thane",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "pune",
+      "to": "mumbai",
+      "operator": "Indian Railways",
+      "distanceKm": 142,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "pune",
+      "to": "thane",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2019,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2020,
+      "from": "thane",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2020,
+      "from": "thane",
+      "to": "pune",
+      "operator": "Indian Railways",
+      "distanceKm": 143,
+      "status": "travelled"
+    },
+    {
+      "year": 2020,
+      "from": "agra",
+      "to": "jodhpur",
+      "operator": "Indian Railways",
+      "distanceKm": 603,
+      "status": "travelled"
+    },
+    {
+      "year": 2021,
+      "from": "jodhpur",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 603,
+      "status": "travelled"
+    },
+    {
+      "year": 2021,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2021,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2021,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2021,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2021,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2022,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2022,
+      "from": "new-delhi",
+      "to": "mathura",
+      "operator": "Indian Railways",
+      "distanceKm": 164,
+      "status": "travelled"
+    },
+    {
+      "year": 2022,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2022,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2022,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2022,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2023,
+      "from": "agra",
+      "to": "new-delhi",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2023,
+      "from": "brussels",
+      "to": "luxembourg",
+      "operator": "SNCB",
+      "distanceKm": 225,
+      "status": "travelled"
+    },
+    {
+      "year": 2023,
+      "from": "luxembourg",
+      "to": "brussels",
+      "operator": "SNCB",
+      "distanceKm": 225,
+      "status": "travelled"
+    },
+    {
+      "year": 2023,
+      "from": "berlin",
+      "to": "prague",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 338,
+      "status": "travelled"
+    },
+    {
+      "year": 2023,
+      "from": "brussels",
+      "to": "luxembourg",
+      "operator": "SNCB",
+      "distanceKm": 225,
+      "status": "travelled"
+    },
+    {
+      "year": 2023,
+      "from": "vienna",
+      "to": "budapest",
+      "operator": "ÖBB",
+      "distanceKm": 259,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "charleroi",
+      "to": "bruges",
+      "operator": "SNCB",
+      "distanceKm": 148,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "brussels",
+      "to": "boom",
+      "operator": "SNCB",
+      "distanceKm": 33,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "boom",
+      "to": "antwerp",
+      "operator": "SNCB",
+      "distanceKm": 17,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "antwerp",
+      "to": "luxembourg",
+      "operator": "SNCB",
+      "distanceKm": 260,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "alicante",
+      "to": "valencia",
+      "operator": "Renfe",
+      "distanceKm": 149,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "berlin",
+      "to": "cologne",
+      "operator": "FlixTrain",
+      "distanceKm": 570,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "cologne",
+      "to": "amsterdam",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 256,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "amsterdam",
+      "to": "luxembourg",
+      "operator": "NS",
+      "distanceKm": 385,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
+    },
+    {
+      "year": 2024,
+      "from": "lucknow",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 351,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "berlin",
+      "to": "warsaw",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 623,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "berlin",
+      "to": "cologne",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 570,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "cologne",
+      "to": "berlin",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 570,
+      "status": "booked"
+    },
+    {
+      "year": 2025,
+      "from": "berlin",
+      "to": "goettingen",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 312,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "goettingen",
+      "to": "berlin",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 312,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "basel",
+      "to": "strasbourg",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 139,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "strasbourg",
+      "to": "colmar",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 76,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "colmar",
+      "to": "strasbourg",
+      "operator": "Deutsche Bahn",
+      "distanceKm": 76,
+      "status": "travelled"
+    },
+    {
+      "year": 2025,
+      "from": "strasbourg",
+      "to": "luxembourg",
+      "operator": "SNCF",
+      "distanceKm": 195,
+      "status": "travelled"
+    },
+    {
+      "year": 2026,
+      "from": "bari",
+      "to": "polignano-a-mare",
+      "operator": "Trenitalia",
+      "distanceKm": 39,
+      "status": "travelled"
+    },
+    {
+      "year": 2026,
+      "from": "polignano-a-mare",
+      "to": "bari",
+      "operator": "Trenitalia",
+      "distanceKm": 39,
+      "status": "travelled"
+    },
+    {
+      "year": 2026,
+      "from": "bari",
+      "to": "monopoli",
+      "operator": "Trenitalia",
+      "distanceKm": 49,
+      "status": "travelled"
+    },
+    {
+      "year": 2026,
+      "from": "monopoli",
+      "to": "bari",
+      "operator": "Trenitalia",
+      "distanceKm": 49,
+      "status": "travelled"
+    },
+    {
+      "year": 2026,
+      "from": "new-delhi",
+      "to": "agra",
+      "operator": "Indian Railways",
+      "distanceKm": 218,
+      "status": "travelled"
     }
   ]
 }
