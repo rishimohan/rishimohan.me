@@ -20,6 +20,11 @@ module.exports = {
         source: "/api/events",
         destination: "https://datafa.st/api/events",
       },
+      // PostHog for the Upwards page's download events (pages/projects/upwards.js).
+      {
+        source: "/ingest/:path*",
+        destination: "https://us.i.posthog.com/:path*",
+      },
     ];
   },
 

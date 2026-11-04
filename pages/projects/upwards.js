@@ -15,6 +15,52 @@ import {
 const VERSION = "0.1.0";
 const SIZE = "6.9 MB";
 const DOWNLOAD = "/upwards/download";
+
+/* Page analytics go to the same PostHog project as the app ("Upwards", US cloud), so landing page visits and
+   download clicks sit next to installs and usage. Sent through /ingest on this site (next.config.js rewrites it
+   to PostHog) so tracker blockers drop fewer of them. No cookies and no person profiles: one random id per browser
+   in localStorage. Only on rishimohan.me, so local dev sends nothing. */
+const POSTHOG_KEY = "phc_qGsgopq5xwoUQNsSFNZA4z4LEsiZEadYCC7Dz83w2tEq"; // public project key, can only send events
+
+function visitorId() {
+  try {
+    let id = localStorage.getItem("upwards_visitor");
+    if (!id) localStorage.setItem("upwards_visitor", (id = crypto.randomUUID()));
+    return id;
+  } catch {
+    return `anon-${Math.random().toString(36).slice(2)}`;
+  }
+}
+
+function track(event, properties = {}) {
+  if (typeof window === "undefined" || !/(^|\.)rishimohan\.me$/.test(location.hostname)) return;
+  try {
+    const q = new URLSearchParams(location.search);
+    const utm = {};
+    for (const k of ["utm_source", "utm_medium", "utm_campaign", "ref"]) if (q.get(k)) utm[k] = q.get(k);
+    fetch("/ingest/i/v0/e", { // no trailing slash: Next would redirect it
+      method: "POST",
+      keepalive: true, // still sends when the click leaves the page for the DMG
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        api_key: POSTHOG_KEY,
+        event,
+        distinct_id: visitorId(),
+        properties: {
+          source: "landing_page",
+          $current_url: location.href,
+          $pathname: location.pathname,
+          $referrer: document.referrer || "$direct",
+          $referring_domain: document.referrer ? new URL(document.referrer).hostname : "$direct",
+          $screen_width: window.screen?.width,
+          $process_person_profile: false,
+          ...utm,
+          ...properties,
+        },
+      }),
+    }).catch(() => {});
+  } catch {}
+}
 const IMG = "/images/work/upwards";
 const UNQUARANTINE = "xattr -dr com.apple.quarantine /Applications/Upwards.app";
 const utm = "utm_source=rishimohan.me&utm_medium=referral&utm_campaign=upwards";
@@ -417,11 +463,12 @@ function Fleuron() {
   );
 }
 
-function DownloadButton() {
+function DownloadButton({ placement }) {
   return (
     <a
       href={DOWNLOAD}
       data-fast-goal="download_upwards"
+      onClick={() => track("landing_download_clicked", { placement, version: VERSION })}
       className="btn-honey inline-flex items-center justify-center gap-2.5 rounded-full pl-5 pr-2 py-2 text-[15px] font-semibold"
     >
       <AppleLogo weight="bold" size={17} />
@@ -918,6 +965,7 @@ function structuredData(description) {
 
 export default function Upwards() {
   const [spin, setSpin] = useState(false);
+  useEffect(() => track("landing_page_viewed"), []);
   const description =
     "A free Stripe app for Mac. See today's sales, MRR that matches Stripe and net new MRR in your menu bar, and get notified of new subscriptions and failed payments.";
   const title = "Upwards – Free Stripe app for Mac: MRR, sales and notifications";
@@ -980,7 +1028,7 @@ export default function Upwards() {
               click away all day.
             </p>
             <div className="rise mt-8 flex flex-col sm:flex-row items-center justify-center gap-3" style={{ "--i": 4 }}>
-              <DownloadButton />
+              <DownloadButton placement="hero" />
               <a href="#install" className="btn-ghost inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-[15px] font-semibold">
                 How to install
               </a>
@@ -1088,7 +1136,7 @@ export default function Upwards() {
                 Up and running <span className="serif">in a minute.</span>
               </h2>
               <div className="mt-8 flex flex-col items-center md:items-start gap-3">
-                <DownloadButton />
+                <DownloadButton placement="install" />
                 <p className="ink3 text-[13px] tabular-nums">
                   Version {VERSION} · {SIZE} · macOS 14 or later
                 </p>
@@ -1147,7 +1195,7 @@ export default function Upwards() {
               Free, <span className="serif">for self and everyone.</span>
             </h2>
             <div className="mt-9 flex justify-center">
-              <DownloadButton />
+              <DownloadButton placement="closing" />
             </div>
             <div className="mt-16 text-[14px] leading-7">
               <a href="https://rishimohan.me" aria-hidden tabIndex={-1} className="inline-block mb-4">
