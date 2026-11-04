@@ -896,7 +896,7 @@ function structuredData(description) {
       softwareVersion: VERSION,
       fileSize: SIZE,
       downloadUrl: `https://rishimohan.me${DOWNLOAD}`,
-      image: `https://rishimohan.me${IMG}/og.jpg`,
+      image: `https://rishimohan.me${IMG}/og-v2.jpg`,
       screenshot: ["dashboard", "mrr", "movement", "activity"].map((n) => `https://rishimohan.me${IMG}/${n}-light.png`),
       featureList: FEATURES.map(([, title, text]) => `${title}: ${plain(text)}`),
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
@@ -934,7 +934,7 @@ export default function Upwards() {
           description,
           images: [
             {
-              url: `https://rishimohan.me${IMG}/og.jpg`,
+              url: `https://rishimohan.me${IMG}/og-v2.jpg`,
               width: 2400,
               height: 1260,
               alt: "Upwards: Stripe revenue, in your menu bar. A free Mac app for MRR, today's sales and Stripe notifications.",
