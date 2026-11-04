@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Upwards</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Tue, 03 Nov 2026 23:31:23 -0500</pubDate>
+            <link>https://rishimohan.me/projects/upwards</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://rishimohan.me/downloads/Upwards-0.1.0.dmg" length="7262950" type="application/octet-stream" sparkle:edSignature="JFvNPtgWOfYWMb3yT8ho0OCn2as1yM2qKwVY9ygWdlkAOivg4zfnfkcDFmUpy75Q1QUCQxF1CKFE+T/eqzh/Aw=="/>
+        </item>
+    </channel>
+</rss>

@@ -18,6 +18,11 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;900&display=swap"
           rel="stylesheet"
         />
+        {/* Display type for the Upwards project page */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Instrument+Serif:ital@1&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />

@@ -30,6 +30,7 @@ from boring screenshots. Previous workflow included
 involvement of
 - [Qurb - Rishi Mohan](https://rishimohan.me/projects/qurb): 
 Qurb lets you generate mockup for iPhone X/XS/Max, iPad, MacBook and other devices quickly. Just select the device, add your
+- [Upwards – Free Stripe app for Mac](https://rishimohan.me/projects/upwards): Upwards is a free macOS menu bar app for Stripe, made by Rishi Mohan. It shows today's sales against yesterday, MRR counted the way Stripe's Billing overview counts it, net new MRR (new, expansion, contraction, churn), a readable feed of customer activity, and macOS notifications for new subscriptions, upgrades, cancellations, failed payments and refunds. It makes monthly MRR cards for X and LinkedIn. It uses a read-only restricted Stripe key stored in the macOS Keychain, with no server in between. Requires macOS 14 or later, Apple silicon or Intel. Download: https://rishimohan.me/upwards/download
 - [Zinx - Rishi Mohan](https://rishimohan.me/projects/zinx): ZINX is a technology and design blog I started in 2013. Back then, I used to spend a lot of my time playing video games and reading about latest technologies and design trends. I’ve written over 50
 
 ## Blog
