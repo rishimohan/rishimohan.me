@@ -879,6 +879,9 @@ function QA({ q, a }) {
 /* ───────────────────────── Structured data ───────────────────────── */
 
 const PAGE_URL = "https://rishimohan.me/projects/upwards";
+// Link preview image, rendered by Orshot from the "Upwards – OG image" template (rishimohan workspace, id 36504).
+// Edit the template and the preview updates within an hour (the URL's cache), with no deploy.
+const OG_IMAGE = "https://api.orshot.com/v1/studio/dynamic-url/upwards-og.jpg?templateId=36504&sign=61e8803d381472e1";
 const plain = (node) => (typeof node === "string" ? node : "");
 
 /** schema.org data for search engines and AI answer engines: the app itself, and the FAQ. */
@@ -896,7 +899,7 @@ function structuredData(description) {
       softwareVersion: VERSION,
       fileSize: SIZE,
       downloadUrl: `https://rishimohan.me${DOWNLOAD}`,
-      image: `https://rishimohan.me${IMG}/og.jpg`,
+      image: OG_IMAGE,
       screenshot: ["dashboard", "mrr", "movement", "activity"].map((n) => `https://rishimohan.me${IMG}/${n}-light.png`),
       featureList: FEATURES.map(([, title, text]) => `${title}: ${plain(text)}`),
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
@@ -934,9 +937,9 @@ export default function Upwards() {
           description,
           images: [
             {
-              url: `https://rishimohan.me${IMG}/og.jpg`,
-              width: 2400,
-              height: 1260,
+              url: OG_IMAGE,
+              width: 1200,
+              height: 630,
               alt: "Upwards: Stripe revenue, in your menu bar. A free Mac app for MRR, today's sales and Stripe notifications.",
             },
           ],
