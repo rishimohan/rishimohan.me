@@ -83,7 +83,8 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllProjects(["slug"]);
+  // Projects with their own page in pages/projects/ (customPage: true) are left to it.
+  const posts = getAllProjects(["slug", "customPage"]).filter((post) => !post.customPage);
 
   return {
     paths: posts.map((post) => {
